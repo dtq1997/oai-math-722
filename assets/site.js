@@ -10,7 +10,8 @@ if(q&&cards.length){
  const update=(reset=true)=>{if(reset)page=0;const words=q.value.trim().toLocaleLowerCase().split(/\s+/).filter(Boolean),d=df?.value||'',l=lf?.value||'';
  matched=cards.filter(c=>words.every(w=>/^#?\d{3}$/.test(w)?c.dataset.id===w.replace('#',''):text.get(c).includes(w))&&(!d||c.dataset.discipline===d)&&(!l||c.dataset.lean===l));
  const pages=Math.max(1,Math.ceil(matched.length/size));page=Math.min(page,pages-1);cards.forEach(c=>c.hidden=true);matched.slice(page*size,(page+1)*size).forEach(c=>c.hidden=false);
- document.getElementById('result-count').textContent=matched.length+' '+(document.body.dataset.unit||'项')+(document.body.dataset.papers?' · '+matched.reduce((s,c)=>s+Number(c.dataset.papers||0),0)+' 篇论文':'');
+ const results=matched.filter(c=>!c.dataset.placeholder),gaps=matched.length-results.length;
+ document.getElementById('result-count').textContent=!results.length&&gaps?gaps+' 个空缺编号':results.length+' '+(document.body.dataset.unit||'项')+(document.body.dataset.papers?' · '+results.reduce((s,c)=>s+Number(c.dataset.papers||0),0)+' 篇论文':'');
  document.querySelectorAll('[data-page-label]').forEach(el=>el.textContent=(page+1)+' / '+pages);document.querySelectorAll('[data-page-direction]').forEach(el=>el.disabled=Number(el.dataset.pageDirection)<0?page===0:page===pages-1);document.getElementById('paging-bottom').hidden=pages===1;document.getElementById('empty').hidden=matched.length>0;};
  [q,df,lf].filter(Boolean).forEach(el=>el.addEventListener(el===q?'input':'change',()=>update()));document.getElementById('clear').onclick=()=>{q.value='';if(df)df.value='';if(lf)lf.value='';update()};
  document.querySelectorAll('[data-page-direction]').forEach(el=>el.onclick=()=>{page+=Number(el.dataset.pageDirection);update(false);document.getElementById('catalog').scrollIntoView({block:'start',behavior:'instant'})});

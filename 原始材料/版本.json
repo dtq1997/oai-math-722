@@ -34,7 +34,7 @@
     "other": 8,
     "collaborative": 14
   },
-  "html_pages": 434,
+  "html_pages": 439,
   "pages": [
     "index.html",
     "openai-2026-10.html",
@@ -410,6 +410,11 @@
     "entries/375.html",
     "entries/376.html",
     "entries/377.html",
+    "entries/045.html",
+    "entries/061.html",
+    "entries/070.html",
+    "entries/123.html",
+    "entries/163.html",
     "openai-ten.html",
     "entries/T01.html",
     "entries/T02.html",
