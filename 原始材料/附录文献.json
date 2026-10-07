@@ -1468,13 +1468,13 @@
       }
     ],
     "contribution": "模型发现核心算法；作者推广",
-    "scope": "上列指数按论文 v1。计时模型、整数大小及计算假设见论文与项目的 MACHINE.md；Lean 证明的适用范围另见项目说明。",
+    "scope": "上列指数按论文 v1。计时模型、整数大小及计算假设见论文与项目的 \\href{https://github.com/anthropics/formal-math/blob/e1a4e6508154ea59f030480661590a9fe3018011/3sum-apsp/docs/MACHINE.md}{MACHINE.md}；Lean 证明的适用范围另见项目说明。",
     "attribution": "Claude 发现薄矩阵乘积的关键算法，人类作者简化论证并给出推广；论文完成后另行形式化。",
     "lean": [
       {
         "label": "3sum-apsp · Lean",
-        "url": "https://github.com/anthropics/formal-math/tree/main/3sum-apsp",
-        "note": "对应定理及机器模型见 README、formalization.yaml 与 docs/MACHINE.md；并非对任意输入模型无条件使用同一复杂度指数。",
+        "url": "https://github.com/anthropics/formal-math/tree/e1a4e6508154ea59f030480661590a9fe3018011/3sum-apsp",
+        "note": "对应定理及机器模型见 \\href{https://github.com/anthropics/formal-math/blob/e1a4e6508154ea59f030480661590a9fe3018011/3sum-apsp/README.md}{README}、\\href{https://github.com/anthropics/formal-math/blob/e1a4e6508154ea59f030480661590a9fe3018011/3sum-apsp/PaperStatements.lean}{PaperStatements.lean} 与 \\href{https://github.com/anthropics/formal-math/blob/e1a4e6508154ea59f030480661590a9fe3018011/3sum-apsp/docs/MACHINE.md}{docs/MACHINE.md}；并非对任意输入模型无条件使用同一复杂度指数。",
         "state": "code"
       }
     ],

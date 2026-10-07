@@ -1,19 +1,28 @@
 window.mathErrors=[];
 function renderMath(root=document){root.querySelectorAll('.math:not([data-rendered])').forEach(el=>{try{katex.render(el.dataset.tex,el,{throwOnError:true,strict:false,output:'htmlAndMathml'});el.dataset.rendered='1'}catch(e){el.classList.add('math-error');window.mathErrors.push(el.dataset.tex+': '+e.message)}})}
 renderMath();
+document.querySelectorAll('.theme-toggle').forEach(button=>{
+ const updateLabel=()=>{const dark=document.documentElement.dataset.theme==='dark';button.textContent=dark?'浅色':'深色';button.setAttribute('aria-label','切换到'+(dark?'浅色':'深色')+'外观')};
+ button.onclick=()=>{const theme=document.documentElement.dataset.theme==='dark'?'light':'dark';document.documentElement.dataset.theme=theme;try{localStorage.setItem('math-library-theme-v1',theme)}catch(e){}updateLabel()};
+ updateLabel();
+});
 const cards=[...document.querySelectorAll('.entry-card')];
 const q=document.getElementById('query'),df=document.getElementById('discipline'),lf=document.getElementById('lean');
 if(q&&cards.length){
+ const favoriteOnly=document.createElement('input');favoriteOnly.type='checkbox';favoriteOnly.id='favorites-only';
+ const favoriteLabel=document.createElement('label');favoriteLabel.className='favorites-filter';favoriteLabel.append(favoriteOnly,document.createTextNode('只看收藏'));
+ if(!document.body.dataset.favoritesPage)document.querySelector('.results-meta').prepend(favoriteLabel);
  let page=0,matched=cards;const size=24;
  const data=Object.fromEntries((window.searchData||[]).map(x=>[x.id,x]));
  const text=new Map(cards.map(c=>[c,(c.textContent+' '+(data[c.dataset.id]?.search||'')).toLocaleLowerCase()]));
  const update=(reset=true)=>{if(reset)page=0;const words=q.value.trim().toLocaleLowerCase().split(/\s+/).filter(Boolean),d=df?.value||'',l=lf?.value||'';
- matched=cards.filter(c=>words.every(w=>/^#?\d{3}$/.test(w)?c.dataset.id===w.replace('#',''):text.get(c).includes(w))&&(!d||c.dataset.discipline===d)&&(!l||c.dataset.lean===l));
+ matched=cards.filter(c=>words.every(w=>/^#?\d{3}$/.test(w)?c.dataset.id===w.replace('#',''):text.get(c).includes(w))&&(!d||c.dataset.discipline===d)&&(!l||c.dataset.lean===l)&&(!(favoriteOnly.checked||document.body.dataset.favoritesPage)||window.mathLibrary?.has(c.dataset.id)));
  const pages=Math.max(1,Math.ceil(matched.length/size));page=Math.min(page,pages-1);cards.forEach(c=>c.hidden=true);matched.slice(page*size,(page+1)*size).forEach(c=>c.hidden=false);
  const results=matched.filter(c=>!c.dataset.placeholder),gaps=matched.length-results.length;
+ document.querySelectorAll('.library-branch').forEach(el=>el.setAttribute('aria-pressed',String(el.dataset.pickDiscipline===d)));
  document.getElementById('result-count').textContent=!results.length&&gaps?gaps+' 个空缺编号':results.length+' '+(document.body.dataset.unit||'项')+(document.body.dataset.papers?' · '+results.reduce((s,c)=>s+Number(c.dataset.papers||0),0)+' 篇论文':'');
  document.querySelectorAll('[data-page-label]').forEach(el=>el.textContent=(page+1)+' / '+pages);document.querySelectorAll('[data-page-direction]').forEach(el=>el.disabled=Number(el.dataset.pageDirection)<0?page===0:page===pages-1);document.getElementById('paging-bottom').hidden=pages===1;document.getElementById('empty').hidden=matched.length>0;};
- [q,df,lf].filter(Boolean).forEach(el=>el.addEventListener(el===q?'input':'change',()=>update()));document.getElementById('clear').onclick=()=>{q.value='';if(df)df.value='';if(lf)lf.value='';update()};
+ [q,df,lf,favoriteOnly].filter(Boolean).forEach(el=>el.addEventListener(el===q?'input':'change',()=>update()));window.addEventListener('favoriteschange',()=>update());document.getElementById('clear').onclick=()=>{q.value='';if(df)df.value='';if(lf)lf.value='';favoriteOnly.checked=false;update()};
  document.querySelectorAll('[data-page-direction]').forEach(el=>el.onclick=()=>{page+=Number(el.dataset.pageDirection);update(false);document.getElementById('catalog').scrollIntoView({block:'start',behavior:'instant'})});
  document.querySelectorAll('[data-pick-discipline]').forEach(el=>el.onclick=()=>{df.value=el.dataset.pickDiscipline;q.value='';update();document.getElementById('catalog').scrollIntoView({block:'start'})});
  const params=new URLSearchParams(location.search);if(params.has('discipline')&&df)df.value=params.get('discipline');if(params.has('q'))q.value=params.get('q');update();
@@ -39,6 +48,7 @@ if(preview){
   if(active){active.classList.remove('preview-active');active.setAttribute('aria-expanded','false')}
   active=null;
  }
+ document.addEventListener('librarymenuopen',hidePreview);
  function positionPreview(){
   if(!active||preview.hidden)return;
   const r=active.getBoundingClientRect(),gap=12,pad=12;

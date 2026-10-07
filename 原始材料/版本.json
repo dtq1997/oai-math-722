@@ -34,10 +34,11 @@
     "other": 8,
     "collaborative": 14
   },
-  "html_pages": 439,
+  "html_pages": 440,
   "pages": [
     "index.html",
     "openai-2026-10.html",
+    "favorites.html",
     "entries/001.html",
     "entries/002.html",
     "entries/003.html",
@@ -484,7 +485,7 @@
     "163"
   ],
   "original_repository": "https://github.com/openai/math",
-  "release_article": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+  "release_article": "https://openai.com/zh-Hans-CN/index/sharing-ai-progress-in-mathematics/",
   "lean_status": "各条标注公开代码、具体假设及证明范围。",
   "source_sha256": {
     "CONTENTS.md": "c492802b53fb4c4161e45fc678bb67bd526add72ca2635493a367ff7fb860bf9",
@@ -735,6 +736,6 @@
     "overview.tex": "98533a7bc976f44970153f036320932655d07488382e858c25bb6c9e1e029789",
     "论文标题中英对照.json": "29a83f940ba429fd0cfe69c109dbe7c2308f10d659c79a47adf1821c124172f2",
     "逐句中英对照.json": "14ccd85613c4e0628be5d096b842087ece599e149b0d7589a8367da342c103a7",
-    "附录文献.json": "b70dd0ff128018213102d10b69e8819ad5ef7ee01982aee98688d4f6f4a1ead8"
+    "附录文献.json": "c43c154687375f84b75106db033676daa0810af4169ef5479433ca4a1264d861"
   }
 }
