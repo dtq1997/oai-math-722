@@ -1881,7 +1881,7 @@
   {
     "id": "Z03",
     "title": "$1,\\zeta(2),\\zeta(3)$ 的有理线性无关性",
-    "title_en": "Linear independence of 1, ζ(2), ζ(3) over ℚ",
+    "title_en": "zeta2-zeta3-linear-independence",
     "summary": "证明了 $1,\\zeta(2),\\zeta(3)$ 在 $\\mathbb Q$ 上线性无关：若 $a,b,c\\in\\mathbb Q$ 满足 $a+b\\zeta(2)+c\\zeta(3)=0$，则 $a=b=c=0$。",
     "authors": "唐乾（Qian Tang）",
     "date": "2026-09-30",
@@ -1969,7 +1969,7 @@
   {
     "id": "Z05",
     "title": "有理点处二重对数的无理性",
-    "title_en": "Irrationality of the dilogarithm at rational points",
+    "title_en": "Li2Rational",
     "summary": "推广唐乾的二重对数方法，证明了 $\\mathrm{Li}_2(1/k)$（整数 $k\\ge2$）与 $\\mathrm{Li}_2(-1/k)$（整数 $k\\ge1$）的无理性，并给出了更一般有理点处的显式分母界。",
     "authors": "刘思齐（Si-Qi Liu）",
     "date": "2026-09-29",
