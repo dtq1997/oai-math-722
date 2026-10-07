@@ -1,0 +1,1798 @@
+[
+  {
+    "id": "T01",
+    "collection": "ten",
+    "title": "高维球堆积密度的上界",
+    "title_en": "High-dimensional sphere packing",
+    "summary": "改进高维欧氏空间中球堆积密度的渐近上界，达到 Cohn–Elkies 阈值。",
+    "authors": "OpenAI",
+    "date": "2026-08-01",
+    "sources": [
+      {
+        "label": "官方介绍",
+        "url": "https://openai.com/index/ten-advances-in-mathematics/"
+      },
+      {
+        "label": "论文（8 月 6 日修订）",
+        "url": "https://cdn.openai.com/pdf/ten-proofs-oai.pdf"
+      },
+      {
+        "label": "首发论文",
+        "url": "https://cdn.openai.com/pdf/ten-proofs-oai-original.pdf"
+      },
+      {
+        "label": "思维链摘要",
+        "url": "https://cdn.openai.com/pdf/reasoning-walkthroughs.pdf"
+      }
+    ],
+    "lean": [
+      {
+        "label": "Lean 4 代码",
+        "url": "https://github.com/openai/ten-proofs/blob/94bc0feb6a9ff12c7d31d6de640a725c9d43d2b6/SpherePacking.lean",
+        "note": "仓库另附 Comparator 检查配置。",
+        "state": "code"
+      },
+      {
+        "label": "形式化清单",
+        "url": "https://github.com/openai/ten-proofs/blob/94bc0feb6a9ff12c7d31d6de640a725c9d43d2b6/formalization.yaml",
+        "note": "",
+        "state": "code"
+      }
+    ],
+    "discipline": "凸几何与度量几何",
+    "quote": "Improved asymptotic upper bounds on sphere-packing density, reaching the Cohn–Elkies threshold.",
+    "quote_source": {
+      "label": "openai/ten-proofs · README",
+      "url": "https://github.com/openai/ten-proofs/blob/94bc0feb6a9ff12c7d31d6de640a725c9d43d2b6/README.md"
+    },
+    "quote_license": "Apache-2.0",
+    "contribution": "模型生成证明",
+    "url": "entries/T01.html",
+    "state": "code"
+  },
+  {
+    "id": "T02",
+    "collection": "ten",
+    "title": "二元码与球面码的上界",
+    "title_en": "Binary and spherical codes",
+    "summary": "在每个固定的最小距离参数下，给出二元码规模的指数级改进上界，并得到相应的球面码上界。",
+    "authors": "OpenAI",
+    "date": "2026-08-01",
+    "sources": [
+      {
+        "label": "官方介绍",
+        "url": "https://openai.com/index/ten-advances-in-mathematics/"
+      },
+      {
+        "label": "论文（8 月 6 日修订）",
+        "url": "https://cdn.openai.com/pdf/ten-proofs-oai.pdf"
+      },
+      {
+        "label": "首发论文",
+        "url": "https://cdn.openai.com/pdf/ten-proofs-oai-original.pdf"
+      },
+      {
+        "label": "思维链摘要",
+        "url": "https://cdn.openai.com/pdf/reasoning-walkthroughs.pdf"
+      }
+    ],
+    "lean": [
+      {
+        "label": "Lean 4 代码",
+        "url": "https://github.com/openai/ten-proofs/blob/94bc0feb6a9ff12c7d31d6de640a725c9d43d2b6/MetricCodes.lean",
+        "note": "仓库另附 Comparator 检查配置。",
+        "state": "code"
+      },
+      {
+        "label": "形式化清单",
+        "url": "https://github.com/openai/ten-proofs/blob/94bc0feb6a9ff12c7d31d6de640a725c9d43d2b6/formalization.yaml",
+        "note": "",
+        "state": "code"
+      }
+    ],
+    "discipline": "组合数学",
+    "quote": "Exponentially stronger upper bounds for binary codes at every minimum distance, together with corresponding bounds for spherical codes.",
+    "quote_source": {
+      "label": "openai/ten-proofs · README",
+      "url": "https://github.com/openai/ten-proofs/blob/94bc0feb6a9ff12c7d31d6de640a725c9d43d2b6/README.md"
+    },
+    "quote_license": "Apache-2.0",
+    "contribution": "模型生成证明",
+    "url": "entries/T02.html",
+    "state": "code"
+  },
+  {
+    "id": "T03",
+    "collection": "ten",
+    "title": "非 sofic 群的构造",
+    "title_en": "Non-sofic groups",
+    "summary": "构造非 sofic 群，否定“每个群均可由有限置换作渐近逼近”的猜想。",
+    "authors": "OpenAI",
+    "date": "2026-08-01",
+    "sources": [
+      {
+        "label": "官方介绍",
+        "url": "https://openai.com/index/ten-advances-in-mathematics/"
+      },
+      {
+        "label": "论文（8 月 6 日修订）",
+        "url": "https://cdn.openai.com/pdf/ten-proofs-oai.pdf"
+      },
+      {
+        "label": "首发论文",
+        "url": "https://cdn.openai.com/pdf/ten-proofs-oai-original.pdf"
+      },
+      {
+        "label": "思维链摘要",
+        "url": "https://cdn.openai.com/pdf/reasoning-walkthroughs.pdf"
+      }
+    ],
+    "lean": [
+      {
+        "label": "Lean 4 代码",
+        "url": "https://github.com/openai/ten-proofs/blob/94bc0feb6a9ff12c7d31d6de640a725c9d43d2b6/NonSoficGroup.lean",
+        "note": "仓库另附 Comparator 检查配置。",
+        "state": "code"
+      },
+      {
+        "label": "形式化清单",
+        "url": "https://github.com/openai/ten-proofs/blob/94bc0feb6a9ff12c7d31d6de640a725c9d43d2b6/formalization.yaml",
+        "note": "",
+        "state": "code"
+      }
+    ],
+    "discipline": "群论",
+    "quote": "A construction of a non-sofic group, resolving whether every group admits finite permutation approximations.",
+    "quote_source": {
+      "label": "openai/ten-proofs · README",
+      "url": "https://github.com/openai/ten-proofs/blob/94bc0feb6a9ff12c7d31d6de640a725c9d43d2b6/README.md"
+    },
+    "quote_license": "Apache-2.0",
+    "contribution": "模型生成证明",
+    "url": "entries/T03.html",
+    "state": "code"
+  },
+  {
+    "id": "T04",
+    "collection": "ten",
+    "title": "Connes 刚性猜想的反例",
+    "title_en": "Connes’s rigidity conjecture",
+    "summary": "构造互不同构的性质 $(T)$ 群，其群 von Neumann 代数同构，给出 Connes 刚性猜想的反例。",
+    "authors": "OpenAI",
+    "date": "2026-08-01",
+    "sources": [
+      {
+        "label": "官方介绍",
+        "url": "https://openai.com/index/ten-advances-in-mathematics/"
+      },
+      {
+        "label": "论文（8 月 6 日修订）",
+        "url": "https://cdn.openai.com/pdf/ten-proofs-oai.pdf"
+      },
+      {
+        "label": "首发论文",
+        "url": "https://cdn.openai.com/pdf/ten-proofs-oai-original.pdf"
+      },
+      {
+        "label": "思维链摘要",
+        "url": "https://cdn.openai.com/pdf/reasoning-walkthroughs.pdf"
+      }
+    ],
+    "lean": [
+      {
+        "label": "Lean 4 代码",
+        "url": "https://github.com/openai/ten-proofs/blob/94bc0feb6a9ff12c7d31d6de640a725c9d43d2b6/ConnesRigidity.lean",
+        "note": "仓库另附 Comparator 检查配置。",
+        "state": "code"
+      },
+      {
+        "label": "形式化清单",
+        "url": "https://github.com/openai/ten-proofs/blob/94bc0feb6a9ff12c7d31d6de640a725c9d43d2b6/formalization.yaml",
+        "note": "",
+        "state": "code"
+      }
+    ],
+    "discipline": "算子代数",
+    "quote": "A counterexample to the conjecture that certain groups are determined by their group von Neumann algebras.",
+    "quote_source": {
+      "label": "openai/ten-proofs · README",
+      "url": "https://github.com/openai/ten-proofs/blob/94bc0feb6a9ff12c7d31d6de640a725c9d43d2b6/README.md"
+    },
+    "quote_license": "Apache-2.0",
+    "contribution": "模型生成证明",
+    "url": "entries/T04.html",
+    "state": "code"
+  },
+  {
+    "id": "T05",
+    "collection": "ten",
+    "title": "积和式的算术复杂度下界",
+    "title_en": "Arithmetic circuit complexity",
+    "summary": "给出计算积和式的算术电路及公式的新下界；公式大小的下界达到 $\\Omega(n^4/\\log n)$。",
+    "authors": "OpenAI",
+    "date": "2026-08-01",
+    "sources": [
+      {
+        "label": "官方介绍",
+        "url": "https://openai.com/index/ten-advances-in-mathematics/"
+      },
+      {
+        "label": "论文（8 月 6 日修订）",
+        "url": "https://cdn.openai.com/pdf/ten-proofs-oai.pdf"
+      },
+      {
+        "label": "首发论文",
+        "url": "https://cdn.openai.com/pdf/ten-proofs-oai-original.pdf"
+      },
+      {
+        "label": "思维链摘要",
+        "url": "https://cdn.openai.com/pdf/reasoning-walkthroughs.pdf"
+      }
+    ],
+    "lean": [
+      {
+        "label": "Lean 4 代码",
+        "url": "https://github.com/openai/ten-proofs/blob/94bc0feb6a9ff12c7d31d6de640a725c9d43d2b6/Permanent.lean",
+        "note": "仓库另附 Comparator 检查配置。",
+        "state": "code"
+      },
+      {
+        "label": "形式化清单",
+        "url": "https://github.com/openai/ten-proofs/blob/94bc0feb6a9ff12c7d31d6de640a725c9d43d2b6/formalization.yaml",
+        "note": "",
+        "state": "code"
+      }
+    ],
+    "discipline": "理论计算机科学",
+    "quote": "New lower bounds for computing the permanent with arithmetic circuits and formulas, including an $n^4 / \\log n$ formula lower bound.",
+    "quote_source": {
+      "label": "openai/ten-proofs · README",
+      "url": "https://github.com/openai/ten-proofs/blob/94bc0feb6a9ff12c7d31d6de640a725c9d43d2b6/README.md"
+    },
+    "quote_license": "Apache-2.0",
+    "contribution": "模型生成证明",
+    "url": "entries/T05.html",
+    "state": "code"
+  },
+  {
+    "id": "T06",
+    "collection": "ten",
+    "title": "量子博弈的平行重复",
+    "title_en": "Quantum parallel repetition",
+    "summary": "对任意有限双人纠缠博弈建立指数型平行重复定理。",
+    "authors": "OpenAI",
+    "date": "2026-08-01",
+    "sources": [
+      {
+        "label": "官方介绍",
+        "url": "https://openai.com/index/ten-advances-in-mathematics/"
+      },
+      {
+        "label": "论文（8 月 6 日修订）",
+        "url": "https://cdn.openai.com/pdf/ten-proofs-oai.pdf"
+      },
+      {
+        "label": "首发论文",
+        "url": "https://cdn.openai.com/pdf/ten-proofs-oai-original.pdf"
+      },
+      {
+        "label": "思维链摘要",
+        "url": "https://cdn.openai.com/pdf/reasoning-walkthroughs.pdf"
+      }
+    ],
+    "lean": [
+      {
+        "label": "Lean 4 代码",
+        "url": "https://github.com/openai/ten-proofs/blob/94bc0feb6a9ff12c7d31d6de640a725c9d43d2b6/QuantumParallelRepetition.lean",
+        "note": "仓库另附 Comparator 检查配置。",
+        "state": "code"
+      },
+      {
+        "label": "形式化清单",
+        "url": "https://github.com/openai/ten-proofs/blob/94bc0feb6a9ff12c7d31d6de640a725c9d43d2b6/formalization.yaml",
+        "note": "",
+        "state": "code"
+      }
+    ],
+    "discipline": "理论计算机科学",
+    "quote": "Exponential parallel repetition for arbitrary finite, two-player quantum games.",
+    "quote_source": {
+      "label": "openai/ten-proofs · README",
+      "url": "https://github.com/openai/ten-proofs/blob/94bc0feb6a9ff12c7d31d6de640a725c9d43d2b6/README.md"
+    },
+    "quote_license": "Apache-2.0",
+    "contribution": "模型生成证明",
+    "url": "entries/T06.html",
+    "state": "code"
+  },
+  {
+    "id": "T07",
+    "collection": "ten",
+    "title": "最近向量问题的近似困难性",
+    "title_en": "Closest vector problem",
+    "summary": "建立最近向量问题的多项式因子近似困难性，并得到译码与相关格问题的推论。",
+    "authors": "OpenAI",
+    "date": "2026-08-01",
+    "sources": [
+      {
+        "label": "官方介绍",
+        "url": "https://openai.com/index/ten-advances-in-mathematics/"
+      },
+      {
+        "label": "论文（8 月 6 日修订）",
+        "url": "https://cdn.openai.com/pdf/ten-proofs-oai.pdf"
+      },
+      {
+        "label": "首发论文",
+        "url": "https://cdn.openai.com/pdf/ten-proofs-oai-original.pdf"
+      },
+      {
+        "label": "思维链摘要",
+        "url": "https://cdn.openai.com/pdf/reasoning-walkthroughs.pdf"
+      }
+    ],
+    "lean": [
+      {
+        "label": "Lean 4 代码",
+        "url": "https://github.com/openai/ten-proofs/blob/94bc0feb6a9ff12c7d31d6de640a725c9d43d2b6/GapCVP.lean",
+        "note": "仓库另附 Comparator 检查配置。",
+        "state": "code"
+      },
+      {
+        "label": "形式化清单",
+        "url": "https://github.com/openai/ten-proofs/blob/94bc0feb6a9ff12c7d31d6de640a725c9d43d2b6/formalization.yaml",
+        "note": "",
+        "state": "code"
+      }
+    ],
+    "discipline": "理论计算机科学",
+    "quote": "Polynomial-factor hardness of approximation for the closest vector problem, with related consequences for decoding and lattice problems.",
+    "quote_source": {
+      "label": "openai/ten-proofs · README",
+      "url": "https://github.com/openai/ten-proofs/blob/94bc0feb6a9ff12c7d31d6de640a725c9d43d2b6/README.md"
+    },
+    "quote_license": "Apache-2.0",
+    "contribution": "模型生成证明",
+    "url": "entries/T07.html",
+    "state": "code"
+  },
+  {
+    "id": "T08",
+    "collection": "ten",
+    "title": "Ehrhart 体积猜想",
+    "title_en": "Ehrhart’s volume conjecture",
+    "summary": "对以质心为唯一内部格点的凸体，给出所有维数中的最优体积上界。",
+    "authors": "OpenAI",
+    "date": "2026-08-01",
+    "sources": [
+      {
+        "label": "官方介绍",
+        "url": "https://openai.com/index/ten-advances-in-mathematics/"
+      },
+      {
+        "label": "论文（8 月 6 日修订）",
+        "url": "https://cdn.openai.com/pdf/ten-proofs-oai.pdf"
+      },
+      {
+        "label": "首发论文",
+        "url": "https://cdn.openai.com/pdf/ten-proofs-oai-original.pdf"
+      },
+      {
+        "label": "思维链摘要",
+        "url": "https://cdn.openai.com/pdf/reasoning-walkthroughs.pdf"
+      }
+    ],
+    "lean": [
+      {
+        "label": "Lean 4 代码",
+        "url": "https://github.com/openai/ten-proofs/blob/94bc0feb6a9ff12c7d31d6de640a725c9d43d2b6/EhrhartVolumeInequality.lean",
+        "note": "仓库另附 Comparator 检查配置。",
+        "state": "code"
+      },
+      {
+        "label": "形式化清单",
+        "url": "https://github.com/openai/ten-proofs/blob/94bc0feb6a9ff12c7d31d6de640a725c9d43d2b6/formalization.yaml",
+        "note": "",
+        "state": "code"
+      }
+    ],
+    "discipline": "凸几何与度量几何",
+    "quote": "The sharp maximum volume in every dimension for a convex body whose centroid is its only interior lattice point.",
+    "quote_source": {
+      "label": "openai/ten-proofs · README",
+      "url": "https://github.com/openai/ten-proofs/blob/94bc0feb6a9ff12c7d31d6de640a725c9d43d2b6/README.md"
+    },
+    "quote_license": "Apache-2.0",
+    "contribution": "模型生成证明",
+    "url": "entries/T08.html",
+    "state": "code"
+  },
+  {
+    "id": "T09",
+    "collection": "ten",
+    "title": "多色三角形 Ramsey 数",
+    "title_en": "Multicolor Ramsey numbers",
+    "summary": "给出多色三角形 Ramsey 数的超指数下界，对应 Erdős 问题 183。",
+    "authors": "OpenAI",
+    "date": "2026-08-01",
+    "sources": [
+      {
+        "label": "官方介绍",
+        "url": "https://openai.com/index/ten-advances-in-mathematics/"
+      },
+      {
+        "label": "论文（8 月 6 日修订）",
+        "url": "https://cdn.openai.com/pdf/ten-proofs-oai.pdf"
+      },
+      {
+        "label": "首发论文",
+        "url": "https://cdn.openai.com/pdf/ten-proofs-oai-original.pdf"
+      },
+      {
+        "label": "思维链摘要",
+        "url": "https://cdn.openai.com/pdf/reasoning-walkthroughs.pdf"
+      }
+    ],
+    "lean": [
+      {
+        "label": "Lean 4 代码",
+        "url": "https://github.com/openai/ten-proofs/blob/94bc0feb6a9ff12c7d31d6de640a725c9d43d2b6/MulticolorTriangleRamsey.lean",
+        "note": "仓库另附 Comparator 检查配置。",
+        "state": "code"
+      },
+      {
+        "label": "形式化清单",
+        "url": "https://github.com/openai/ten-proofs/blob/94bc0feb6a9ff12c7d31d6de640a725c9d43d2b6/formalization.yaml",
+        "note": "",
+        "state": "code"
+      }
+    ],
+    "discipline": "组合数学",
+    "quote": "A superexponential lower bound for multicolor triangle Ramsey numbers, resolving Erdős problem 183.",
+    "quote_source": {
+      "label": "openai/ten-proofs · README",
+      "url": "https://github.com/openai/ten-proofs/blob/94bc0feb6a9ff12c7d31d6de640a725c9d43d2b6/README.md"
+    },
+    "quote_license": "Apache-2.0",
+    "contribution": "模型生成证明",
+    "url": "entries/T09.html",
+    "state": "code"
+  },
+  {
+    "id": "T10",
+    "collection": "ten",
+    "title": "极值图论中的紧性与退化度猜想",
+    "title_en": "Extremal number conjectures",
+    "summary": "分别构造极值图论中紧性猜想和退化度猜想的反例，对应 Erdős 问题 146 与 180。",
+    "authors": "OpenAI",
+    "date": "2026-08-01",
+    "sources": [
+      {
+        "label": "官方介绍",
+        "url": "https://openai.com/index/ten-advances-in-mathematics/"
+      },
+      {
+        "label": "论文（8 月 6 日修订）",
+        "url": "https://cdn.openai.com/pdf/ten-proofs-oai.pdf"
+      },
+      {
+        "label": "首发论文",
+        "url": "https://cdn.openai.com/pdf/ten-proofs-oai-original.pdf"
+      },
+      {
+        "label": "思维链摘要",
+        "url": "https://cdn.openai.com/pdf/reasoning-walkthroughs.pdf"
+      }
+    ],
+    "lean": [
+      {
+        "label": "Lean 4 代码",
+        "url": "https://github.com/openai/ten-proofs/blob/94bc0feb6a9ff12c7d31d6de640a725c9d43d2b6/CompactnessAndDegeneracy.lean",
+        "note": "仓库另附 Comparator 检查配置。",
+        "state": "code"
+      },
+      {
+        "label": "形式化清单",
+        "url": "https://github.com/openai/ten-proofs/blob/94bc0feb6a9ff12c7d31d6de640a725c9d43d2b6/formalization.yaml",
+        "note": "",
+        "state": "code"
+      }
+    ],
+    "discipline": "组合数学",
+    "quote": "Counterexamples to the compactness and degeneracy conjectures in extremal graph theory, resolving Erdős problems 146 and 180.",
+    "quote_source": {
+      "label": "openai/ten-proofs · README",
+      "url": "https://github.com/openai/ten-proofs/blob/94bc0feb6a9ff12c7d31d6de640a725c9d43d2b6/README.md"
+    },
+    "quote_license": "Apache-2.0",
+    "contribution": "模型生成证明",
+    "url": "entries/T10.html",
+    "state": "code"
+  },
+  {
+    "id": "O01",
+    "collection": "earlier",
+    "title": "平面单位距离问题",
+    "title_en": "Planar Point Sets with Many Unit Distances",
+    "summary": "对某个固定 $\\delta>0$，构造无穷多个规模为 $n$ 的平面点集，单位距离对数至少为 $n^{1+\\delta}$，否定 Erdős 的 $n^{1+o(1)}$ 猜想。",
+    "authors": "OpenAI",
+    "date": "2026-05-20",
+    "sources": [
+      {
+        "label": "官方介绍",
+        "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/"
+      },
+      {
+        "label": "论文原文",
+        "url": "https://cdn.openai.com/pdf/74c24085-19b0-4534-9c90-465b8e29ad73/unit-distance-proof.pdf"
+      },
+      {
+        "label": "Alon 等九位作者的说明论文",
+        "url": "https://arxiv.org/abs/2605.20695"
+      }
+    ],
+    "lean": [
+      {
+        "label": "Erdos90 · 后续形式化",
+        "url": "https://github.com/plby/Erdos90/blob/2062b0e6c9770c81e397bfe41148e90b92ca0567/README.md",
+        "note": "Boris Alexeev（plby）另行公开；仓库区分模型原始版本与 lean-eval 提交版本。",
+        "state": "code"
+      }
+    ],
+    "discipline": "组合几何",
+    "quote": "Planar Point Sets with Many Unit Distances",
+    "quote_source": {
+      "label": "论文标题",
+      "url": "https://cdn.openai.com/pdf/74c24085-19b0-4534-9c90-465b8e29ad73/unit-distance-proof.pdf"
+    },
+    "scope": "原论文用数论方法构造点集；后续解释和 Lean 证明见下方链接。",
+    "contribution": "模型生成证明",
+    "url": "entries/O01.html",
+    "state": "code"
+  },
+  {
+    "id": "O02",
+    "collection": "earlier",
+    "title": "Navier–Stokes 方程：光滑外力下的有限时间爆破",
+    "title_en": "Finite time blowup for Navier–Stokes",
+    "summary": "对任意正黏性系数，在 $\\mathbb R^3$ 与三维环面上构造光滑初值和光滑外力，分别否定具有一致有界动能的整体光滑解、以及整体光滑周期解的存在。",
+    "authors": "OpenAI",
+    "date": "2026-09-08",
+    "sources": [
+      {
+        "label": "官方介绍",
+        "url": "https://openai.com/index/navier-stokes-solution/"
+      },
+      {
+        "label": "论文原文",
+        "url": "https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf"
+      }
+    ],
+    "lean": [
+      {
+        "label": "Lean 4 代码",
+        "url": "https://github.com/openai/NavierStokesAndEuler/blob/f9e8bc5b38b6e212696e8a30e3e91517af887bbd/NavierStokes.lean",
+        "note": "",
+        "state": "code"
+      },
+      {
+        "label": "形式化清单",
+        "url": "https://github.com/openai/NavierStokesAndEuler/blob/f9e8bc5b38b6e212696e8a30e3e91517af887bbd/formalization.yaml",
+        "note": "",
+        "state": "code"
+      }
+    ],
+    "discipline": "偏微分方程",
+    "quote": "For every positive viscosity, we prove two results:",
+    "quote_source": {
+      "label": "openai/NavierStokesAndEuler · README",
+      "url": "https://github.com/openai/NavierStokesAndEuler/blob/f9e8bc5b38b6e212696e8a30e3e91517af887bbd/README.md"
+    },
+    "quote_license": "Apache-2.0",
+    "scope": "对应 Clay 官方问题表述的 (C)、(D) 情形；外力属于结论的必要条件。",
+    "contribution": "模型生成证明",
+    "url": "entries/O02.html",
+    "state": "code"
+  },
+  {
+    "id": "O03",
+    "collection": "earlier",
+    "title": "Euler 方程：无外力情形的有限时间爆破",
+    "title_en": "Finite time blowup for the Euler equation",
+    "summary": "在 $\\mathbb R^3$ 上构造光滑、紧支撑、散度为零的初速度，使无外力不可压缩 Euler 解在有限时间形成奇性。",
+    "authors": "OpenAI",
+    "date": "2026-09-08",
+    "sources": [
+      {
+        "label": "官方介绍",
+        "url": "https://openai.com/index/navier-stokes-solution/"
+      },
+      {
+        "label": "论文原文",
+        "url": "https://cdn.openai.com/pdf/315b36cd-ec98-4023-8342-93345194ece1/euler.pdf"
+      }
+    ],
+    "lean": [
+      {
+        "label": "Lean 4 代码",
+        "url": "https://github.com/openai/NavierStokesAndEuler/blob/f9e8bc5b38b6e212696e8a30e3e91517af887bbd/Euler.lean",
+        "note": "",
+        "state": "code"
+      },
+      {
+        "label": "形式化清单",
+        "url": "https://github.com/openai/NavierStokesAndEuler/blob/f9e8bc5b38b6e212696e8a30e3e91517af887bbd/formalization.yaml",
+        "note": "",
+        "state": "code"
+      }
+    ],
+    "discipline": "偏微分方程",
+    "quote": "We construct smooth, compactly supported, divergence-free initial velocity on $\\mathbb{R}^3$ whose solution to the unforced incompressible Euler equations develops a singularity in finite time.",
+    "quote_source": {
+      "label": "openai/NavierStokesAndEuler · README",
+      "url": "https://github.com/openai/NavierStokesAndEuler/blob/f9e8bc5b38b6e212696e8a30e3e91517af887bbd/README.md"
+    },
+    "quote_license": "Apache-2.0",
+    "scope": "主文还给出速度的一阶范数无界及涡量上确界范数的时间积分发散。",
+    "contribution": "模型生成证明",
+    "url": "entries/O03.html",
+    "state": "code"
+  },
+  {
+    "id": "O04",
+    "collection": "earlier",
+    "title": "相邻素数的短间隔",
+    "title_en": "Improved short gaps between primes",
+    "summary": "设 $p_n$ 为第 $n$ 个素数，论文给出 $\\liminf_{n\\to\\infty}(p_{n+1}-p_n)\\le186$。",
+    "authors": "OpenAI",
+    "date": "2026-08-30（论文日期）",
+    "sources": [
+      {
+        "label": "论文原文",
+        "url": "https://cdn.openai.com/pdf/51126fac-1b68-4128-9666-c908bcc16033/short_gaps.pdf"
+      },
+      {
+        "label": "官方介绍",
+        "url": "https://openai.com/index/gpt-6-astra/"
+      },
+      {
+        "label": "思维链摘要",
+        "url": "https://cdn.openai.com/pdf/51126fac-1b68-4128-9666-c908bcc16033/short_gaps_abridged_cot.pdf"
+      }
+    ],
+    "lean": [
+      {
+        "label": "PrimeGaps186 · 条件形式化",
+        "url": "https://github.com/openai/PrimeGaps186/blob/61340d0b74163003b32756bb16e91d9209a5e330/README.md",
+        "note": "以数值积分、截断界及有限域指数和估计为显式假设；另有 Python-FLINT 数值证书程序。",
+        "state": "conditional"
+      }
+    ],
+    "discipline": "数论",
+    "quote": "Improved short gaps between primes",
+    "quote_source": {
+      "label": "论文标题",
+      "url": "https://cdn.openai.com/pdf/51126fac-1b68-4128-9666-c908bcc16033/short_gaps.pdf"
+    },
+    "scope": "Lean 证明还依赖数值计算结果及文献中的结论，详见下方说明。",
+    "contribution": "模型生成证明",
+    "url": "entries/O04.html",
+    "state": "conditional"
+  },
+  {
+    "id": "O05",
+    "collection": "earlier",
+    "title": "相邻素数的长间隔",
+    "title_en": "Improved long gaps between primes",
+    "summary": "对充分大的 $X$，最大相邻素数间隔满足 $G(X)\\gg\\log X(\\log_2X)^2\\log_4X/(\\log_3X)^2$，其中 $\\log_j$ 表示 $j$ 重迭代对数。",
+    "authors": "OpenAI",
+    "date": "2026 年 9 月",
+    "sources": [
+      {
+        "label": "论文原文",
+        "url": "https://cdn.openai.com/pdf/51126fac-1b68-4128-9666-c908bcc16033/long_gaps.pdf"
+      },
+      {
+        "label": "官方介绍",
+        "url": "https://openai.com/index/gpt-6-astra/"
+      },
+      {
+        "label": "思维链摘要",
+        "url": "https://cdn.openai.com/pdf/51126fac-1b68-4128-9666-c908bcc16033/long_gaps_abridged_cot.pdf"
+      }
+    ],
+    "lean": [
+      {
+        "label": "LongGapsBetweenPrimes · Lean 4",
+        "url": "https://github.com/openai/LongGapsBetweenPrimes/blob/03a1190d0bc5502d9f54eeb60ad3e45e22b0df0b/README.md",
+        "note": "论文将 Theorem 1.1 的形式化链接至该仓库。",
+        "state": "code"
+      }
+    ],
+    "discipline": "数论",
+    "quote": "Improved long gaps between primes",
+    "quote_source": {
+      "label": "论文标题",
+      "url": "https://cdn.openai.com/pdf/51126fac-1b68-4128-9666-c908bcc16033/long_gaps.pdf"
+    },
+    "scope": "$G(X)=\\max_{p_{n+1}\\le X}(p_{n+1}-p_n)$；隐含常数为绝对常数。",
+    "contribution": "模型生成证明",
+    "url": "entries/O05.html",
+    "state": "code"
+  },
+  {
+    "id": "P01",
+    "collection": "personal",
+    "title": "不可压缩多孔介质方程：光滑源项下的爆破",
+    "title_en": "Extending the Córdoba-Martínez-Zoroa IPM Blow-Up to Uniformly Space-Time Smooth Forcing",
+    "summary": "在二维环面上构造光滑初始密度和时空光滑源项，使密度梯度与速度梯度的 $L^\\infty$ 范数在有限时间发散。",
+    "authors": "Levent Alpöge · Tristan Buckmaster · Matei P. Coiculescu",
+    "date": "2026-09-07",
+    "sources": [
+      {
+        "label": "论文原文",
+        "url": "https://cims.nyu.edu/~tristanb/ipm.pdf"
+      },
+      {
+        "label": "作者声明",
+        "url": "https://cims.nyu.edu/~tristanb/statement.pdf"
+      },
+      {
+        "label": "Courant 介绍",
+        "url": "https://cims.nyu.edu/dynamic/news/1528/"
+      }
+    ],
+    "lean": [
+      {
+        "label": "作者及 Courant 的形式化说明",
+        "url": "https://cims.nyu.edu/dynamic/news/1528/",
+        "note": "发布方称已完成 Lean 形式化；尚未找到与 IPM 论文对应的公开 Lean 项目。",
+        "state": "reported"
+      }
+    ],
+    "discipline": "偏微分方程",
+    "quote": "uniformly spacetime smooth force",
+    "quote_source": {
+      "label": "论文摘要",
+      "url": "https://cims.nyu.edu/~tristanb/ipm.pdf"
+    },
+    "scope": "密度本身仍在每个 $C^\\eta$（$0\\le\\eta<1$）空间中收敛。构造沿用 Córdoba 与 Martínez-Zoroa 的多尺度方法。",
+    "attribution": "作者说明这是个人合作研究，使用了 Claude 与 Codex；基本研究方案来自 Córdoba 和 Martínez-Zoroa。",
+    "contribution": "人与模型合作",
+    "url": "entries/P01.html",
+    "state": "reported"
+  },
+  {
+    "id": "P02",
+    "collection": "personal",
+    "title": "Boussinesq 方程：光滑外力下的爆破",
+    "title_en": "Blowup for the Boussinesq Equations with Smooth Forcing",
+    "summary": "在 $\\mathbb R^2$ 上，取零初速度、光滑紧支撑初始温度及两条方程中的光滑外力，构造有限时间奇性。温度有界，温度梯度发散，涡量范数的上极限为无穷。",
+    "authors": "Levent Alpöge · Tristan Buckmaster",
+    "date": "2026-09-07",
+    "sources": [
+      {
+        "label": "论文原文",
+        "url": "https://cims.nyu.edu/~tristanb/boussinesq.pdf"
+      },
+      {
+        "label": "作者声明",
+        "url": "https://cims.nyu.edu/~tristanb/statement.pdf"
+      },
+      {
+        "label": "Courant 介绍",
+        "url": "https://cims.nyu.edu/dynamic/news/1528/"
+      }
+    ],
+    "lean": [
+      {
+        "label": "Lean 4 项目",
+        "url": "https://github.com/tristanbuckmaster/fluid_lean/blob/d0124689230b58b4f86e7b90ac59de06404b3b6b/boussinesq-blowup/README.md",
+        "note": "公开 affinecore 与 boussinesq-blowup 两个项目；README 声明主结论仅依赖三个标准公理。",
+        "state": "code"
+      }
+    ],
+    "discipline": "偏微分方程",
+    "quote": "with smooth forcing in both equations",
+    "quote_source": {
+      "label": "论文摘要",
+      "url": "https://cims.nyu.edu/~tristanb/boussinesq.pdf"
+    },
+    "scope": "两项外力均在直至爆破时刻的时空闭区间上光滑，并有共同的固定紧支撑。",
+    "attribution": "作者说明这是个人合作研究，使用了 Claude 与 Codex；基本研究方案来自 Córdoba 和 Martínez-Zoroa。",
+    "contribution": "人与模型合作",
+    "url": "entries/P02.html",
+    "state": "code"
+  },
+  {
+    "id": "P03",
+    "collection": "personal",
+    "title": "Euler 方程：光滑外力与轴对称爆破",
+    "title_en": "Blowup for the Euler Equations with Smooth Forcing",
+    "summary": "在 $\\mathbb R^3$ 上构造带旋的轴对称光滑初速度和时空光滑外力，使 Euler 解在有限时间爆破；涡量及角动量梯度的上确界范数发散。",
+    "authors": "Levent Alpöge · Tristan Buckmaster",
+    "date": "2026-09-07",
+    "sources": [
+      {
+        "label": "论文原文",
+        "url": "https://cims.nyu.edu/~tristanb/euler.pdf"
+      },
+      {
+        "label": "作者声明",
+        "url": "https://cims.nyu.edu/~tristanb/statement.pdf"
+      },
+      {
+        "label": "Courant 介绍",
+        "url": "https://cims.nyu.edu/dynamic/news/1528/"
+      }
+    ],
+    "lean": [
+      {
+        "label": "Lean 4 项目",
+        "url": "https://github.com/tristanbuckmaster/fluid_lean/blob/d0124689230b58b4f86e7b90ac59de06404b3b6b/euler-blowup/README.md",
+        "note": "README 声明主结论仅依赖三个标准公理，并说明形式化的外力条件和唯一性范围。",
+        "state": "code"
+      }
+    ],
+    "discipline": "偏微分方程",
+    "quote": "with a force smooth in space and time",
+    "quote_source": {
+      "label": "论文摘要",
+      "url": "https://cims.nyu.edu/~tristanb/euler.pdf"
+    },
+    "scope": "初速度与外力支撑在一个固定实心环面内；外力直到爆破时刻仍光滑。",
+    "attribution": "作者说明这是个人合作研究，使用了 Claude 与 Codex；基本研究方案来自 Córdoba 和 Martínez-Zoroa。",
+    "contribution": "人与模型合作",
+    "url": "entries/P03.html",
+    "state": "code"
+  },
+  {
+    "id": "P04",
+    "collection": "personal",
+    "title": "六维球面的复结构",
+    "title_en": "Complex structures on the six-sphere",
+    "summary": "原稿构造以复二维环面为一般纤维的紧复三维流形，并给出其与 $S^6$ 微分同胚的论证。",
+    "authors": "Levent Alpöge 指导的 Claude 研究",
+    "date": "2026 年 9 月",
+    "sources": [
+      {
+        "label": "Alpöge 发布的原稿",
+        "url": "https://alpo.ge/s6.pdf"
+      },
+      {
+        "label": "作者发布记录",
+        "url": "https://x.com/__alpoge__/status/2091639597193368014"
+      },
+      {
+        "label": "Philip Engel 的独立阐述",
+        "url": "https://arxiv.org/abs/2609.38442"
+      }
+    ],
+    "lean": [
+      {
+        "label": "HopfProblem · Lean 4",
+        "url": "https://github.com/plby/HopfProblem/blob/9ac8a456b526527837d7082ff775213ca8bc9809/README.md",
+        "note": "Boris Alexeev（plby）的后续形式化，含 Comparator；仓库目标为与标准拓扑相容的复流形结构。",
+        "state": "code"
+      }
+    ],
+    "discipline": "复几何与微分拓扑",
+    "quote": "The six-sphere admits a complex manifold structure compatible with its standard topology.",
+    "quote_source": {
+      "label": "HopfProblem · README",
+      "url": "https://github.com/plby/HopfProblem/blob/9ac8a456b526527837d7082ff775213ca8bc9809/README.md"
+    },
+    "scope": "Engel 于 9 月 29 日提交的论文给出几何解释与自包含证明；下方分别列出原稿、后续阐述及形式化证明。",
+    "contribution": "人与模型合作",
+    "url": "entries/P04.html",
+    "state": "code"
+  },
+  {
+    "id": "Z01",
+    "collection": "zeta",
+    "title": "ζ(5) 的无理性",
+    "title_en": "ζ(5) is irrational",
+    "summary": "Fauzan 的预印本通过经有理归一化的 Hankel 行列式构造整系数多项式，以非零性和衰减估计证明 $\\zeta(5)$ 无理。",
+    "authors": "Aabir Fauzan",
+    "date": "2026-09-17",
+    "sources": [
+      {
+        "label": "原始预印本 · Zenodo",
+        "url": "https://zenodo.org/records/22826419"
+      },
+      {
+        "label": "论文 PDF",
+        "url": "https://zenodo.org/records/22826419/files/ZETA5_IS_IRRATIONAL.pdf"
+      },
+      {
+        "label": "Persiflage 的方法说明",
+        "url": "https://galoisrepresentations.org/2026/09/24/zeta5-is-irrational/"
+      }
+    ],
+    "lean": [
+      {
+        "label": "Moritz Firsching · mo271/Zeta5",
+        "url": "https://github.com/mo271/Zeta5/blob/7fe736760f4b96bfdb4334b68e3b3124ecbe10b0/README.md",
+        "note": "含 Comparator；素数定理由已形式化的依赖库引入。对原稿的归一化及局部估计作了修改，证明的是无理性结论。",
+        "state": "code"
+      },
+      {
+        "label": "César Del Solar · domino14/zeta5",
+        "url": "https://github.com/domino14/zeta5/blob/3da8eb1b91f9a90a1c0b7959e845c060dbd16256/README.md",
+        "note": "README 列出主结论的三个标准公理；四处未完成的旁支声明未用于主结论的证明。素数定理另行移植。",
+        "state": "code"
+      },
+      {
+        "label": "Dan Romik · zeta5-irrationality",
+        "url": "https://github.com/danromik/zeta5-irrationality/blob/fc2fefa77076e22e7e80b4c101ded5a98d53e14d/README.md",
+        "note": "以素数定理 θ(x) ∼ x 为额外公理；这一版形式化检查的是该假设下的无理性结论。",
+        "state": "conditional"
+      }
+    ],
+    "discipline": "数论",
+    "quote": "A generative AI tool was used in a supporting role",
+    "quote_source": {
+      "label": "论文第 32 页 · Use of generative AI",
+      "url": "https://zenodo.org/records/22826419/files/ZETA5_IS_IRRATIONAL.pdf"
+    },
+    "attribution": "原稿说明，生成式 AI 用于文字修改、校对、LaTeX 排版和一致性检查。独立形式化由下列三个项目分别完成。",
+    "scope": "三份形式化证明采用的假设不同，详见下方说明。",
+    "contribution": "论文与后续形式化",
+    "url": "entries/Z01.html",
+    "state": "mixed"
+  },
+  {
+    "id": "A01",
+    "collection": "anthropic",
+    "title": "Riemann ζ 函数的单零点与临界线",
+    "title_en": "More than two thirds of the zeta zeros are simple and on the critical line",
+    "summary": "按重数计，至少 $2/3$ 的非平凡零点是位于临界线上的单零点；至少 $5/6$ 的零点互异。采用 Montgomery–Taylor 窗口时，相应下界为 $0.6725$ 与 $0.8362$。",
+    "authors": "Levent Alpöge · Ralph Furman；Anthropic 发布",
+    "date": "2026-08-10",
+    "sources": [
+      {
+        "label": "Anthropic 官方介绍",
+        "url": "https://www.anthropic.com/research/riemann-zeta"
+      },
+      {
+        "label": "作者论文 · arXiv:2608.13637",
+        "url": "https://arxiv.org/abs/2608.13637"
+      },
+      {
+        "label": "Lamzouri 的后续证明",
+        "url": "https://arxiv.org/abs/2609.02882"
+      }
+    ],
+    "lean": [
+      {
+        "label": "zeta23 · Lean 4",
+        "url": "https://github.com/anthropics/formal-math/blob/e1a4e6508154ea59f030480661590a9fe3018011/zeta23/README.md",
+        "note": "收录于 Anthropic 的 formal-math 仓库。",
+        "state": "code"
+      }
+    ],
+    "discipline": "数论",
+    "quote": "More than two thirds of the zeta zeros are simple and on the critical line",
+    "quote_source": {
+      "label": "论文标题",
+      "url": "https://arxiv.org/abs/2608.13637"
+    },
+    "scope": "Anthropic 于 8 月 10 日介绍这项研究；作者于 8 月 13 日提交论文。以上比例区分“单零点且在临界线”与“互异零点”。",
+    "contribution": "模型生成证明",
+    "url": "entries/A01.html",
+    "state": "code"
+  },
+  {
+    "id": "A02",
+    "collection": "anthropic",
+    "title": "费马大定理的 Lean 形式化",
+    "title_en": "Fermat's Last Theorem in Lean 4",
+    "summary": "将 Frey、Serre、Ribet、Wiles 与 Taylor–Wiles 的论证形式化，证明任意整数 $n\\ge3$ 时，不存在正整数 $a,b,c$ 满足 $a^n+b^n=c^n$。",
+    "authors": "Anthropic",
+    "date": "2026-09-04",
+    "sources": [
+      {
+        "label": "官方介绍",
+        "url": "https://www.anthropic.com/news/formalizing-fermats-last-theorem"
+      },
+      {
+        "label": "代码仓库",
+        "url": "https://github.com/anthropics/fermats-last-theorem/blob/6e837e75355538c7f80bab5b956861e86c4eacc2/README.md"
+      }
+    ],
+    "lean": [
+      {
+        "label": "Lean 4 及最终公理检查",
+        "url": "https://github.com/anthropics/fermats-last-theorem/blob/6e837e75355538c7f80bab5b956861e86c4eacc2/FinalCheck.lean",
+        "note": "README 报告完成形式化，并列出 Lean、Comparator 与独立内核的检查记录。",
+        "state": "code"
+      }
+    ],
+    "discipline": "数论",
+    "quote": "The argument is that of Frey, Serre, Ribet, Wiles and Taylor-Wiles.",
+    "quote_source": {
+      "label": "仓库 README",
+      "url": "https://github.com/anthropics/fermats-last-theorem/blob/6e837e75355538c7f80bab5b956861e86c4eacc2/README.md"
+    },
+    "quote_license": "Apache-2.0",
+    "scope": "此项将既有证明写成 Lean 代码。",
+    "contribution": "既有证明的形式化",
+    "url": "entries/A02.html",
+    "state": "code"
+  },
+  {
+    "id": "P05",
+    "collection": "personal",
+    "title": "三维 Jacobian 猜想的反例",
+    "title_en": "A counterexample to the Jacobian conjecture",
+    "summary": "构造 $\\mathbb C^3$ 上 Jacobian 行列式为非零常数、但不单射的多项式映射；同一纤维含三个不同点。",
+    "authors": "Levent Alpöge；Claude",
+    "date": "2026-07",
+    "discipline": "代数几何",
+    "sources": [
+      {
+        "label": "研究原文",
+        "url": "https://www.ulam.ai/research/jacobian.pdf"
+      },
+      {
+        "label": "Terence Tao 的数学解读",
+        "url": "https://terrytao.wordpress.com/2026/07/21/a-digestion-of-the-jacobian-conjecture-counterexample/"
+      },
+      {
+        "label": "Alpöge 发布记录",
+        "url": "https://x.com/__alpoge__/status/2079028340955197566"
+      }
+    ],
+    "contribution": "模型生成构造与证明",
+    "scope": "反例位于三维；不据此断言二维情形已经解决。Lean 项目中分别提供了待证命题和证明文件。",
+    "attribution": "",
+    "lean": [
+      {
+        "label": "Jacobian conjecture · Lean",
+        "url": "https://github.com/Arthur742Ramos/jacobian-conjecture-lean/blob/8db55ea3ffa8ba90094d6ef78ee3351ddfce01ca/README.md",
+        "note": "项目中列有复数域上的反例定理及 Comparator 配置。",
+        "state": "code"
+      },
+      {
+        "label": "alpoge-lean",
+        "url": "https://github.com/alerad/alpoge-lean/blob/b8eec94711a9b73151929b78cbd7cb999a008590/README.md",
+        "note": "独立形式化：行列式、三点纤维及非单射性。",
+        "state": "code"
+      }
+    ],
+    "url": "entries/P05.html",
+    "state": "code"
+  },
+  {
+    "id": "P06",
+    "collection": "personal",
+    "title": "有限局部自由群概形的阶与幂映射",
+    "title_en": "A finite free group scheme not killed by its order",
+    "summary": "给出阶为 $4$ 的有限自由群概形，其四次幂映射不是常值单位映射，否定 Grothendieck 所问的一般命题。",
+    "authors": "Akhil Mathew；Codex、Claude",
+    "date": "2026-08-03 · Mathlib 收录",
+    "discipline": "代数几何",
+    "sources": [
+      {
+        "label": "研究原文",
+        "url": "https://leanprover-community.github.io/mathlib4_docs/Counterexamples/GrothendieckPower.html"
+      },
+      {
+        "label": "Mathew 访谈与 AI 分工",
+        "url": "https://antieau.github.io/2026/08/10/akhil-mathew-ai.html"
+      }
+    ],
+    "contribution": "模型构造与形式化",
+    "scope": "反例群概形非交换。交换群概形的已有正面定理不受影响；纯特征情形不由此解决。",
+    "attribution": "",
+    "lean": [
+      {
+        "label": "Mathlib · GrothendieckPower",
+        "url": "https://github.com/leanprover-community/mathlib4/blob/e6bbacd0e1b7307ff6e17da09cd2455f60804fa6/Counterexamples/GrothendieckPower.lean",
+        "note": "包含自由秩 4、Hopf 代数结构与四次幂非平凡性的定理。",
+        "state": "code"
+      }
+    ],
+    "url": "entries/P06.html",
+    "state": "code"
+  },
+  {
+    "id": "P07",
+    "collection": "personal",
+    "title": "有理数域上秩至少为 30 的椭圆曲线",
+    "title_en": "An elliptic curve of rank at least 30",
+    "summary": "公开具体椭圆曲线及 30 个独立有理点，得到 Mordell–Weil 秩下界 30。",
+    "authors": "Levent Alpöge、Ava Howell；Claude",
+    "date": "2026-08-20",
+    "discipline": "数论",
+    "sources": [
+      {
+        "label": "研究原文",
+        "url": "https://elliptic-rank.icarm.cloud/curve/273"
+      }
+    ],
+    "contribution": "合作发现；具体分工未公开",
+    "scope": "无条件结论是秩至少为 30；ICARM 所列精确秩 30 附 BSD 与 GRH 假设。点坐标及计算资料见原始记录。",
+    "attribution": "ICARM 记录列出三方共同署名，未说明各自分工，无法据此认定为模型独立完成。",
+    "lean": [],
+    "url": "entries/P07.html",
+    "state": "unlisted"
+  },
+  {
+    "id": "P08",
+    "collection": "personal",
+    "title": "有理数域上秩至少为 31 的椭圆曲线",
+    "title_en": "An elliptic curve of rank at least 31",
+    "summary": "公开具体椭圆曲线及 31 个独立有理点，得到 Mordell–Weil 秩下界 31。",
+    "authors": "Levent Alpöge、Ava Howell；Claude",
+    "date": "2026-08-23",
+    "discipline": "数论",
+    "sources": [
+      {
+        "label": "研究原文",
+        "url": "https://elliptic-rank.icarm.cloud/curve/302"
+      }
+    ],
+    "contribution": "合作发现；具体分工未公开",
+    "scope": "无条件结论是秩至少为 31；ICARM 所列精确秩 31 附 BSD 与 GRH 假设。点坐标及计算资料见原始记录。",
+    "attribution": "ICARM 记录列出三方共同署名，未说明各自分工，无法据此认定为模型独立完成。",
+    "lean": [],
+    "url": "entries/P08.html",
+    "state": "unlisted"
+  },
+  {
+    "id": "P09",
+    "collection": "personal",
+    "title": "三维 Keller 映射的任意高一般纤维次数",
+    "title_en": "The Jacobian counterexample, explained",
+    "summary": "报告一族 $\\mathbb C^3\\to\\mathbb C^3$ 的 Keller 映射：对每个 $n\\ge3$，一般纤维次数为 $n$。",
+    "authors": "Alexis Gallagher；GPT-5.6 Sol",
+    "date": "2026-07",
+    "discipline": "代数几何",
+    "sources": [
+      {
+        "label": "研究原文",
+        "url": "https://jacobianfun.org/jacobian-explained"
+      },
+      {
+        "label": "作者研究记录",
+        "url": "https://alexisgallagher.com/posts/2026/jacobianfun/"
+      }
+    ],
+    "contribution": "模型生成构造与说明",
+    "scope": "作者将高次数族表述为后续观察。构造及符号核验见原文第 7—10 节。",
+    "attribution": "",
+    "lean": [],
+    "url": "entries/P09.html",
+    "state": "unlisted"
+  },
+  {
+    "id": "C01",
+    "collection": "collaborative",
+    "title": "Ehrhart 体积猜想的等号情形",
+    "title_en": "The equality case of Ehrhart’s volume conjecture",
+    "summary": "满维凸体以原点为重心，且原点为唯一内部格点。若体积为 $(n+1)^n/n!$，则它是中心化标准单纯形的幺模像。",
+    "authors": "Jihao Liu",
+    "date": "2026-08 · 引用 v2",
+    "discipline": "凸几何",
+    "sources": [
+      {
+        "label": "论文原文",
+        "url": "https://arxiv.org/abs/2608.01040v2"
+      }
+    ],
+    "contribution": "作者提出方向；模型生成证明",
+    "scope": "",
+    "attribution": "作者提出 Fujita 类比与晶格宽度方向；Danus 推进证明，GPT-5.6 Sol 与 Fable 5 参与理解和检查。此项研究等号分类，与附录 A 的体积上界分别收录。",
+    "lean": [],
+    "url": "entries/C01.html",
+    "state": "unlisted"
+  },
+  {
+    "id": "C02",
+    "collection": "collaborative",
+    "title": "一般极化情形 Yau–Tian–Donaldson 猜想的反例主张",
+    "title_en": "Disproof of the Yau–Tian–Donaldson conjecture",
+    "summary": "预印本构造光滑射影五维簇，声称它对所述正常测试构形 K-多稳定，却不容许常标量曲率 Kähler 度量。",
+    "authors": "Jihao Liu",
+    "date": "2026-08-19 · v1",
+    "discipline": "复几何",
+    "sources": [
+      {
+        "label": "论文原文",
+        "url": "https://arxiv.org/abs/2608.19301v1"
+      }
+    ],
+    "contribution": "模型参与证明；结论见预印本",
+    "scope": "结论针对论文定义的一般极化版本；不延伸到 Fano 情形或一致 K-稳定等不同版本。",
+    "attribution": "作者选择几何例子，GPT-5.6 Sol、Fable 5 与 Danus 参与证明；分工记录见附录 A。",
+    "lean": [],
+    "url": "entries/C02.html",
+    "state": "unlisted"
+  },
+  {
+    "id": "C03",
+    "collection": "collaborative",
+    "title": "Elekes–Rónyai 近二次膨胀猜想的反例",
+    "title_en": "A counterexample to the near-quadratic Elekes–Rónyai expander conjecture over ℝ",
+    "summary": "构造固定的非特殊二次多项式 $f$ 和任意大的有限实数集 $A$，使 $|f(A,A)|\\le |A|^{2-c}$，其中 $c>0$ 固定。",
+    "authors": "Jihao Liu",
+    "date": "2026-06-15 · v1",
+    "discipline": "加性组合",
+    "sources": [
+      {
+        "label": "论文原文",
+        "url": "https://arxiv.org/abs/2606.16738v1"
+      }
+    ],
+    "contribution": "模型生成证明与正文",
+    "scope": "",
+    "attribution": "ChatGPT 5.5 Pro 参与探索；主体证明和正文由 Rethlas 生成，作者补充后记并核查。证明使用 OpenAI 的数域塔构造。作者披露与 Pohoata 公开解答的先后关系及既有博客的潜在影响，不能单凭模型输出判定独立发现。",
+    "lean": [],
+    "url": "entries/C03.html",
+    "state": "unlisted"
+  },
+  {
+    "id": "C04",
+    "collection": "collaborative",
+    "title": "奇数维 Calabi–Yau 簇上阿贝尔群秩界的反例",
+    "title_en": "A counterexample to the odd-dimensional rank bound for abelian p-group actions",
+    "summary": "Fermat 五次三维簇上的 $(\\mathbb Z/5\\mathbb Z)^4$ 忠实作用，反驳所猜想的奇素数、奇数维秩上界。",
+    "authors": "Jihao Liu、Yanze Wang",
+    "date": "2026-07-06 · v1",
+    "discipline": "代数几何",
+    "sources": [
+      {
+        "label": "论文原文",
+        "url": "https://arxiv.org/abs/2607.04891v1"
+      }
+    ],
+    "contribution": "模型生成反例与证明",
+    "scope": "反例对应 Moraga 猜想的奇素数扩展；不否定具有既定 Euler 示性数假设的原定理。",
+    "attribution": "论文将主要结果归于 ChatGPT 5.5 Pro 和 Danus，作者负责整理。",
+    "lean": [],
+    "url": "entries/C04.html",
+    "state": "unlisted"
+  },
+  {
+    "id": "C05",
+    "collection": "collaborative",
+    "title": "Deligne–Mumford 叠的正性定理：去除无挠条件",
+    "title_en": "Removing the torsion-free hypothesis in a positivity theorem on Deligne–Mumford stacks",
+    "summary": "在光滑适当整 DM 叠上，保留对数余切张量幂含大行列式子层等条件，将商层第一 Chern 类伪有效的结论推广到任意凝聚商层。",
+    "authors": "Shengyu Hou、Jihao Liu",
+    "date": "2026-07-29 · v1",
+    "discipline": "代数几何",
+    "sources": [
+      {
+        "label": "论文原文",
+        "url": "https://arxiv.org/abs/2607.26989v1"
+      }
+    ],
+    "contribution": "模型生成证明；作者整理",
+    "scope": "底域为复数，粗模空间射影，边界约化且为正规交叉。去除的是商层无挠假设，其余几何假设仍保留。",
+    "attribution": "论文披露使用 ChatGPT 5.5 Pro 与 Danus。",
+    "lean": [],
+    "url": "entries/C05.html",
+    "state": "unlisted"
+  },
+  {
+    "id": "C06",
+    "collection": "collaborative",
+    "title": "$U_q(\\mathfrak{so}_{12})$ 的显式中心元",
+    "title_en": "Using Large Language Models as a Co-Author in Undergraduate Quantum Group Research",
+    "summary": "给出 $U_q(\\mathfrak{so}_{12})$ 的一个新显式中心元公式，并以稀疏 PBW 配对矩阵的符号求逆改进计算；应用指向带 Markov 对偶的粒子系统。",
+    "authors": "Jeffrey Kuan；Claude Opus 4.6",
+    "date": "2026-05-04 · v1",
+    "discipline": "量子代数",
+    "sources": [
+      {
+        "label": "论文原文",
+        "url": "https://arxiv.org/abs/2605.02994v1"
+      }
+    ],
+    "contribution": "模型生成研究稿与计算",
+    "scope": "",
+    "attribution": "作者将研究稿描述为 AI 全文生成，另撰报告说明指导方式、SageMath 计算及约定处理的局限。",
+    "lean": [],
+    "url": "entries/C06.html",
+    "state": "unlisted"
+  },
+  {
+    "id": "C07",
+    "collection": "collaborative",
+    "title": "五个点电荷给出 Maxwell 猜想的反例",
+    "title_en": "The Maxwell Conjecture is False",
+    "summary": "五个正点电荷的静电势具有至少 $24$ 个非退化临界点，超过猜想上界 $(5-1)^2=16$。",
+    "authors": "Philip Arathoon、Gavin Ball、Matthew D. Kvalheim",
+    "date": "2026-07-29 · v1",
+    "discipline": "数学物理",
+    "sources": [
+      {
+        "label": "论文原文",
+        "url": "https://arxiv.org/abs/2607.27197v1"
+      }
+    ],
+    "contribution": "模型提出构造；作者完成证明",
+    "scope": "",
+    "attribution": "GPT-5.6 Sol 提出构造思路；作者核查数学细节并自行写作，使用 Mathematica 与 Maple 辅助代数计算。",
+    "lean": [],
+    "url": "entries/C07.html",
+    "state": "unlisted"
+  },
+  {
+    "id": "C08",
+    "collection": "collaborative",
+    "title": "多元独立集多项式的下界",
+    "title_en": "Lower bounds for multivariate independence polynomials and their generalisations",
+    "summary": "对任意简单图及非负顶点权，证明 $Z_G(\\lambda)\\ge\\prod_i(1+(d_i+1)\\lambda_i)^{1/(d_i+1)}$；并推广到两种正常颜色的半正常着色配分函数。",
+    "authors": "Joonkyung Lee、Jaehyeon Seo",
+    "date": "2026-02 · 2026-08-05 v2",
+    "discipline": "组合数学",
+    "sources": [
+      {
+        "label": "论文原文",
+        "url": "https://arxiv.org/abs/2602.02450v2"
+      },
+      {
+        "label": "原始提示与模型输出",
+        "url": "https://github.com/google-deepmind/superhuman/tree/main/aletheia"
+      }
+    ],
+    "contribution": "模型提供关键步骤；作者拓展",
+    "scope": "",
+    "attribution": "Gemini Deep Think 研究智能体提供两项定理的关键技术步骤；人类作者组织并拓展证明。",
+    "lean": [
+      {
+        "label": "multivar-indep-formalize",
+        "url": "https://github.com/thegreatseo/multivar-indep-formalize/blob/dd53359a6350cdf748976afd2978178cc8de3245/README.md",
+        "note": "论文 v2 指明定理 1.4 的证明由 Harmonic Aristotle 形式化；不可据此概括整篇论文均已形式化。",
+        "state": "code"
+      }
+    ],
+    "url": "entries/C08.html",
+    "state": "code"
+  },
+  {
+    "id": "C09",
+    "collection": "collaborative",
+    "title": "Nesterov 加速梯度法的迭代点收敛",
+    "title_en": "Point Convergence of Nesterov’s Accelerated Gradient Method: An AI-Assisted Proof",
+    "summary": "对有限维光滑凸优化，在极小点存在及论文指定的加速参数下，证明 Nesterov 加速梯度法的迭代点收敛到极小点。",
+    "authors": "Uijeong Jang、Ernest K. Ryu",
+    "date": "2025-10-27 · 2026-01-19 v2",
+    "discipline": "优化",
+    "sources": [
+      {
+        "label": "论文原文",
+        "url": "https://arxiv.org/abs/2510.23513v2"
+      }
+    ],
+    "contribution": "人与模型合作证明",
+    "scope": "这是迭代点收敛结论；目标函数值的经典收敛速率早已存在。参数条件以定理为准。",
+    "attribution": "作者报告 ChatGPT 对证明发现有重要帮助，并公开交互记录。",
+    "lean": [],
+    "url": "entries/C09.html",
+    "state": "unlisted"
+  },
+  {
+    "id": "C10",
+    "collection": "collaborative",
+    "title": "GPT-5 早期研究报告中的四项数学结果",
+    "title_en": "Early science acceleration experiments with GPT-5",
+    "summary": "报告第四章分别研究 Erdős 问题、在线算法下界、树的子图计数不等式，以及动态网络问题。",
+    "authors": "Sébastien Bubeck 等",
+    "date": "2025-11-20 · v1",
+    "discipline": "数学与理论计算机科学",
+    "sources": [
+      {
+        "label": "论文原文",
+        "url": "https://arxiv.org/abs/2511.16072v1"
+      }
+    ],
+    "contribution": "人与模型合作研究",
+    "scope": "本项收录第四章四个案例。第二章通过文献检索找到的已有结论，不计为新的数学发现。",
+    "attribution": "模型参与论证，人类作者检查和修正；各案例的原始交互及责任作者随论文保留。",
+    "lean": [],
+    "url": "entries/C10.html",
+    "state": "unlisted"
+  },
+  {
+    "id": "C11",
+    "collection": "collaborative",
+    "title": "周期—指数猜想的反例",
+    "title_en": "The period-index conjecture is false for motivic reasons",
+    "summary": "对每个 $d\\ge3$，在复数域上构造周期为 $2$、指数为 $2^d$ 的 Brauer 类，否定所述周期—指数猜想；第二版另处理部分正特征情形。",
+    "authors": "Alexander Perry",
+    "date": "2026-08-04 · 2026-09-03 v2",
+    "discipline": "代数几何",
+    "sources": [
+      {
+        "label": "论文原文",
+        "url": "https://arxiv.org/abs/2608.03684v2"
+      }
+    ],
+    "contribution": "人类证明；模型提供启发",
+    "scope": "",
+    "attribution": "论文 §1.7：ChatGPT 最初提出的三维例子有误。Perry 从其结构得到启发，改用带辛群作用的 K3 曲面完成构造；模型另辅助文献检索和晶格计算。全文由作者写作。",
+    "lean": [],
+    "url": "entries/C11.html",
+    "state": "unlisted"
+  },
+  {
+    "id": "C12",
+    "collection": "collaborative",
+    "title": "复四维簇的 Hodge 数之导出不变性",
+    "title_en": "Hodge numbers are derived invariants for complex fourfolds",
+    "summary": "光滑射影复四维簇若导出等价，则全部 Hodge 数相等。论证依赖更一般的偶数复维拓扑 signature 的导出不变性。",
+    "authors": "Benjamin Antieau 及核查合作者；GPT-5.6 Sol",
+    "date": "2026-07-31",
+    "discipline": "代数几何",
+    "sources": [
+      {
+        "label": "研究原文",
+        "url": "https://antieau.github.io/2026/07/31/hodge-fourfolds.html"
+      },
+      {
+        "label": "2026-07-29 模型原始稿",
+        "url": "https://antieau.github.io/assets/pdf/fourfold_hodge_invariance.pdf"
+      }
+    ],
+    "contribution": "模型提出关键论证；作者核查",
+    "scope": "原有形式化只证明了部分归约，尚未证明核心 signature 定理；尚未找到完整的公开证明代码。",
+    "attribution": "",
+    "lean": [
+      {
+        "label": "作者对部分形式化的说明",
+        "url": "https://antieau.github.io/2026/07/31/hodge-fourfolds.html",
+        "note": "作者明确区分已处理的归约与尚未形式化的核心定理。",
+        "state": "reported"
+      }
+    ],
+    "url": "entries/C12.html",
+    "state": "reported"
+  },
+  {
+    "id": "A03",
+    "collection": "anthropic",
+    "title": "3SUM 与全点对最短路的多项式改进",
+    "title_en": "Truly Subquadratic 3SUM and Truly Subcubic APSP via Triangles in Sparse Lopsided Graphs",
+    "summary": "对多项式大小的整数输入，3SUM 达到 $O(n^{1.9992})$；对多项式有界整数边权的有向图，全点对最短路达到 $O(n^{2.9995})$。",
+    "authors": "Josh Alman、Virginia Vassilevska Williams；Claude",
+    "date": "2026-10-05 · v1",
+    "discipline": "算法与复杂性",
+    "sources": [
+      {
+        "label": "论文原文",
+        "url": "https://arxiv.org/abs/2610.06783v1"
+      }
+    ],
+    "contribution": "模型发现核心算法；作者推广",
+    "scope": "上列指数按论文 v1。计时模型、整数大小及计算假设见论文与项目的 MACHINE.md；Lean 证明的适用范围另见项目说明。",
+    "attribution": "Claude 发现薄矩阵乘积的关键算法，人类作者简化论证并给出推广；论文完成后另行形式化。",
+    "lean": [
+      {
+        "label": "3sum-apsp · Lean",
+        "url": "https://github.com/anthropics/formal-math/tree/main/3sum-apsp",
+        "note": "对应定理及机器模型见 README、formalization.yaml 与 docs/MACHINE.md；并非对任意输入模型无条件使用同一复杂度指数。",
+        "state": "code"
+      }
+    ],
+    "url": "entries/A03.html",
+    "state": "code"
+  },
+  {
+    "id": "R01",
+    "collection": "other",
+    "title": "Komlós 向量平衡与 Beck–Fiala 型界",
+    "title_en": "Vector Balancing via Directional Total Variation",
+    "summary": "对任意有限组 Euclidean 范数不超过 $1$ 的实向量，给出符号和的 $\\ell_\\infty$ 范数小于 $3\\sqrt{2\\pi}$ 的界，并导出 $3\\sqrt{2\\pi t}$ 的集合系偏差界。",
+    "authors": "Shengtao Guo、Ethan X. Fang、Junwei Lu；Odin",
+    "date": "2026-09-10 · v1",
+    "discipline": "差异理论",
+    "sources": [
+      {
+        "label": "论文原文",
+        "url": "https://arxiv.org/abs/2609.11189v1"
+      }
+    ],
+    "contribution": "自主智能体发现证明",
+    "scope": "论文给出存在性界；不据此声称已得到多项式时间构造或最优常数。",
+    "attribution": "",
+    "lean": [],
+    "quote": "The proof was discovered by the Odin Automatic AI Research Agent.",
+    "quote_source": {
+      "label": "原始文献",
+      "url": "https://arxiv.org/abs/2609.11189v1"
+    },
+    "url": "entries/R01.html",
+    "state": "unlisted"
+  },
+  {
+    "id": "R02",
+    "collection": "other",
+    "title": "算术 Hirzebruch 比例原理的特征权",
+    "title_en": "Eigenweights for arithmetic Hirzebruch Proportionality",
+    "summary": "将算术 Hirzebruch 比例原理中的特征权与对称群表示联系起来，给出经典群的通式。",
+    "authors": "Tony Feng；Aletheia（Gemini Deep Think）",
+    "date": "2026-01-30 · 2026-02-02 v2",
+    "discipline": "算术几何与表示论",
+    "sources": [
+      {
+        "label": "论文原文",
+        "url": "https://arxiv.org/abs/2601.23245v2"
+      },
+      {
+        "label": "研究报告与人机分工",
+        "url": "https://arxiv.org/abs/2602.10177"
+      }
+    ],
+    "contribution": "模型独立生成数学内容",
+    "scope": "",
+    "attribution": "作者声明数学内容全部由 Aletheia 生成；作者负责搭建智能体，并将输出整理成论文。",
+    "lean": [],
+    "url": "entries/R02.html",
+    "state": "unlisted"
+  },
+  {
+    "id": "R03",
+    "collection": "other",
+    "title": "Aletheia 对 Erdős 问题的系统研究",
+    "title_en": "Semi-Autonomous Mathematics Discovery with Gemini: A Case Study on the Erdős Problems",
+    "summary": "对 700 个标记为开放的问题开展检索与证明研究。报告分别列出新解、部分解、独立重现，以及从文献中查得的已有结果；自主求解案例包括第 652 与 1051 题。",
+    "authors": "Tony Feng 等；Aletheia（Gemini Deep Think）",
+    "date": "2026-01 · 引用 v3",
+    "discipline": "组合数学与数论",
+    "sources": [
+      {
+        "label": "论文原文",
+        "url": "https://arxiv.org/abs/2601.22401v3"
+      },
+      {
+        "label": "提示与原始输出",
+        "url": "https://github.com/google-deepmind/superhuman/tree/main/aletheia"
+      }
+    ],
+    "contribution": "自主求解与人类核查",
+    "scope": "700 是投入研究的问题数，不是已解决数量。第 654、1040 题为部分贡献；找回既有文献的案例另列，不能计作新证明。",
+    "attribution": "",
+    "lean": [],
+    "url": "entries/R03.html",
+    "state": "unlisted"
+  },
+  {
+    "id": "R04",
+    "collection": "other",
+    "title": "AlphaEvolve 的矩阵乘法与几何构造",
+    "title_en": "AlphaEvolve: A coding agent for scientific and algorithmic discovery",
+    "summary": "给出复数域 $4\\times4$ 矩阵乘法的 48 次标量乘法算法，并发现 11 维的 593 点接吻构形；另报告若干几何与分析问题的新界。",
+    "authors": "Alexander Novikov 等；Google DeepMind",
+    "date": "2025-05-14 · 论文 2025-06-16",
+    "discipline": "算法与离散几何",
+    "sources": [
+      {
+        "label": "论文原文",
+        "url": "https://arxiv.org/abs/2506.13131v1"
+      },
+      {
+        "label": "官方介绍",
+        "url": "https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/"
+      }
+    ],
+    "contribution": "模型搜索算法与有限构造",
+    "scope": "48 次乘法结论使用复数运算；593 是当次发表的下界，不是现今最优值或精确接吻数。",
+    "attribution": "",
+    "lean": [],
+    "url": "entries/R04.html",
+    "state": "unlisted"
+  },
+  {
+    "id": "R05",
+    "collection": "other",
+    "title": "AlphaEvolve 的 67 项数学问题研究",
+    "title_en": "Mathematical exploration and discovery at scale",
+    "summary": "汇集 67 个问题的计算探索、显式构造、界的改进及后续论证；每项的结果和验证方式分别列于论文及补充材料。",
+    "authors": "Bogdan Georgiev、Javier Gómez-Serrano、Terence Tao、Adam Zsolt Wagner",
+    "date": "2025-11 · 2025-12-22 v3",
+    "discipline": "分析与组合数学",
+    "sources": [
+      {
+        "label": "论文原文",
+        "url": "https://arxiv.org/abs/2511.02864v3"
+      }
+    ],
+    "contribution": "模型搜索；作者解释与证明",
+    "scope": "67 是问题集规模，不能等同于 67 个已解决猜想。部分有限构造可精确核验，其他项目仍依赖数值证据或后续论证。",
+    "attribution": "",
+    "lean": [
+      {
+        "label": "论文所述 AlphaProof 形式化",
+        "url": "https://arxiv.org/html/2511.02864v3",
+        "note": "论文报告对三维有限域 Kakeya 构造的一项证明完成 Lean 形式化；不覆盖全部 67 个问题，尚未找到对应的公开代码。",
+        "state": "reported"
+      }
+    ],
+    "url": "entries/R05.html",
+    "state": "reported"
+  },
+  {
+    "id": "R06",
+    "collection": "other",
+    "title": "Station 的开放式多智能体数学研究",
+    "title_en": "Autonomous Mathematical Discovery in an Open-World Multi-Agent Environment",
+    "summary": "公开有限域 Kakeya 集、接吻构形、重叠问题等方向的结果与实验材料；其中包含 11 维 604 点的三种精确接吻构形。",
+    "authors": "Stephen Chung、Wenyu Du、William J. Wesley",
+    "date": "2026-08-24 · 2026-09-14 v2",
+    "discipline": "组合数学与分析",
+    "sources": [
+      {
+        "label": "论文原文",
+        "url": "https://arxiv.org/abs/2608.23691v2"
+      },
+      {
+        "label": "原始研究与验证材料",
+        "url": "https://github.com/dualverse-ai/station_data_v2"
+      },
+      {
+        "label": "结果目录",
+        "url": "https://dualverse-ai.github.io/station_data_v2/"
+      }
+    ],
+    "contribution": "多智能体生成研究与构造",
+    "scope": "报告也包含独立重现及未超出现有最好结果的项目。604 是下界；部分构形与同时期工作重合，不能将全部实验计为独立新定理。",
+    "attribution": "部分 Lean 整理及最终写作在 Station 实验之外完成；各项证明的范围见资料仓库。",
+    "lean": [
+      {
+        "label": "Station · 证明与核验资料",
+        "url": "https://github.com/dualverse-ai/station_data_v2/blob/a4ae9192fa75b7ffc6909ed018a712510062378b/README.md",
+        "note": "资料含 254 个 Lean 文件；理论结果与精确有限构造分列。形式化在 Station 之外借助 GPT 5.5 完成。",
+        "state": "code"
+      }
+    ],
+    "url": "entries/R06.html",
+    "state": "code"
+  },
+  {
+    "id": "R07",
+    "collection": "other",
+    "title": "FunSearch 的无三项等差数列集构造",
+    "title_en": "Mathematical discoveries from program search with large language models",
+    "summary": "在 $\\mathbb F_3^8$ 中构造 512 点 cap set，并改进相关渐近下界；模型生成程序，评估器检查构造。",
+    "authors": "Bernardino Romera-Paredes 等；Google DeepMind",
+    "date": "2023-12-14",
+    "discipline": "极值组合",
+    "sources": [
+      {
+        "label": "研究原文",
+        "url": "https://www.nature.com/articles/s41586-023-06924-6"
+      },
+      {
+        "label": "官方介绍",
+        "url": "https://deepmind.google/blog/funsearch-making-new-discoveries-in-mathematical-sciences-using-large-language-models/"
+      },
+      {
+        "label": "构造与代码",
+        "url": "https://github.com/google-deepmind/funsearch"
+      }
+    ],
+    "contribution": "模型搜索有限构造",
+    "scope": "这是下界改进，未给出 cap set 问题的最优解。",
+    "attribution": "",
+    "lean": [],
+    "url": "entries/R07.html",
+    "state": "unlisted"
+  },
+  {
+    "id": "R08",
+    "collection": "other",
+    "title": "AlphaTensor 的矩阵乘法算法",
+    "title_en": "Discovering faster matrix multiplication algorithms with reinforcement learning",
+    "summary": "通过强化学习搜索矩阵乘法张量分解，得到包括模二运算下 $4\\times4$ 矩阵乘法在内的新算法。",
+    "authors": "Alhussein Fawzi 等；DeepMind",
+    "date": "2022-10-05",
+    "discipline": "算法与代数",
+    "sources": [
+      {
+        "label": "研究原文",
+        "url": "https://deepmind.google/blog/discovering-novel-algorithms-with-alphatensor/"
+      },
+      {
+        "label": "Nature 论文",
+        "url": "https://www.nature.com/articles/s41586-022-05172-4"
+      },
+      {
+        "label": "算法与核验代码",
+        "url": "https://github.com/google-deepmind/alphatensor"
+      }
+    ],
+    "contribution": "模型搜索精确算法",
+    "scope": "此处模二运算的改进不等于实数或复数域上的同次数改进。",
+    "attribution": "",
+    "lean": [],
+    "url": "entries/R08.html",
+    "state": "unlisted"
+  },
+  {
+    "id": "Z02",
+    "collection": "zeta",
+    "title": "快速收敛级数的无理性：Erdős 第 1051 题",
+    "title_en": "Irrationality of rapidly converging series: a problem of Erdős and Graham",
+    "summary": "严格递增正整数序列满足 $\\limsup a_n^{1/\\phi^n}=\\infty$ 时，$\\sum_{n\\ge1}1/(a_na_{n+1})$ 为无理数；$\\phi$ 是黄金比。",
+    "authors": "Kevin Barreto、Jiwon Kang、Sang-hyun Kim、Vjekoslav Kovač、Shengtong Zhang",
+    "date": "2026-01-29 · 2026-07-08 v3",
+    "discipline": "数论",
+    "sources": [
+      {
+        "label": "论文原文",
+        "url": "https://arxiv.org/abs/2601.21442v3"
+      }
+    ],
+    "contribution": "模型独立求解原题；合作推广",
+    "scope": "",
+    "attribution": "原题由 Aletheia 自主解决；加权级数推广及最优性研究主要来自人与模型交互。论文标注将发表于 Bulletin of the London Mathematical Society。",
+    "lean": [],
+    "url": "entries/Z02.html",
+    "state": "unlisted"
+  },
+  {
+    "id": "C13",
+    "collection": "collaborative",
+    "title": "Crouzeix 猜想的证明",
+    "title_en": "A solution to Crouzeix’s conjecture",
+    "summary": "对 Hilbert 空间上的有界算子 $A$，证明其数值域是 $2$-谱集；相应函数演算满足常数为 $2$ 的范数控制。",
+    "authors": "Emiel Lorist、Felix L. Schwenninger",
+    "date": "2026-08-04 · 2026-08-17 v2",
+    "discipline": "算子理论",
+    "sources": [
+      {
+        "label": "论文原文",
+        "url": "https://arxiv.org/abs/2608.03841v2"
+      }
+    ],
+    "contribution": "模型辅助路线探索；作者证明",
+    "scope": "函数类别、数值域闭包等条件见论文定理 3。主目录第 325 组另讨论矩阵值函数的完全版本。",
+    "attribution": "GPT-5.6 Sol Pro 辅助探索函数迭代与误差项控制；作者负责完善论证、核查并撰写终稿。",
+    "lean": [],
+    "url": "entries/C13.html",
+    "state": "unlisted"
+  },
+  {
+    "id": "C14",
+    "collection": "collaborative",
+    "title": "Sendov 猜想的计算机辅助证明",
+    "title_en": "A Computer-Assisted Proof of Sendov’s Conjecture",
+    "summary": "次数至少为 $2$ 的复多项式，若全部零点位于闭单位圆盘，则每个零点距某个导数零点不超过 $1$。",
+    "authors": "Lech Mazur；GPT-5.6 Pro",
+    "date": "2026-08-05",
+    "discipline": "复分析",
+    "sources": [
+      {
+        "label": "研究原文",
+        "url": "https://www.proofatlas.ai/formalizations/sendov-conjecture/"
+      },
+      {
+        "label": "Terence Tao 的证明整理",
+        "url": "https://terrytao.wordpress.com/2026/08/12/a-digestion-of-the-proof-of-sendovs-conjecture/"
+      }
+    ],
+    "contribution": "模型参与证明；后续独立形式化",
+    "scope": "ProofAtlas 在 9 月 19 日将数学目标标为已解决，但 8 月 5 日 Lean 文件仍待平台审查，编译记录，以及形式化命题与论文的对应关系，尚未核对清楚。8 月 2 日的候选稿只提供了最后一步的有理数计算结果，应与后续版本区分。",
+    "attribution": "",
+    "lean": [
+      {
+        "label": "ProofAtlas 形式化记录",
+        "url": "https://www.proofatlas.ai/proofs/artifact.sendov.conjecture.lean-package.v001.html",
+        "note": "定理名称为 Sendov.sendov_conjecture；平台尚未完成审查。",
+        "state": "reported"
+      },
+      {
+        "label": "Tao 主持的另一份 Lean 项目",
+        "url": "https://github.com/teorth/sendov/blob/1ddea92d89f951a0a7cbbffa6c267cf7e6640b1d/README.md",
+        "note": "同时处理 Sendov 与 Phelps–Rodriguez 定理，主要由 Claude Opus 5 编写；继承 Mazur 的数学证明，README 注明尚无外部独立审阅。",
+        "state": "code"
+      }
+    ],
+    "url": "entries/C14.html",
+    "state": "mixed"
+  }
+]

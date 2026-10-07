@@ -1,0 +1,273 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>说明 · 数学研究文献</title><link rel="stylesheet" href="assets/style.css"><link rel="stylesheet" href="assets/katex.min.css"></head><body ><header class="topbar"><a href="index.html">OpenAI 数学研究</a><nav><a href="index.html">研究目录</a><a href="appendices.html">附录</a><a href="sources.html">说明</a><a href="OpenAI 数学研究成果（第一批）.pdf">PDF</a></nav></header><main><div class="breadcrumb"><a href="index.html">研究目录</a></div><header class="page-heading"><p class="kicker">整理日期 · 2026-10-08</p><h1>说明</h1></header><article class="article"><section><h2>收录范围</h2><p>主页收录 OpenAI 于 2026 年 10 月 6 日公布的 722 篇数学论文，沿用原目录的 372 组分类。附录收录其他机构及个人的相关研究，并注明模型和人类作者的贡献。资料截至 2026 年 10 月 8 日。</p><p>372 组说明取自 overview.tex，722 篇论文摘要取自 CONTENTS.md，均按原文逐句翻译，保留英文对照；附录为所引文献的中文提要。</p></section><section><h2>Lean 标记</h2><table class="scope-table"><tr><th>标记</th><th>含义</th></tr><tr><td>Lean 代码已公开</td><td>已有公开证明代码；具体证明了哪些结论，见各项说明。</td></tr><tr><td>Lean 证明有附加假设</td><td>形式化证明采用了额外假设，或引用了尚未形式化的结论。</td></tr><tr><td>形式化情况见作者说明</td><td>作者报告了形式化进展，此处未找到相应的公开证明代码。</td></tr><tr><td>多份形式化材料</td><td>有不同版本的证明或进展记录，完成情况与所用假设分别列出。</td></tr><tr><td>未见公开 Lean 代码</td><td>所引来源中未找到 Lean 证明代码。</td></tr></table></section><section id="october"><h2>OpenAI 官方说明</h2><p>OpenAI 在官方介绍中说明，论文、修订和引用信息将保存在 GitHub，并计划继续补充 Lean 证明、改进论述和参考文献。OpenAI 还将资助数学界理解这些结果的活动，并准备发布用于这批研究的模型。</p><blockquote class="quote"><p class="english">The average result used the equivalent compute of roughly three hours of ChatGPT Pro thinking.</p><p>每项结果平均所用的计算量，约相当于 ChatGPT Pro 思考三小时。</p><p class="small"><a href="https://openai.com/index/sharing-ai-progress-in-mathematics/" target="_blank" rel="noopener">OpenAI 官方介绍</a></p></blockquote><h3>研究背景</h3><p>这些论文及证明材料由 OpenAI 的内部模型生成。OpenAI 在开发模型时，用尚未解决的研究问题评估其能力；现有数学测试逐渐难以区分模型表现后，又扩大了评估范围。部分结果依赖模型先前得到的结论。</p><h3>Lean 证明</h3><p>各项结果的检查进度不同，部分结果尚无 Lean 证明。OpenAI 表示会继续更新形式化材料，发现问题后尽快修正，并在考虑由数学界维护这些资料的仓库。</p><h3>资料内容</h3><p>722 篇论文分为 372 组，每组可能包含主结果、辅助论证、推论或不同证明。总览介绍各组结果，论文目录链接到具体论文；preprints 目录提供 PDF、源文件、引用格式和编译说明。Lean 目录提供证明代码、对应论文及 Comparator 检查配置。</p><h3>思维链摘要</h3><p>仓库公开了十份删节后的模型思维链摘要，对应 007、017、087、102、159、197、221、271、287 和 362 组。各组页面附有原文件链接。</p><h3>研究方法</h3><p>绝大多数结果由同一个尚未发布的 OpenAI 内部模型，按同一流程得到。每项结果平均所用的计算量，约相当于该模型在 ChatGPT Pro 中思考三小时。模型在评估中收到约 4,000 个问题；输出经整理、合并和筛选后，形成这份目录。</p><h3>例外情况</h3><p>Riemann ζ 函数无零点区域和 CM 阿贝尔簇 Hodge 猜想的研究，没有完全采用上述流程。其中，实部大于 11/12 的 ζ 函数无零点区域论文经过人工编辑，以改善可读性。</p><h3>修订与引用</h3><p>OpenAI 表示会保留所有公开版本，后续修正将作为新版本发布。引用具体论文时，应使用其目录中的 BibTeX 信息。</p><details><summary>仓库 README 原文</summary><pre># Readme
+
+This repository contains mathematical manuscripts and supporting proof artifacts produced by an internal OpenAI model. 
+
+As part of model development, we evaluate our models on open research problems. We expanded these evaluations after performance on our existing mathematical evaluations saturated. Some outputs build upon earlier results produced by the models.
+
+This collection includes results at different stages of verification. Not all have accompanying Lean formalizations. We will continue to update this repository with Lean formalizations as we obtain them. 
+
+Some of the unformalized results could have issues. We will endeavor to fix any such issues quickly.
+We are also exploring community-hosted repositories for these materials. 
+
+## Navigating the collection
+
+The current catalogue contains 722 manuscripts organized into 372 families. A family groups related papers, which may include a principal result, companion arguments, consequences, or alternative proofs. Each family is classified by mathematical discipline.
+
+- Start with the [overview](overview.pdf) for descriptions of the families.
+- Use the [manuscript map](CONTENTS.md) to find individual papers and their supporting materials.
+- The [`preprints/`](preprints/) directory contains PDFs, source files, and manuscript-specific citation and build instructions.
+- The [Lean library](lean/README.md) and [formalization catalogue](lean/formalization.yaml) describe the available formal proofs, their associated papers, and verification configurations. See the [Comparator instructions](lean/ComparatorChallenges/README.md) for additional checking instructions. Many, but not all, of the manuscripts have been formalized.
+
+### Reasoning summaries
+
+We are also releasing abridged summaries of the model&#x27;s reasoning, covering the following results:
+
+| Family | Subject |
+|---|---|
+| 007 | [Ordinary two-point correlations of multiplicative functions](reasoning_traces/ordinary-two-point-correlations.pdf) |
+| 017 | [The irrationality exponent of π](reasoning_traces/irrationality-exponent-of-pi.pdf) |
+| 087 | [Symmetric and general Mahler conjectures](reasoning_traces/symmetric-and-general-mahler-conjectures.pdf) |
+| 102 | [Ordinary NP-hardness at the basic semidefinite threshold](reasoning_traces/basic-semidefinite-threshold-np-hardness.pdf) |
+| 159 | [Quasipolynomial bounds for arithmetic progressions](reasoning_traces/quasipolynomial-arithmetic-progressions.pdf) |
+| 197 | [Kaplansky&#x27;s direct-finiteness conjecture in characteristic two](reasoning_traces/kaplansky-direct-finiteness-characteristic-two.pdf) |
+| 221 | [The Mézard–Parisi formula for diluted spin glasses](reasoning_traces/mezard-parisi-formula.pdf) |
+| 271 | [Spontaneous magnetization in the quantum Heisenberg ferromagnet](reasoning_traces/spontaneous-magnetization-quantum-heisenberg-ferromagnet.pdf) |
+| 287 | [Isomorphism of free group factors](reasoning_traces/free-group-factor-isomorphism.pdf) |
+| 362 | [The three-dimensional relativistic Vlasov–Maxwell system](reasoning_traces/relativistic-vlasov-maxwell.pdf) |
+
+
+## How the results were produced
+
+The vast majority of results were obtained with the same procedure using an unreleased internal OpenAI model. On average, each result used three hours of ChatGPT Pro thinking compute with that model. Over the course of the evaluation, the model was posed approximately 4,000 problems. Aggregating the output into result families and manuscripts and requiring an appropriate level of significance led to the catalog outlined above.
+
+Exceptions to this fixed procedure include work on a zero-free region for the Riemann zeta function and proof of the Hodge Conjecture for CM abelian varieties. Additionally, the writeup for the Re(s) &gt; 11/12 zero-free region for the Riemann zeta function was human edited for readability. 
+
+
+## Versions and citations
+
+We will preserve the public release history of this collection. Corrections and revisions will be recorded as new versions, with previously released versions remaining accessible. 
+
+To cite the individual manuscript, use the BibTeX block in its directory. 
+</pre></details><h3>AGMAI 声明</h3><p>AGMAI 在 10 月 6 日的声明中说明：担任顾问并不表示认可 OpenAI 的研究过程，也不代表对这些结果的影响作出判断。结果的评价应由数学界完成。此次公开只是理解和消化这些工作的起点；数学家仍应自由选择问题、发展方法和探索方向。</p><div class="source-links"><a href="https://agmai.org/" target="_blank" rel="noopener">2026 年 10 月 6 日声明</a><a href="https://agmai.org/general-sep29/" target="_blank" rel="noopener">2026 年 9 月 29 日建议</a></div></section><section><h2>资料版本</h2><p><code>adc7f1241b42e322a6451854ab7e4b4c146bf78a</code></p><p class="small">235 组结果附有 Lean 代码和证明范围说明。另据形式化清单，已登记 162 篇论文中的 185 个主结果。</p><ol><li><a href="https://openai.com/index/sharing-ai-progress-in-mathematics/" target="_blank" rel="noopener">OpenAI：官方介绍</a></li><li><a href="https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/README.md" target="_blank" rel="noopener">OpenAI：仓库说明</a></li><li><a href="https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/CONTENTS.md" target="_blank" rel="noopener">OpenAI：论文目录</a></li><li><a href="https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/overview.tex" target="_blank" rel="noopener">OpenAI：结果总览</a></li><li><a href="https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/formalization.yaml" target="_blank" rel="noopener">OpenAI：形式化清单</a></li><li><a href="https://agmai.org/" target="_blank" rel="noopener">AGMAI：关于此次发布的声明</a></li><li><a href="https://agmai.org/general-sep29/" target="_blank" rel="noopener">AGMAI：发布 AI 数学成果的建议</a></li><li><a href="https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/README.md" target="_blank" rel="noopener">OpenAI：Comparator 检查说明</a></li><li><a href="https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/LICENSE" target="_blank" rel="noopener">OpenAI：许可文件</a></li></ol><p class="small">原目录未使用编号 045、061、070、123、163，本汇编沿用原编号。</p></section><section><h2>附录代码版本</h2><table class="scope-table"><tr><th>代码仓库</th><th>版本编号</th></tr><tr><td><a href="https://github.com/openai/ten-proofs" target="_blank" rel="noopener">openai/ten-proofs</a></td><td><code>94bc0feb6a9ff12c7d31d6de640a725c9d43d2b6</code></td></tr><tr><td><a href="https://github.com/plby/Erdos90" target="_blank" rel="noopener">plby/Erdos90</a></td><td><code>2062b0e6c9770c81e397bfe41148e90b92ca0567</code></td></tr><tr><td><a href="https://github.com/openai/NavierStokesAndEuler" target="_blank" rel="noopener">openai/NavierStokesAndEuler</a></td><td><code>f9e8bc5b38b6e212696e8a30e3e91517af887bbd</code></td></tr><tr><td><a href="https://github.com/openai/PrimeGaps186" target="_blank" rel="noopener">openai/PrimeGaps186</a></td><td><code>61340d0b74163003b32756bb16e91d9209a5e330</code></td></tr><tr><td><a href="https://github.com/openai/LongGapsBetweenPrimes" target="_blank" rel="noopener">openai/LongGapsBetweenPrimes</a></td><td><code>03a1190d0bc5502d9f54eeb60ad3e45e22b0df0b</code></td></tr><tr><td><a href="https://github.com/tristanbuckmaster/fluid_lean" target="_blank" rel="noopener">tristanbuckmaster/fluid_lean</a></td><td><code>d0124689230b58b4f86e7b90ac59de06404b3b6b</code></td></tr><tr><td><a href="https://github.com/plby/HopfProblem" target="_blank" rel="noopener">plby/HopfProblem</a></td><td><code>9ac8a456b526527837d7082ff775213ca8bc9809</code></td></tr><tr><td><a href="https://github.com/mo271/Zeta5" target="_blank" rel="noopener">mo271/Zeta5</a></td><td><code>7fe736760f4b96bfdb4334b68e3b3124ecbe10b0</code></td></tr><tr><td><a href="https://github.com/domino14/zeta5" target="_blank" rel="noopener">domino14/zeta5</a></td><td><code>3da8eb1b91f9a90a1c0b7959e845c060dbd16256</code></td></tr><tr><td><a href="https://github.com/danromik/zeta5-irrationality" target="_blank" rel="noopener">danromik/zeta5-irrationality</a></td><td><code>fc2fefa77076e22e7e80b4c101ded5a98d53e14d</code></td></tr><tr><td><a href="https://github.com/anthropics/formal-math" target="_blank" rel="noopener">anthropics/formal-math</a></td><td><code>e1a4e6508154ea59f030480661590a9fe3018011</code></td></tr><tr><td><a href="https://github.com/anthropics/fermats-last-theorem" target="_blank" rel="noopener">anthropics/fermats-last-theorem</a></td><td><code>6e837e75355538c7f80bab5b956861e86c4eacc2</code></td></tr><tr><td><a href="https://github.com/Arthur742Ramos/jacobian-conjecture-lean" target="_blank" rel="noopener">Arthur742Ramos/jacobian-conjecture-lean</a></td><td><code>8db55ea3ffa8ba90094d6ef78ee3351ddfce01ca</code></td></tr><tr><td><a href="https://github.com/alerad/alpoge-lean" target="_blank" rel="noopener">alerad/alpoge-lean</a></td><td><code>b8eec94711a9b73151929b78cbd7cb999a008590</code></td></tr><tr><td><a href="https://github.com/leanprover-community/mathlib4" target="_blank" rel="noopener">leanprover-community/mathlib4</a></td><td><code>e6bbacd0e1b7307ff6e17da09cd2455f60804fa6</code></td></tr><tr><td><a href="https://github.com/thegreatseo/multivar-indep-formalize" target="_blank" rel="noopener">thegreatseo/multivar-indep-formalize</a></td><td><code>dd53359a6350cdf748976afd2978178cc8de3245</code></td></tr><tr><td><a href="https://github.com/dualverse-ai/station_data_v2" target="_blank" rel="noopener">dualverse-ai/station_data_v2</a></td><td><code>a4ae9192fa75b7ffc6909ed018a712510062378b</code></td></tr><tr><td><a href="https://github.com/teorth/sendov" target="_blank" rel="noopener">teorth/sendov</a></td><td><code>1ddea92d89f951a0a7cbbffa6c267cf7e6640b1d</code></td></tr></table></section><section><h2>版权与许可</h2><p>各组页面保留 OpenAI 首发资料中的完整英文说明和论文摘要。附录提供原文摘录；获开放许可的材料保留较完整的原文。全文见各项论文链接。中文译文及附录提要由编者整理。</p><details><summary>OpenAI math · Apache License 2.0</summary><pre>                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      &quot;License&quot; shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+      &quot;Licensor&quot; shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+      &quot;Legal Entity&quot; shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      &quot;control&quot; means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
+
+      &quot;You&quot; (or &quot;Your&quot;) shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+      &quot;Source&quot; form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+      &quot;Object&quot; form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.
+
+      &quot;Work&quot; shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).
+
+      &quot;Derivative Works&quot; shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other modifications
+      represent, as a whole, an original work of authorship. For the purposes
+      of this License, Derivative Works shall not include works that remain
+      separable from, or merely link (or bind by name) to the interfaces of,
+      the Work and Derivative Works thereof.
+
+      &quot;Contribution&quot; shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright owner
+      or by an individual or Legal Entity authorized to submit on behalf of
+      the copyright owner. For the purposes of this definition, &quot;submitted&quot;
+      means any form of electronic, verbal, or written communication sent
+      to the Licensor or its representatives, including but not limited to
+      communication on electronic mailing lists, source code control systems,
+      and issue tracking systems that are managed by, or on behalf of, the
+      Licensor for the purpose of discussing and improving the Work, but
+      excluding communication that is conspicuously marked or otherwise
+      designated in writing by the copyright owner as &quot;Not a Contribution.&quot;
+
+      &quot;Contributor&quot; shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.
+
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross-claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate
+      as of the date such litigation is filed.
+
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:
+
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and
+
+      (b) You must cause any modified files to carry prominent notices
+          stating that You changed the files; and
+
+      (c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works; and
+
+      (d) If the Work includes a &quot;NOTICE&quot; text file as part of its
+          distribution, then any Derivative Works that You distribute must
+          include a readable copy of the attribution notices contained
+          within such NOTICE file, excluding those notices that do not
+          pertain to any part of the Derivative Works, in at least one
+          of the following places: within a NOTICE text file distributed
+          as part of the Derivative Works; within the Source form or
+          documentation, if provided along with the Derivative Works; or,
+          within a display generated by the Derivative Works, if and
+          wherever such third-party notices normally appear. The contents
+          of the NOTICE file are for informational purposes only and
+          do not modify the License. You may add Your own attribution
+          notices within Derivative Works that You distribute, alongside
+          or as an addendum to the NOTICE text from the Work, provided
+          that such additional attribution notices cannot be construed
+          as modifying the License.
+
+      You may add Your own copyright statement to Your modifications and
+      may provide additional or different license terms and conditions
+      for use, reproduction, or distribution of Your modifications, or
+      for any such Derivative Works as a whole, provided Your use,
+      reproduction, and distribution of the Work otherwise complies with
+      the conditions stated in this License.
+
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement you may have executed
+      with Licensor regarding such Contributions.
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing the
+      origin of the Work and reproducing the content of the NOTICE file.
+
+   7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an &quot;AS IS&quot; BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this License.
+
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.
+
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of your accepting any such warranty or additional liability.
+
+   END OF TERMS AND CONDITIONS
+
+   APPENDIX: How to apply the Apache License to your work.
+
+      To apply the Apache License to your work, attach the following
+      boilerplate notice, with the fields enclosed by brackets &quot;[]&quot;
+      replaced with your own identifying information. (Don&#x27;t include
+      the brackets!)  The text should be enclosed in the appropriate
+      comment syntax for the file format. We also recommend that a
+      file or class name and description of purpose be included on the
+      same &quot;printed page&quot; as the copyright notice for easier
+      identification within third-party archives.
+
+   Copyright [yyyy] [name of copyright owner]
+
+   Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an &quot;AS IS&quot; BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+</pre></details><details><summary>KaTeX · MIT License</summary><pre>The MIT License (MIT)
+
+Copyright (c) 2013-2020 Khan Academy and other contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the &quot;Software&quot;), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+</pre></details></section></article><footer class="footer"><span>2026 年 10 月 8 日整理</span><span><a href="sources.html">说明</a> · <a href="index.html">研究目录</a></span></footer></main><script src="assets/katex.min.js"></script><script src="assets/site.js"></script></body></html>
