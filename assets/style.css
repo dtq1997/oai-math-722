@@ -7,9 +7,9 @@
 .matrix-dots{gap:12px;padding:5px 6px 4px;align-items:center}
 .dot{position:relative;display:inline-flex;align-items:center;justify-content:center;flex:0 0 22px;width:22px;height:22px;text-decoration:none;font:600 11px/1 ui-monospace,SFMono-Regular,Menlo,monospace;color:#fff}
 .dot.unlisted{color:#35443a}.dot.code:hover{color:white}.dot.unlisted:hover{color:#192f22}
-.dot.has-reasoning::after{content:"";position:absolute;inset:-6px;border:1.5px solid #94602c;border-radius:50%;pointer-events:none}
+.dot.has-reasoning{border:2px solid #254e76;box-shadow:inset 0 0 0 1px #faf9f5}.dot.is-favorite::after{content:"";position:absolute;inset:-6px;border:2px solid #a86e0d;border-radius:50%;pointer-events:none}
 .dot:hover,.dot.preview-active{outline:2px solid #243d30;outline-offset:1px;z-index:1}
-.legend .reasoning-key{width:12px;height:12px;border:1.5px solid #94602c;border-radius:50%;vertical-align:-2px;background:transparent}
+.legend .reasoning-key{width:14px;height:14px;border:2px solid #254e76;vertical-align:-3px;background:#d7ddd3}.legend .favorite-key{width:17px;height:17px;border:2px solid #a86e0d;border-radius:50%;vertical-align:-4px;background:transparent}
 .result-preview{position:fixed;z-index:20;width:min(400px,calc(100vw - 24px));max-height:calc(100vh - 24px);overflow:auto;overscroll-behavior:contain;padding:19px 21px 16px;background:#fffefa;border:1px solid #b8c6ba;box-shadow:0 12px 40px #20332b24;color:var(--ink);line-height:1.6}
 .result-preview.with-reasoning{border-top:3px solid #94602c;padding-top:17px}
 .preview-header{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:7px}

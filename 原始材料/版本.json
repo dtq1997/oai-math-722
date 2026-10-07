@@ -484,6 +484,13 @@
     "123",
     "163"
   ],
+  "bibliography": {
+    "main_papers": 722,
+    "main_entries": 17267,
+    "appendix_studies": 48,
+    "appendix_lists": 62,
+    "appendix_entries": 2409
+  },
   "original_repository": "https://github.com/openai/math",
   "release_article": "https://openai.com/zh-Hans-CN/index/sharing-ai-progress-in-mathematics/",
   "lean_status": "各条标注公开代码、具体假设及证明范围。",
@@ -734,8 +741,9 @@
     "formalization.yaml": "2dcbd0d6e6a22475f53d49bfdfcac9b6d2b470653c332a9f56522f5be166edb9",
     "overview.pdf": "267e1b7c860b638301690ffa8b7818b3f940419ce2d7337158182f69f20d64ac",
     "overview.tex": "98533a7bc976f44970153f036320932655d07488382e858c25bb6c9e1e029789",
+    "论文参考文献.json": "fc3ea3bdd0c6a2d658c5b0cb714a2a18470f2a115bdf3803c794c2a44490c1b1",
     "论文标题中英对照.json": "29a83f940ba429fd0cfe69c109dbe7c2308f10d659c79a47adf1821c124172f2",
     "逐句中英对照.json": "14ccd85613c4e0628be5d096b842087ece599e149b0d7589a8367da342c103a7",
-    "附录文献.json": "c43c154687375f84b75106db033676daa0810af4169ef5479433ca4a1264d861"
+    "附录文献.json": "0ff8d1cd48d83edc83750860d643987f4891087b0e784750da433aecce777387"
   }
 }

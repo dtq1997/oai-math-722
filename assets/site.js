@@ -3,7 +3,7 @@ function renderMath(root=document){root.querySelectorAll('.math:not([data-render
 renderMath();
 document.querySelectorAll('.theme-toggle').forEach(button=>{
  const updateLabel=()=>{const dark=document.documentElement.dataset.theme==='dark';button.textContent=dark?'浅色':'深色';button.setAttribute('aria-label','切换到'+(dark?'浅色':'深色')+'外观')};
- button.onclick=()=>{const theme=document.documentElement.dataset.theme==='dark'?'light':'dark';document.documentElement.dataset.theme=theme;try{localStorage.setItem('math-library-theme-v1',theme)}catch(e){}updateLabel()};
+ button.onclick=()=>{const theme=document.documentElement.dataset.theme==='dark'?'light':'dark';document.documentElement.dataset.theme=theme;try{localStorage.setItem('math-library-theme-v2',theme)}catch(e){}updateLabel()};
  updateLabel();
 });
 const cards=[...document.querySelectorAll('.entry-card')];
@@ -19,7 +19,8 @@ if(q&&cards.length){
  matched=cards.filter(c=>words.every(w=>/^#?\d{3}$/.test(w)?c.dataset.id===w.replace('#',''):text.get(c).includes(w))&&(!d||c.dataset.discipline===d)&&(!l||c.dataset.lean===l)&&(!(favoriteOnly.checked||document.body.dataset.favoritesPage)||window.mathLibrary?.has(c.dataset.id)));
  const pages=Math.max(1,Math.ceil(matched.length/size));page=Math.min(page,pages-1);cards.forEach(c=>c.hidden=true);matched.slice(page*size,(page+1)*size).forEach(c=>c.hidden=false);
  const results=matched.filter(c=>!c.dataset.placeholder),gaps=matched.length-results.length;
- document.querySelectorAll('.library-branch').forEach(el=>el.setAttribute('aria-pressed',String(el.dataset.pickDiscipline===d)));
+ document.querySelectorAll('.library-branch[data-pick-discipline]').forEach(el=>el.setAttribute('aria-pressed',String(el.dataset.pickDiscipline===d)));
+ try{const url=new URL(location.href);if(d)url.searchParams.set('discipline',d);else url.searchParams.delete('discipline');if(url.href!==location.href)history.replaceState(null,'',url.href)}catch(e){}
  document.getElementById('result-count').textContent=!results.length&&gaps?gaps+' 个空缺编号':results.length+' '+(document.body.dataset.unit||'项')+(document.body.dataset.papers?' · '+results.reduce((s,c)=>s+Number(c.dataset.papers||0),0)+' 篇论文':'');
  document.querySelectorAll('[data-page-label]').forEach(el=>el.textContent=(page+1)+' / '+pages);document.querySelectorAll('[data-page-direction]').forEach(el=>el.disabled=Number(el.dataset.pageDirection)<0?page===0:page===pages-1);document.getElementById('paging-bottom').hidden=pages===1;document.getElementById('empty').hidden=matched.length>0;};
  [q,df,lf,favoriteOnly].filter(Boolean).forEach(el=>el.addEventListener(el===q?'input':'change',()=>update()));window.addEventListener('favoriteschange',()=>update());document.getElementById('clear').onclick=()=>{q.value='';if(df)df.value='';if(lf)lf.value='';favoriteOnly.checked=false;update()};
@@ -31,7 +32,7 @@ const homeQuery=document.getElementById('home-query');
 if(homeQuery){
  const result=document.getElementById('home-results'),sections=document.getElementById('home-collections'),counter=document.getElementById('home-count');let shown=40;
  function homeSearch(){const term=homeQuery.value.trim().toLocaleLowerCase();result.replaceChildren();sections.hidden=!!term;counter.hidden=!term;document.getElementById('more-search').hidden=true;if(!term)return;const words=term.split(/\s+/);const found=window.searchData.filter(x=>(!document.body.dataset.appendices||!/^\d{3}$/.test(x.id))&&words.every(w=>(x.title+' '+x.search).toLocaleLowerCase().includes(w)));counter.textContent=found.length+' 项研究';
- for(const x of found.slice(0,shown)){const a=document.createElement('a');a.className='result-link';a.href=x.url;const meta=document.createElement('span');meta.className='meta';meta.textContent=x.group+' · '+x.id;const h=document.createElement('h3');h.innerHTML=x.title_html;const p=document.createElement('p');p.innerHTML=x.summary_html;a.append(meta,h,p);result.append(a)}renderMath(result);document.getElementById('more-search').hidden=found.length<=shown;
+ for(const x of found.slice(0,shown)){const a=document.createElement('a');a.className='result-link';a.href=x.url;const meta=document.createElement('span');meta.className='meta';meta.textContent=x.group+' · '+x.id;if(x.reasoning){a.classList.add('has-reasoning');const badge=document.createElement('span');badge.className='reasoning-badge';badge.textContent='思维链摘要';meta.append(badge)}const h=document.createElement('h3');h.innerHTML=x.title_html;const p=document.createElement('p');p.innerHTML=x.summary_html;a.append(meta,h,p);result.append(a)}renderMath(result);document.getElementById('more-search').hidden=found.length<=shown;
  }
  homeQuery.addEventListener('input',()=>{shown=40;homeSearch()});document.getElementById('more-search').onclick=()=>{shown+=40;homeSearch()};
  document.querySelectorAll('[data-filter-group]').forEach(el=>el.onclick=()=>{document.querySelectorAll('[data-filter-group]').forEach(b=>b.setAttribute('aria-pressed',b===el?'true':'false'));document.querySelectorAll('.collection-row').forEach(row=>row.hidden=!!el.dataset.filterGroup&&row.dataset.group!==el.dataset.filterGroup)});
