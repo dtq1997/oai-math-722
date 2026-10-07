@@ -1,0 +1,61 @@
+Li2Rational
+Copyright 2026 Si-Qi Liu
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+This project is derived from Li2NegHalf (version of 2026-09-27), a Lean 4 proof
+of the irrationality of Li₂(−1/2) by Qian Tang (GitHub: dtq1997), licensed under
+the Apache License 2.0. Every file derived from Li2NegHalf or from the projects
+listed below starts with a header naming its source and stating whether it was
+modified. Files without such a header are original to this project.
+
+Mathematical sources
+  A. Fauzan, ζ(5) is irrational, preprint, Zenodo (2026),
+    doi:10.5281/zenodo.22826419.
+  Persiflage, zeta(5) is irrational, blog post (2026-09-24),
+    https://galoisrepresentations.org/2026/09/24/zeta5-is-irrational/
+  Qian Tang, A Characterization of Umbral Calculus Inspired by Fractional Sums,
+    arXiv:2103.09117 (2021).
+
+Related work (ideas only; no code from these projects is included)
+  domino14/zeta5, by César Del Solar: https://github.com/domino14/zeta5
+  dtq1997/li2-half-irrationality, by Qian Tang: reflective integer checking of
+    certificates. https://github.com/dtq1997/li2-half-irrationality
+
+The Lean code was written with the assistance of AI systems (OpenAI GPT-6-Astra,
+Anthropic Claude Opus 5.5).
+
+This project includes code adapted from the following projects, all licensed
+under the Apache License 2.0.
+
+mo271/Zeta5 (irrationality of ζ(5)), by Moritz Firsching
+  https://github.com/mo271/Zeta5, commit f19a1960609f7d38e7b63fd2acb05e6f60a7b741
+  lean/Li2/: Andreief, AndreiefIntegrable, ArcsineLogIntegral, ArcsineLogReal,
+    CircleLogTools, CirclePairLog, ClassBasis, Criterion, Gram,
+    IntegralPolynomials, NumeratorFunctional, PrimeObstruction,
+    PrimeWeightedAbel, SimplePoles, Valuation
+  lean/Li2/Third/: CircleEnergyPairs, GeneralAndreief
+  lean/Li2Unified/ParameterFamily/Energy/: EnergyLimit, Gaussian, Kernel,
+    WeightedEnergyLimit, WeightedGaussian, WeightedZeroMass, ZeroMass
+
+Prime Number Theorem and More, organised by Alex Kontorovich and Terence Tao
+  https://github.com/AlexKontorovich/PrimeNumberTheoremAnd,
+  commit d7f9e2bfdcc7e34dfb9328b7494a6d424ff50c96
+  lean/Li2/: DecayPNTConsequences, DecayPNTFourier, DecayPNTSmooth,
+    DecayPNTSobolev, DecayPNTWiener1, DecayPNTWiener2a, DecayPNTWiener2b,
+    DecayPNTWiener3, DecayPNTWiener4a, DecayPNTWiener4b, DecayPNTWiener5a,
+    DecayPNTWiener5b, DecayPNTWiener6a, DecayPNTWiener6b, DecayPNTWiener6c
+
+Residue theorem for rectangular contours, by Jeremy Tan
+  Mathlib draft pull request #39232,
+  https://github.com/leanprover-community/mathlib4/pull/39232,
+  commit cad38f70f5a649a40dbb3b334055a8e9aff69af5
+  lean/Li2/RectangleResidue
+
+Irrationality of π, by Bhavik Mehta
+  Mathlib, Mathlib/Analysis/Real/Pi/Irrational.lean,
+  https://github.com/leanprover-community/mathlib4
+  lean/Li2Rational/PiSquared
+
+The project depends on Mathlib (https://github.com/leanprover-community/mathlib4),
+pinned in lean/lake-manifest.json.

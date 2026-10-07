@@ -1,6 +1,14 @@
 window.mathErrors=[];
 function renderMath(root=document){root.querySelectorAll('.math:not([data-rendered])').forEach(el=>{try{katex.render(el.dataset.tex,el,{throwOnError:true,strict:false,output:'htmlAndMathml'});el.dataset.rendered='1'}catch(e){el.classList.add('math-error');window.mathErrors.push(el.dataset.tex+': '+e.message)}})}
 renderMath();
+function revealFragment(){
+ let id;try{id=decodeURIComponent(location.hash.slice(1))}catch(e){return}
+ const target=id&&document.getElementById(id);if(!target)return;
+ for(let parent=target.parentElement;parent;parent=parent.parentElement){if(parent.tagName==='DETAILS')parent.open=true}
+ requestAnimationFrame(()=>target.scrollIntoView({block:'center'}));
+}
+revealFragment();
+window.addEventListener('hashchange',revealFragment);
 document.querySelectorAll('.theme-toggle').forEach(button=>{
  const updateLabel=()=>{const dark=document.documentElement.dataset.theme==='dark';button.textContent=dark?'浅色':'深色';button.setAttribute('aria-label','切换到'+(dark?'浅色':'深色')+'外观')};
  button.onclick=()=>{const theme=document.documentElement.dataset.theme==='dark'?'light':'dark';document.documentElement.dataset.theme=theme;try{localStorage.setItem('math-library-theme-v2',theme)}catch(e){}updateLabel()};

@@ -1877,5 +1877,135 @@
     "url": "entries/C14.html",
     "state": "mixed",
     "reasoning": null
+  },
+  {
+    "id": "Z03",
+    "title": "$1,\\zeta(2),\\zeta(3)$ 的有理线性无关性",
+    "title_en": "Linear independence of 1, ζ(2), ζ(3) over ℚ",
+    "summary": "证明了 $1,\\zeta(2),\\zeta(3)$ 在 $\\mathbb Q$ 上线性无关：若 $a,b,c\\in\\mathbb Q$ 满足 $a+b\\zeta(2)+c\\zeta(3)=0$，则 $a=b=c=0$。",
+    "authors": "唐乾（Qian Tang）",
+    "date": "2026-09-30",
+    "contribution": "Claude Opus 5.5、GPT-6-Astra 辅助完成",
+    "scope": "采用 Fauzan 的方法；项目致谢刘思齐提供的讨论与代码。",
+    "collection": "zeta",
+    "discipline": "数论",
+    "attribution": "",
+    "sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/dtq1997/zeta2-zeta3-linear-independence"
+      },
+      {
+        "label": "中文说明",
+        "url": "https://github.com/dtq1997/zeta2-zeta3-linear-independence/blob/669c92bf7a3728e0de9ad80c373bc29fb5ca3d58/README.zh-CN.md"
+      },
+      {
+        "label": "命题陈述",
+        "url": "https://github.com/dtq1997/zeta2-zeta3-linear-independence/blob/669c92bf7a3728e0de9ad80c373bc29fb5ca3d58/Challenge.lean"
+      },
+      {
+        "label": "检查配置",
+        "url": "https://github.com/dtq1997/zeta2-zeta3-linear-independence/blob/669c92bf7a3728e0de9ad80c373bc29fb5ca3d58/comparator.json"
+      }
+    ],
+    "lean": [
+      {
+        "label": "Solution.lean",
+        "url": "https://github.com/dtq1997/zeta2-zeta3-linear-independence/blob/669c92bf7a3728e0de9ad80c373bc29fb5ca3d58/Solution.lean",
+        "note": "主定理为 one_zeta_two_zeta_three_linearIndependent；另有直接用实数级数表述的版本。作者报告两条定理仅依赖 Lean 的三条标准公理，并给出了 Comparator 与内核检查的复现方法。",
+        "state": "code"
+      }
+    ],
+    "url": "entries/Z03.html",
+    "state": "code",
+    "reasoning": null
+  },
+  {
+    "id": "Z04",
+    "title": "$\\mathrm{Li}_2(1/2)$ 的无理性",
+    "title_en": "Irrationality of Li₂(½)",
+    "summary": "证明了二重对数值 $\\mathrm{Li}_2(1/2)=\\sum_{n=1}^{\\infty}1/(2^n n^2)$ 是无理数，并给出了 Lean 4 证明。",
+    "authors": "唐乾（Qian Tang）",
+    "date": "2026-09-28",
+    "contribution": "Codex、Claude 辅助形式化",
+    "scope": "项目致谢刘思齐提出问题并参与讨论；刘思齐的 Li2Rational 项目将此方法推广到更多有理点。",
+    "collection": "zeta",
+    "discipline": "数论",
+    "attribution": "",
+    "sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/dtq1997/li2-half-irrationality"
+      },
+      {
+        "label": "项目说明",
+        "url": "https://github.com/dtq1997/li2-half-irrationality/blob/950ee9d53914e1afb89c8f835a8bca6ccfaa0108/README.md"
+      },
+      {
+        "label": "命题陈述",
+        "url": "https://github.com/dtq1997/li2-half-irrationality/blob/950ee9d53914e1afb89c8f835a8bca6ccfaa0108/Challenge.lean"
+      },
+      {
+        "label": "检查配置",
+        "url": "https://github.com/dtq1997/li2-half-irrationality/blob/950ee9d53914e1afb89c8f835a8bca6ccfaa0108/comparator.json"
+      },
+      {
+        "label": "代码来源与 AI 协作说明",
+        "url": "https://github.com/dtq1997/li2-half-irrationality/blob/950ee9d53914e1afb89c8f835a8bca6ccfaa0108/NOTICE"
+      }
+    ],
+    "lean": [
+      {
+        "label": "Li2Half.lean",
+        "url": "https://github.com/dtq1997/li2-half-irrationality/blob/950ee9d53914e1afb89c8f835a8bca6ccfaa0108/Li2Half.lean",
+        "note": "主定理为 li2_one_half_irrational。作者报告该定理仅依赖 Lean 的三条标准公理；仓库公开了 Comparator 配置及 Lean、nanoda 内核检查的复现方法。",
+        "state": "code"
+      }
+    ],
+    "url": "entries/Z04.html",
+    "state": "code",
+    "reasoning": null
+  },
+  {
+    "id": "Z05",
+    "title": "有理点处二重对数的无理性",
+    "title_en": "Irrationality of the dilogarithm at rational points",
+    "summary": "推广唐乾的二重对数方法，证明了 $\\mathrm{Li}_2(1/k)$（整数 $k\\ge2$）与 $\\mathrm{Li}_2(-1/k)$（整数 $k\\ge1$）的无理性，并给出了更一般有理点处的显式分母界。",
+    "authors": "刘思齐（Si-Qi Liu）",
+    "date": "2026-09-29",
+    "contribution": "GPT-6-Astra、Claude Opus 5.5 辅助完成",
+    "scope": "设 $p,q$ 为正整数。对 $p\\ge5$，若 $q\\ge0.1851p^{84/17}$，则 $\\mathrm{Li}_2(p/q)$ 是无理数；若 $q\\ge0.1851p^{84/17}+\\tfrac{27}{17}p$，则 $\\mathrm{Li}_2(-p/q)$ 是无理数。原文另列出了 $p=2,3,4$ 的界和部分分子的改进阈值；分数不要求既约。",
+    "collection": "zeta",
+    "discipline": "数论",
+    "attribution": "",
+    "sources": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/siqiliu-tsinghua/Li2Rational"
+      },
+      {
+        "label": "中文说明",
+        "url": "https://github.com/siqiliu-tsinghua/Li2Rational/blob/b2a61c46c157860b57faa163341fda725c629139/README.zh-CN.md"
+      },
+      {
+        "label": "命题陈述",
+        "url": "https://github.com/siqiliu-tsinghua/Li2Rational/blob/b2a61c46c157860b57faa163341fda725c629139/lean/Challenge.lean"
+      },
+      {
+        "label": "检查配置",
+        "url": "https://github.com/siqiliu-tsinghua/Li2Rational/blob/b2a61c46c157860b57faa163341fda725c629139/lean/comparator.json"
+      }
+    ],
+    "lean": [
+      {
+        "label": "RationalCheck.lean",
+        "url": "https://github.com/siqiliu-tsinghua/Li2Rational/blob/b2a61c46c157860b57faa163341fda725c629139/lean/RationalCheck.lean",
+        "note": "主定理为 Li2RationalAcceptance.originalStatement，合并了项目列出的全部结论。作者报告该定理仅依赖 Lean 的三条标准公理，并公开了 Comparator 与双内核检查的复现方法。",
+        "state": "code"
+      }
+    ],
+    "url": "entries/Z05.html",
+    "state": "code",
+    "reasoning": null
   }
 ]

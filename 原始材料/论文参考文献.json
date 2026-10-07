@@ -345692,6 +345692,271 @@
           }
         ]
       }
+    ],
+    "Z03": [
+      {
+        "id": "Z03-R1",
+        "title": "项目说明参考文献",
+        "url": "https://github.com/dtq1997/zeta2-zeta3-linear-independence/blob/669c92bf7a3728e0de9ad80c373bc29fb5ca3d58/README.md#references",
+        "references": [
+          {
+            "label": "1",
+            "text": "A. Fauzan, ζ(5) is irrational, preprint, Zenodo, 2026. doi:10.5281/zenodo.22826419",
+            "links": [
+              {
+                "url": "https://doi.org/10.5281/zenodo.22826419",
+                "label": "DOI"
+              }
+            ],
+            "lookup_url": "https://scholar.google.com/scholar?q=A.%20Fauzan%2C%20%CE%B6%285%29%20is%20irrational%2C%20preprint%2C%20Zenodo%2C%202026.%20doi%3A10.5281/zenodo.22826419",
+            "inline_links": [
+              {
+                "text": "doi:10.5281/zenodo.22826419",
+                "url": "https://doi.org/10.5281/zenodo.22826419"
+              }
+            ]
+          },
+          {
+            "label": "2",
+            "text": "M. Firsching, mo271/Zeta5: a Lean formalization of Fauzan's proof. https://github.com/mo271/Zeta5",
+            "links": [
+              {
+                "url": "https://github.com/mo271/Zeta5",
+                "label": "原文"
+              }
+            ],
+            "lookup_url": "https://scholar.google.com/scholar?q=M.%20Firsching%2C%20mo271/Zeta5%3A%20a%20Lean%20formalization%20of%20Fauzan%27s%20proof.%20https%3A//github.com/mo271/Zeta5",
+            "inline_links": []
+          },
+          {
+            "label": "3",
+            "text": "C. Del Solar, domino14/zeta5: a Lean formalization of Fauzan's proof. https://github.com/domino14/zeta5",
+            "links": [
+              {
+                "url": "https://github.com/domino14/zeta5",
+                "label": "原文"
+              }
+            ],
+            "lookup_url": "https://scholar.google.com/scholar?q=C.%20Del%20Solar%2C%20domino14/zeta5%3A%20a%20Lean%20formalization%20of%20Fauzan%27s%20proof.%20https%3A//github.com/domino14/zeta5",
+            "inline_links": []
+          },
+          {
+            "label": "4",
+            "text": "D. Romik, danromik/zeta5-irrationality: a Lean formalization of Fauzan's proof. https://github.com/danromik/zeta5-irrationality",
+            "links": [
+              {
+                "url": "https://github.com/danromik/zeta5-irrationality",
+                "label": "原文"
+              }
+            ],
+            "lookup_url": "https://scholar.google.com/scholar?q=D.%20Romik%2C%20danromik/zeta5-irrationality%3A%20a%20Lean%20formalization%20of%20Fauzan%27s%20proof.%20https%3A//github.com/danromik/zeta5-irrationality",
+            "inline_links": []
+          },
+          {
+            "label": "5",
+            "text": "Persiflage, zeta(5) is irrational, 2026-09-24. https://galoisrepresentations.org/2026/09/24/zeta5-is-irrational/",
+            "links": [
+              {
+                "url": "https://galoisrepresentations.org/2026/09/24/zeta5-is-irrational/",
+                "label": "原文"
+              }
+            ],
+            "lookup_url": "https://scholar.google.com/scholar?q=Persiflage%2C%20zeta%285%29%20is%20irrational%2C%202026-09-24.%20https%3A//galoisrepresentations.org/2026/09/24/zeta5-is-irrational/",
+            "inline_links": []
+          },
+          {
+            "label": "6",
+            "text": "Qian Tang, dtq1997/li2-half-irrationality: a Lean proof of the irrationality of $\\mathrm{Li}_2(1/2)$. https://github.com/dtq1997/li2-half-irrationality",
+            "links": [
+              {
+                "url": "https://github.com/dtq1997/li2-half-irrationality",
+                "label": "原文"
+              }
+            ],
+            "lookup_url": "https://scholar.google.com/scholar?q=Qian%20Tang%2C%20dtq1997/li2-half-irrationality%3A%20a%20Lean%20proof%20of%20the%20irrationality%20of%20%24%5Cmathrm%7BLi%7D_2%281/2%29%24.%20https%3A//github.com/dtq1997/li2-half-irrationality",
+            "inline_links": []
+          },
+          {
+            "label": "7",
+            "text": "Si-Qi Liu, siqiliu-tsinghua/Li2Rational: Lean 4 proofs of the irrationality of $\\mathrm{Li}_2(r)$ at certain rational points $r$. https://github.com/siqiliu-tsinghua/Li2Rational",
+            "links": [
+              {
+                "url": "https://github.com/siqiliu-tsinghua/Li2Rational",
+                "label": "原文"
+              }
+            ],
+            "lookup_url": "https://scholar.google.com/scholar?q=Si-Qi%20Liu%2C%20siqiliu-tsinghua/Li2Rational%3A%20Lean%204%20proofs%20of%20the%20irrationality%20of%20%24%5Cmathrm%7BLi%7D_2%28r%29%24%20at%20certain%20rational%20points%20%24r%24.%20https%3A//github.com/siqiliu-tsinghua/Li2Rational",
+            "inline_links": []
+          },
+          {
+            "label": "8",
+            "text": "R. Apéry, Irrationalité de ζ(2) et ζ(3), Astérisque 61 (1979), 11–13.",
+            "links": [],
+            "lookup_url": "https://scholar.google.com/scholar?q=R.%20Ap%C3%A9ry%2C%20Irrationalit%C3%A9%20de%20%CE%B6%282%29%20et%20%CE%B6%283%29%2C%20Ast%C3%A9risque%2061%20%281979%29%2C%2011%E2%80%9313.",
+            "inline_links": []
+          },
+          {
+            "label": "9",
+            "text": "J. Liu, J. Zhang, L. Zhi, A formal proof of the irrationality of ζ(3) in Lean 4. arXiv:2503.07625",
+            "links": [
+              {
+                "url": "https://arxiv.org/abs/2503.07625",
+                "label": "arXiv"
+              }
+            ],
+            "lookup_url": "https://scholar.google.com/scholar?q=J.%20Liu%2C%20J.%20Zhang%2C%20L.%20Zhi%2C%20A%20formal%20proof%20of%20the%20irrationality%20of%20%CE%B6%283%29%20in%20Lean%204.%20arXiv%3A2503.07625",
+            "inline_links": [
+              {
+                "text": "arXiv:2503.07625",
+                "url": "https://arxiv.org/abs/2503.07625"
+              }
+            ]
+          },
+          {
+            "label": "10",
+            "text": "L. A. Gutnik, On the irrationality of certain quantities containing ζ(3), Acta Arith. 42 (1983), 255–264. doi:10.4064/aa-42-3-255-264",
+            "links": [
+              {
+                "url": "https://doi.org/10.4064/aa-42-3-255-264",
+                "label": "DOI"
+              }
+            ],
+            "lookup_url": "https://scholar.google.com/scholar?q=L.%20A.%20Gutnik%2C%20On%20the%20irrationality%20of%20certain%20quantities%20containing%20%CE%B6%283%29%2C%20Acta%20Arith.%2042%20%281983%29%2C%20255%E2%80%93264.%20doi%3A10.4064/aa-42-3-255-264",
+            "inline_links": [
+              {
+                "text": "doi:10.4064/aa-42-3-255-264",
+                "url": "https://doi.org/10.4064/aa-42-3-255-264"
+              }
+            ]
+          },
+          {
+            "label": "11",
+            "text": "F. Calegari, V. Dimitrov, Y. Tang, The linear independence of 1, ζ(2), and L(2,χ₋₃). arXiv:2408.15403",
+            "links": [
+              {
+                "url": "https://arxiv.org/abs/2408.15403",
+                "label": "arXiv"
+              }
+            ],
+            "lookup_url": "https://scholar.google.com/scholar?q=F.%20Calegari%2C%20V.%20Dimitrov%2C%20Y.%20Tang%2C%20The%20linear%20independence%20of%201%2C%20%CE%B6%282%29%2C%20and%20L%282%2C%CF%87%E2%82%8B%E2%82%83%29.%20arXiv%3A2408.15403",
+            "inline_links": [
+              {
+                "text": "arXiv:2408.15403",
+                "url": "https://arxiv.org/abs/2408.15403"
+              }
+            ]
+          },
+          {
+            "label": "12",
+            "text": "S. Dauguet, W. Zudilin, On simultaneous diophantine approximations to ζ(2) and ζ(3), J. Number Theory 145 (2014), 362–387. arXiv:1401.5322",
+            "links": [
+              {
+                "url": "https://arxiv.org/abs/1401.5322",
+                "label": "arXiv"
+              }
+            ],
+            "lookup_url": "https://scholar.google.com/scholar?q=S.%20Dauguet%2C%20W.%20Zudilin%2C%20On%20simultaneous%20diophantine%20approximations%20to%20%CE%B6%282%29%20and%20%CE%B6%283%29%2C%20J.%20Number%20Theory%20145%20%282014%29%2C%20362%E2%80%93387.%20arXiv%3A1401.5322",
+            "inline_links": [
+              {
+                "text": "arXiv:1401.5322",
+                "url": "https://arxiv.org/abs/1401.5322"
+              }
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://github.com/dtq1997/zeta2-zeta3-linear-independence/blob/669c92bf7a3728e0de9ad80c373bc29fb5ca3d58/README.md#references",
+            "sha256": "ca99b77622320db0b0772baa4f72852a240de1c8163e1e81f9208ea1b37dadbf",
+            "label": "README.md · 参考文献"
+          }
+        ],
+        "source_file": "sources/personal-zeta/dtq1997__zeta2-zeta3-linear-independence/README.md",
+        "pages": null
+      }
+    ],
+    "Z05": [
+      {
+        "id": "Z05-R1",
+        "title": "项目说明参考文献",
+        "url": "https://github.com/siqiliu-tsinghua/Li2Rational/blob/b2a61c46c157860b57faa163341fda725c629139/README.md#references",
+        "references": [
+          {
+            "label": "1",
+            "text": "A. Fauzan, ζ(5) is irrational, preprint, Zenodo, 2026. doi:10.5281/zenodo.22826419",
+            "links": [
+              {
+                "url": "https://doi.org/10.5281/zenodo.22826419",
+                "label": "DOI"
+              }
+            ],
+            "lookup_url": "https://scholar.google.com/scholar?q=A.%20Fauzan%2C%20%CE%B6%285%29%20is%20irrational%2C%20preprint%2C%20Zenodo%2C%202026.%20doi%3A10.5281/zenodo.22826419",
+            "inline_links": [
+              {
+                "text": "doi:10.5281/zenodo.22826419",
+                "url": "https://doi.org/10.5281/zenodo.22826419"
+              }
+            ]
+          },
+          {
+            "label": "2",
+            "text": "M. Firsching, mo271/Zeta5: a Lean formalization of Fauzan's proof. https://github.com/mo271/Zeta5",
+            "links": [
+              {
+                "url": "https://github.com/mo271/Zeta5",
+                "label": "原文"
+              }
+            ],
+            "lookup_url": "https://scholar.google.com/scholar?q=M.%20Firsching%2C%20mo271/Zeta5%3A%20a%20Lean%20formalization%20of%20Fauzan%27s%20proof.%20https%3A//github.com/mo271/Zeta5",
+            "inline_links": []
+          },
+          {
+            "label": "3",
+            "text": "C. Del Solar, domino14/zeta5: a Lean formalization of Fauzan's proof. https://github.com/domino14/zeta5",
+            "links": [
+              {
+                "url": "https://github.com/domino14/zeta5",
+                "label": "原文"
+              }
+            ],
+            "lookup_url": "https://scholar.google.com/scholar?q=C.%20Del%20Solar%2C%20domino14/zeta5%3A%20a%20Lean%20formalization%20of%20Fauzan%27s%20proof.%20https%3A//github.com/domino14/zeta5",
+            "inline_links": []
+          },
+          {
+            "label": "4",
+            "text": "Persiflage, zeta(5) is irrational, 2026-09-24. https://galoisrepresentations.org/2026/09/24/zeta5-is-irrational/",
+            "links": [
+              {
+                "url": "https://galoisrepresentations.org/2026/09/24/zeta5-is-irrational/",
+                "label": "原文"
+              }
+            ],
+            "lookup_url": "https://scholar.google.com/scholar?q=Persiflage%2C%20zeta%285%29%20is%20irrational%2C%202026-09-24.%20https%3A//galoisrepresentations.org/2026/09/24/zeta5-is-irrational/",
+            "inline_links": []
+          },
+          {
+            "label": "5",
+            "text": "Qian Tang, dtq1997/li2-half-irrationality: a Lean proof of the irrationality of $\\mathrm{Li}_2(1/2)$. https://github.com/dtq1997/li2-half-irrationality",
+            "links": [
+              {
+                "url": "https://github.com/dtq1997/li2-half-irrationality",
+                "label": "原文"
+              }
+            ],
+            "lookup_url": "https://scholar.google.com/scholar?q=Qian%20Tang%2C%20dtq1997/li2-half-irrationality%3A%20a%20Lean%20proof%20of%20the%20irrationality%20of%20%24%5Cmathrm%7BLi%7D_2%281/2%29%24.%20https%3A//github.com/dtq1997/li2-half-irrationality",
+            "inline_links": []
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://github.com/siqiliu-tsinghua/Li2Rational/blob/b2a61c46c157860b57faa163341fda725c629139/README.md#references",
+            "sha256": "e3e3e388299c14caf3f9162d1bb35ea10359e959c407591d05dab948827eb726",
+            "label": "README.md · 参考文献"
+          }
+        ],
+        "source_file": "sources/personal-zeta/siqiliu-tsinghua__Li2Rational/README.md",
+        "pages": null
+      }
     ]
   }
 }

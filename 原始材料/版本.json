@@ -24,17 +24,17 @@
     "362"
   ],
   "multiple_manuscript_groups": 167,
-  "appendix_entries": 51,
+  "appendix_entries": 54,
   "collections": {
     "ten": 10,
     "earlier": 5,
     "anthropic": 3,
     "personal": 9,
-    "zeta": 2,
+    "zeta": 5,
     "other": 8,
     "collaborative": 14
   },
-  "html_pages": 440,
+  "html_pages": 443,
   "pages": [
     "index.html",
     "openai-2026-10.html",
@@ -450,6 +450,9 @@
     "zeta.html",
     "entries/Z01.html",
     "entries/Z02.html",
+    "entries/Z03.html",
+    "entries/Z04.html",
+    "entries/Z05.html",
     "other-research.html",
     "entries/R01.html",
     "entries/R02.html",
@@ -487,9 +490,9 @@
   "bibliography": {
     "main_papers": 722,
     "main_entries": 17267,
-    "appendix_studies": 48,
-    "appendix_lists": 62,
-    "appendix_entries": 2409
+    "appendix_studies": 50,
+    "appendix_lists": 64,
+    "appendix_entries": 2426
   },
   "original_repository": "https://github.com/openai/math",
   "release_article": "https://openai.com/zh-Hans-CN/index/sharing-ai-progress-in-mathematics/",
@@ -741,9 +744,20 @@
     "formalization.yaml": "2dcbd0d6e6a22475f53d49bfdfcac9b6d2b470653c332a9f56522f5be166edb9",
     "overview.pdf": "267e1b7c860b638301690ffa8b7818b3f940419ce2d7337158182f69f20d64ac",
     "overview.tex": "98533a7bc976f44970153f036320932655d07488382e858c25bb6c9e1e029789",
-    "论文参考文献.json": "aaeb742a65f88a72c32cad75c133eb10b80d92c6645e599fdeb7956815e287b6",
+    "ζ与二重对数研究/dtq1997__li2-half-irrationality/LICENSE": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+    "ζ与二重对数研究/dtq1997__li2-half-irrationality/NOTICE": "9b1f497dffe2248c5cdbd9f8bb852e5b5b608e13135b13e836e4a0254dfd4936",
+    "ζ与二重对数研究/dtq1997__li2-half-irrationality/README.md": "7e5ed1935063d3ada7ba19d5ca28cd6b2bb0287cb7d2a7b89aaa01a0d3d12d4b",
+    "ζ与二重对数研究/dtq1997__zeta2-zeta3-linear-independence/LICENSE": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+    "ζ与二重对数研究/dtq1997__zeta2-zeta3-linear-independence/NOTICE": "2696c49721bf5845a004b15880ef93a8d8ea4b738d37c77ef1c590cc9ab712dd",
+    "ζ与二重对数研究/dtq1997__zeta2-zeta3-linear-independence/README.md": "ca99b77622320db0b0772baa4f72852a240de1c8163e1e81f9208ea1b37dadbf",
+    "ζ与二重对数研究/dtq1997__zeta2-zeta3-linear-independence/README.zh-CN.md": "765d0333a5b9b0e52a9180e6a3a89f78c23edbc8b36b1d5aa3da2175b336089f",
+    "ζ与二重对数研究/siqiliu-tsinghua__Li2Rational/LICENSE": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+    "ζ与二重对数研究/siqiliu-tsinghua__Li2Rational/NOTICE": "04f1e86ade21c15772f8ade159b4943404328a4ec7cea37b13bb3a32948150a3",
+    "ζ与二重对数研究/siqiliu-tsinghua__Li2Rational/README.md": "e3e3e388299c14caf3f9162d1bb35ea10359e959c407591d05dab948827eb726",
+    "ζ与二重对数研究/siqiliu-tsinghua__Li2Rational/README.zh-CN.md": "cae58e2737261e24f601c9bb0796f52a1f434937f374195f5f6440204fc7cbe4",
+    "论文参考文献.json": "8abefaf8710ff1bc850ebbd20324c72e0f94dd0c317beb9186745afab2570329",
     "论文标题中英对照.json": "29a83f940ba429fd0cfe69c109dbe7c2308f10d659c79a47adf1821c124172f2",
     "逐句中英对照.json": "14ccd85613c4e0628be5d096b842087ece599e149b0d7589a8367da342c103a7",
-    "附录文献.json": "0ff8d1cd48d83edc83750860d643987f4891087b0e784750da433aecce777387"
+    "附录文献.json": "dde586470a210a5f2b134ea63b642569f1377b69904fd0ea59a3602f1f3e4fb6"
   }
 }
