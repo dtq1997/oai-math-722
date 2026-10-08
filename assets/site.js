@@ -99,7 +99,6 @@ if(preview){
   preview.querySelector('.preview-title').innerHTML=x.title_html;
   preview.querySelector('.preview-count').textContent=x.paper_count_label||x.paper_count+' 篇论文';
   const state=preview.querySelector('.tag');state.classList.add(x.state);state.textContent=x.state_label;
-  if(x.coverage_reason)state.title=x.coverage_reason;
   if(x.update_preview_html)preview.querySelector('.preview-papers').insertAdjacentHTML('afterend',x.update_preview_html);
   preview.querySelector('.preview-summary').innerHTML=x.summary_html;
   const original=preview.querySelector('.preview-original');
