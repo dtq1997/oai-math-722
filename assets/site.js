@@ -33,7 +33,7 @@ if(q&&cards.length){
  let uf=null;
  if(document.body.dataset.papers){
   uf=document.createElement('select');uf.id='update-kind';uf.setAttribute('aria-label','更新情况');
-  for(const [value,label]of [['','更新情况不限'],['any','全部有更新'],['withdrawn','有论文撤回'],['revised','有论文修订'],['references','引用更新'],['formalization','新增形式化'],['support','辅助结果形式化']]){const option=document.createElement('option');option.value=value;option.textContent=label;uf.append(option)}
+  for(const [value,label]of [['','更新情况不限'],['any','全部有更新'],['withdrawn','有论文撤回'],['revised','有论文修订'],['references','引用更新'],['formalization','新增形式化'],['support','部分结果已形式化']]){const option=document.createElement('option');option.value=value;option.textContent=label;uf.append(option)}
   document.getElementById('clear').before(uf);
  }
  const favoriteOnly=document.createElement('input');favoriteOnly.type='checkbox';favoriteOnly.id='favorites-only';
