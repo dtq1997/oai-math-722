@@ -1,5 +1,7 @@
 :root{--update-ink:#77510f;--update-bg:#fcf1d7;--withdraw-ink:#922d32;--withdraw-bg:#fff0ec;--revision-ink:#365d88;--revision-bg:#edf3fb}
 :root[data-theme="dark"]{--update-ink:#f3cf81;--update-bg:#393021;--withdraw-ink:#ffc0b8;--withdraw-bg:#3d262b;--revision-ink:#b3d7ff;--revision-bg:#25364b}
+:root{--update-muted-ink:#526270;--update-muted-bg:#edf0f2;--update-muted-border:#7a8791}
+:root[data-theme="dark"]{--update-muted-ink:#bdc8d0;--update-muted-bg:#2c353e;--update-muted-border:#91a0ac}
 .update-tag{display:inline-flex;align-items:center;gap:5px;padding:2px 7px;border:1px solid currentColor;border-radius:3px;font:11px/1.7 -apple-system,"PingFang SC",sans-serif;text-decoration:none!important;color:var(--update-ink);background:var(--update-bg);max-width:100%}
 .update-tag.withdrawn{color:var(--withdraw-ink);background:var(--withdraw-bg)}
 .update-tag.revised,.update-tag.references{color:var(--revision-ink);background:var(--revision-bg)}
@@ -83,6 +85,10 @@
 .card-update-list{margin:0 0 12px;font-size:12px}.card-update-list>summary{color:var(--revision-ink)}.card-update-list>ul{list-style:none;padding:0;margin:8px 0}.card-update-list li{border-top:1px solid var(--line);padding:9px 0;line-height:1.75}.card-update-list li>div{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:5px}
 .preview-updates .change-versions{font-size:10px;margin-top:2px}.preview-updates .change-note{display:none}
 .preview-all-changes{font-size:11px}.dot.has-update:hover::before,.dot.has-update.preview-active::before{background:#a41f32}
+.dot.has-update.update-muted::before,.dot.has-update.update-muted:hover::before,.dot.has-update.update-muted.preview-active::before,.legend .update-key.update-muted,.entry-tabs button span.update-muted{background:var(--update-muted-bg);color:var(--update-muted-ink);box-shadow:0 0 0 1px var(--update-muted-border)}
+.preview-updates.update-muted{border-top-color:var(--update-muted-border)}
+.update-tag.update-muted,.update-muted>.history-record-head .record-number,.update-muted>.preview-record-head .record-number{color:var(--update-muted-ink);background:var(--update-muted-bg);border-color:var(--update-muted-border)}
+.card-update-list.update-muted>summary{color:var(--update-muted-ink)}
 
 .history-date-note{font-size:12px!important;line-height:1.85;color:var(--muted);margin:0 0 18px!important}
 .history-date-key{margin:0 0 22px;border-bottom:1px solid var(--line);padding-bottom:14px}.history-date-key summary{font-size:13px}.history-date-key dl{display:grid;grid-template-columns:110px minmax(0,1fr);gap:8px 18px;font-size:13px}.history-date-key dt{font-weight:500}.history-date-key dd{margin:0}.history-date-key p{font-size:12px;color:var(--muted);margin-bottom:0}
