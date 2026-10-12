@@ -542,7 +542,7 @@
   {
     "id": "O01",
     "collection": "earlier",
-    "title": "平面单位距离问题",
+    "title": "含有大量单位距离的平面点集",
     "title_en": "Planar Point Sets with Many Unit Distances",
     "summary": "对某个固定 $\\delta>0$，构造无穷多个规模为 $n$ 的平面点集，单位距离对数至少为 $n^{1+\\delta}$，否定 Erdős 的 $n^{1+o(1)}$ 猜想。",
     "authors": "OpenAI",
@@ -674,7 +674,7 @@
   {
     "id": "O04",
     "collection": "earlier",
-    "title": "相邻素数的短间隔",
+    "title": "素数短间隔界的改进",
     "title_en": "Improved short gaps between primes",
     "summary": "设 $p_n$ 为第 $n$ 个素数，论文给出 $\\liminf_{n\\to\\infty}(p_{n+1}-p_n)\\le186$。",
     "authors": "OpenAI",
@@ -718,7 +718,7 @@
   {
     "id": "O05",
     "collection": "earlier",
-    "title": "相邻素数的长间隔",
+    "title": "素数长间隔界的改进",
     "title_en": "Improved long gaps between primes",
     "summary": "对充分大的 $X$，最大相邻素数间隔满足 $G(X)\\gg\\log X(\\log_2X)^2\\log_4X/(\\log_3X)^2$，其中 $\\log_j$ 表示 $j$ 重迭代对数。",
     "authors": "OpenAI",
@@ -838,7 +838,7 @@
       "label": "论文摘要",
       "url": "https://cims.nyu.edu/~tristanb/boussinesq.pdf"
     },
-    "scope": "两项外力均在直至爆破时刻的时空闭区间上光滑，并有共同的固定紧支撑。",
+    "scope": "两项外力均在直至爆破时刻的时空闭区间上光滑，并有共同的固定紧支集。",
     "attribution": "作者说明这是个人合作研究，使用了 Claude 与 Codex；基本研究方案来自 Córdoba 和 Martínez-Zoroa。",
     "contribution": "人与模型合作",
     "url": "entries/P02.html",
@@ -933,7 +933,7 @@
   {
     "id": "Z01",
     "collection": "zeta",
-    "title": "ζ(5) 的无理性",
+    "title": "$\\zeta(5)$ 的无理性",
     "title_en": "ζ(5) is irrational",
     "summary": "Fauzan 的预印本通过经有理归一化的 Hankel 行列式构造整系数多项式，以非零性和衰减估计证明 $\\zeta(5)$ 无理。",
     "authors": "Aabir Fauzan",
@@ -968,7 +968,7 @@
       {
         "label": "Dan Romik · zeta5-irrationality",
         "url": "https://github.com/danromik/zeta5-irrationality/blob/fc2fefa77076e22e7e80b4c101ded5a98d53e14d/README.md",
-        "note": "以素数定理 θ(x) ∼ x 为额外公理；这一版形式化检查的是该假设下的无理性结论。",
+        "note": "以素数定理 $\\theta(x)\\sim x$ 为额外公理；这一版形式化检查的是该假设下的无理性结论。",
         "state": "conditional"
       }
     ],
@@ -988,7 +988,7 @@
   {
     "id": "A01",
     "collection": "anthropic",
-    "title": "Riemann ζ 函数的单零点与临界线",
+    "title": "Riemann $\\zeta$ 函数超过三分之二的零点是单零点且位于临界线上",
     "title_en": "More than two thirds of the zeta zeros are simple and on the critical line",
     "summary": "按重数计，至少 $2/3$ 的非平凡零点是位于临界线上的单零点；至少 $5/6$ 的零点互异。采用 Montgomery–Taylor 窗口时，相应下界为 $0.6725$ 与 $0.8362$。",
     "authors": "Levent Alpöge · Ralph Furman；Anthropic 发布",
@@ -1030,7 +1030,7 @@
   {
     "id": "A02",
     "collection": "anthropic",
-    "title": "费马大定理的 Lean 形式化",
+    "title": "费马大定理的 Lean 4 形式化",
     "title_en": "Fermat's Last Theorem in Lean 4",
     "summary": "将 Frey、Serre、Ribet、Wiles 与 Taylor–Wiles 的论证形式化，证明任意整数 $n\\ge3$ 时，不存在正整数 $a,b,c$ 满足 $a^n+b^n=c^n$。",
     "authors": "Anthropic",
@@ -1113,7 +1113,7 @@
   {
     "id": "P06",
     "collection": "personal",
-    "title": "有限局部自由群概形的阶与幂映射",
+    "title": "不被其阶零化的有限自由群概形",
     "title_en": "A finite free group scheme not killed by its order",
     "summary": "给出阶为 $4$ 的有限自由群概形，其四次幂映射不是常值单位映射，否定 Grothendieck 所问的一般命题。",
     "authors": "Akhil Mathew；Codex、Claude",
@@ -1214,7 +1214,7 @@
       }
     ],
     "contribution": "模型生成构造与说明",
-    "scope": "作者将高次数族表述为后续观察。构造及符号核验见原文第 7—10 节。",
+    "scope": "作者将高次数族表述为后续观察。构造及符号核验见原文第 7–10 节。",
     "attribution": "",
     "lean": [],
     "url": "entries/P09.html",
@@ -1249,7 +1249,7 @@
     "collection": "collaborative",
     "title": "一般极化情形 Yau–Tian–Donaldson 猜想的反例主张",
     "title_en": "Disproof of the Yau–Tian–Donaldson conjecture",
-    "summary": "预印本构造光滑射影五维簇，声称它对所述正常测试构形 K-多稳定，却不容许常标量曲率 Kähler 度量。",
+    "summary": "预印本构造光滑射影五维簇，声称它对所述正规测试构型是 K-多稳定的，却不容许常标量曲率 Kähler 度量。",
     "authors": "Jihao Liu",
     "date": "2026-08-19 · v1",
     "discipline": "复几何",
@@ -1270,7 +1270,7 @@
   {
     "id": "C03",
     "collection": "collaborative",
-    "title": "Elekes–Rónyai 近二次膨胀猜想的反例",
+    "title": "实数域上 Elekes–Rónyai 近二次膨胀猜想的反例",
     "title_en": "A counterexample to the near-quadratic Elekes–Rónyai expander conjecture over ℝ",
     "summary": "构造固定的非特殊二次多项式 $f$ 和任意大的有限实数集 $A$，使 $|f(A,A)|\\le |A|^{2-c}$，其中 $c>0$ 固定。",
     "authors": "Jihao Liu",
@@ -1293,9 +1293,9 @@
   {
     "id": "C04",
     "collection": "collaborative",
-    "title": "奇数维 Calabi–Yau 簇上阿贝尔群秩界的反例",
+    "title": "奇数维 Calabi–Yau 簇上阿贝尔 $p$ 群作用秩界的反例",
     "title_en": "A counterexample to the odd-dimensional rank bound for abelian p-group actions",
-    "summary": "Fermat 五次三维簇上的 $(\\mathbb Z/5\\mathbb Z)^4$ 忠实作用，反驳所猜想的奇素数、奇数维秩上界。",
+    "summary": "$(\\mathbb Z/5\\mathbb Z)^4$ 在 Fermat 五次三维簇上忠实作用，否定了所猜想的奇素数、奇数维情形下的秩上界。",
     "authors": "Jihao Liu、Yanze Wang",
     "date": "2026-07-06 · v1",
     "discipline": "代数几何",
@@ -1318,7 +1318,7 @@
     "collection": "collaborative",
     "title": "Deligne–Mumford 叠的正性定理：去除无挠条件",
     "title_en": "Removing the torsion-free hypothesis in a positivity theorem on Deligne–Mumford stacks",
-    "summary": "在光滑适当整 DM 叠上，保留对数余切张量幂含大行列式子层等条件，将商层第一 Chern 类伪有效的结论推广到任意凝聚商层。",
+    "summary": "在光滑固有整 DM 叠上，保留对数余切层的张量幂含有行列式为大的子层等条件，将商层第一 Chern 类伪有效的结论推广到任意凝聚商层。",
     "authors": "Shengyu Hou、Jihao Liu",
     "date": "2026-07-29 · v1",
     "discipline": "代数几何",
@@ -1341,7 +1341,7 @@
     "collection": "collaborative",
     "title": "$U_q(\\mathfrak{so}_{12})$ 的显式中心元",
     "title_en": "Using Large Language Models as a Co-Author in Undergraduate Quantum Group Research",
-    "summary": "给出 $U_q(\\mathfrak{so}_{12})$ 的一个新显式中心元公式，并以稀疏 PBW 配对矩阵的符号求逆改进计算；应用指向带 Markov 对偶的粒子系统。",
+    "summary": "给出 $U_q(\\mathfrak{so}_{12})$ 的一个新的显式中心元公式，并通过对稀疏 PBW 配对矩阵作符号求逆改进计算；结果可应用于带 Markov 对偶的粒子系统。",
     "authors": "Jeffrey Kuan；Claude Opus 4.6",
     "date": "2026-05-04 · v1",
     "discipline": "量子代数",
@@ -1385,7 +1385,7 @@
   {
     "id": "C08",
     "collection": "collaborative",
-    "title": "多元独立集多项式的下界",
+    "title": "多元独立集多项式及其推广的下界",
     "title_en": "Lower bounds for multivariate independence polynomials and their generalisations",
     "summary": "对任意简单图及非负顶点权，证明 $Z_G(\\lambda)\\ge\\prod_i(1+(d_i+1)\\lambda_i)^{1/(d_i+1)}$；并推广到两种正常颜色的半正常着色配分函数。",
     "authors": "Joonkyung Lee、Jaehyeon Seo",
@@ -1419,7 +1419,7 @@
   {
     "id": "C09",
     "collection": "collaborative",
-    "title": "Nesterov 加速梯度法的迭代点收敛",
+    "title": "Nesterov 加速梯度法的迭代点收敛：一个 AI 辅助证明",
     "title_en": "Point Convergence of Nesterov’s Accelerated Gradient Method: An AI-Assisted Proof",
     "summary": "对有限维光滑凸优化，在极小点存在及论文指定的加速参数下，证明 Nesterov 加速梯度法的迭代点收敛到极小点。",
     "authors": "Uijeong Jang、Ernest K. Ryu",
@@ -1465,9 +1465,9 @@
   {
     "id": "C11",
     "collection": "collaborative",
-    "title": "周期—指数猜想的反例",
+    "title": "周期–指数猜想的反例",
     "title_en": "The period-index conjecture is false for motivic reasons",
-    "summary": "对每个 $d\\ge3$，在复数域上构造周期为 $2$、指数为 $2^d$ 的 Brauer 类，否定所述周期—指数猜想；第二版另处理部分正特征情形。",
+    "summary": "对每个 $d\\ge3$，在复数域上构造周期为 $2$、指数为 $2^d$ 的 Brauer 类，否定所述周期–指数猜想；第二版另处理部分正特征情形。",
     "authors": "Alexander Perry",
     "date": "2026-08-04 · 2026-09-03 v2",
     "discipline": "代数几何",
@@ -1490,7 +1490,7 @@
     "collection": "collaborative",
     "title": "复四维簇的 Hodge 数之导出不变性",
     "title_en": "Hodge numbers are derived invariants for complex fourfolds",
-    "summary": "光滑射影复四维簇若导出等价，则全部 Hodge 数相等。论证依赖更一般的偶数复维拓扑 signature 的导出不变性。",
+    "summary": "光滑射影复四维簇若导出等价，则全部 Hodge 数相等。论证依赖更一般的偶数复维拓扑符号差的导出不变性。",
     "authors": "Benjamin Antieau 及核查合作者；GPT-5.6 Sol",
     "date": "2026-07-31",
     "discipline": "代数几何",
@@ -1505,7 +1505,7 @@
       }
     ],
     "contribution": "模型提出关键论证；作者核查",
-    "scope": "原有形式化只证明了部分归约，尚未证明核心 signature 定理；尚未找到完整的公开证明代码。",
+    "scope": "原有形式化只证明了部分归约，尚未证明核心的符号差定理；尚未找到完整的公开证明代码。",
     "attribution": "",
     "lean": [
       {
@@ -1524,7 +1524,7 @@
     "collection": "anthropic",
     "title": "3SUM 与全点对最短路的多项式改进",
     "title_en": "Truly Subquadratic 3SUM and Truly Subcubic APSP via Triangles in Sparse Lopsided Graphs",
-    "summary": "对多项式大小的整数输入，3SUM 达到 $O(n^{1.9992})$；对多项式有界整数边权的有向图，全点对最短路达到 $O(n^{2.9995})$。",
+    "summary": "对整数值大小以多项式为界的输入，3SUM 的时间复杂度达到 $O(n^{1.9992})$；对整数边权以多项式为界的有向图，全点对最短路的时间复杂度达到 $O(n^{2.9995})$。",
     "authors": "Josh Alman、Virginia Vassilevska Williams；Claude",
     "date": "2026-10-05 · v1",
     "discipline": "算法与复杂性",
@@ -1609,7 +1609,7 @@
     "collection": "other",
     "title": "Aletheia 对 Erdős 问题的系统研究",
     "title_en": "Semi-Autonomous Mathematics Discovery with Gemini: A Case Study on the Erdős Problems",
-    "summary": "对 700 个标记为开放的问题开展检索与证明研究。报告分别列出新解、部分解、独立重现，以及从文献中查得的已有结果；自主求解案例包括第 652 与 1051 题。",
+    "summary": "对 700 个标记为未解决的问题开展检索与证明研究。报告分别列出新解、部分解、独立重现，以及从文献中查得的已有结果；自主求解案例包括第 652 与 1051 题。",
     "authors": "Tony Feng 等；Aletheia（Gemini Deep Think）",
     "date": "2026-01 · 引用 v3",
     "discipline": "组合数学与数论",
@@ -1636,7 +1636,7 @@
     "collection": "other",
     "title": "AlphaEvolve 的矩阵乘法与几何构造",
     "title_en": "AlphaEvolve: A coding agent for scientific and algorithmic discovery",
-    "summary": "给出复数域 $4\\times4$ 矩阵乘法的 48 次标量乘法算法，并发现 11 维的 593 点接吻构形；另报告若干几何与分析问题的新界。",
+    "summary": "给出复数域 $4\\times4$ 矩阵乘法的 48 次标量乘法算法，并发现 11 维的 593 点接吻构型；另报告若干几何与分析问题的新界。",
     "authors": "Alexander Novikov 等；Google DeepMind",
     "date": "2025-05-14 · 论文 2025-06-16",
     "discipline": "算法与离散几何",
@@ -1693,7 +1693,7 @@
     "collection": "other",
     "title": "Station 的开放式多智能体数学研究",
     "title_en": "Autonomous Mathematical Discovery in an Open-World Multi-Agent Environment",
-    "summary": "公开有限域 Kakeya 集、接吻构形、重叠问题等方向的结果与实验材料；其中包含 11 维 604 点的三种精确接吻构形。",
+    "summary": "公开有限域 Kakeya 集、接吻构型、重叠问题等方向的结果与实验材料；其中包含 11 维 604 点的三种精确接吻构型。",
     "authors": "Stephen Chung、Wenyu Du、William J. Wesley",
     "date": "2026-08-24 · 2026-09-14 v2",
     "discipline": "组合数学与分析",
@@ -1712,7 +1712,7 @@
       }
     ],
     "contribution": "多智能体生成研究与构造",
-    "scope": "报告也包含独立重现及未超出现有最好结果的项目。604 是下界；部分构形与同时期工作重合，不能将全部实验计为独立新定理。",
+    "scope": "报告也包含独立重现及未超出现有最好结果的项目。604 是下界；部分构型与同时期工作重合，不能将全部实验计为独立新定理。",
     "attribution": "部分 Lean 整理及最终写作在 Station 实验之外完成；各项证明的范围见资料仓库。",
     "lean": [
       {
@@ -1858,7 +1858,7 @@
       }
     ],
     "contribution": "模型参与证明；后续独立形式化",
-    "scope": "ProofAtlas 在 9 月 19 日将数学目标标为已解决，但 8 月 5 日 Lean 文件仍待平台审查，编译记录，以及形式化命题与论文的对应关系，尚未核对清楚。8 月 2 日的候选稿只提供了最后一步的有理数计算结果，应与后续版本区分。",
+    "scope": "ProofAtlas 在 9 月 19 日将数学目标标为已解决，但 8 月 5 日的 Lean 文件仍待平台审查；编译记录及形式化命题与论文的对应关系尚未核对清楚。8 月 2 日的候选稿只提供了最后一步的有理数计算结果，应与后续版本区分。",
     "attribution": "",
     "lean": [
       {

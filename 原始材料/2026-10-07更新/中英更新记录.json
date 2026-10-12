@@ -63,13 +63,13 @@
       "current_count": 1
     },
     "009": {
-      "title": "Bogomolov–Pop 与 Milnor K 理论重构",
+      "title": "Bogomolov–Pop 与 Milnor $K$ 理论重构",
       "discipline": "Number theory",
       "first_count": 3,
       "current_count": 3
     },
     "010": {
-      "title": "素数 2 处的 Fontaine–Mazur 模性",
+      "title": "素数 2 处的 Fontaine–Mazur 模性与 $2$ 进 pro-modularity",
       "discipline": "Number theory",
       "first_count": 3,
       "current_count": 3
@@ -93,7 +93,7 @@
       "current_count": 1
     },
     "014": {
-      "title": "受限几何 Langlands、Ramanujan 与 Arthur 参数",
+      "title": "受限几何 Langlands、generic Ramanujan 与 Arthur 参数",
       "discipline": "Number theory",
       "first_count": 8,
       "current_count": 8
@@ -111,7 +111,7 @@
       "current_count": 4
     },
     "017": {
-      "title": "π 的无理性指数等于 2",
+      "title": "$\\pi$ 的无理性指数等于 2",
       "discipline": "Number theory",
       "first_count": 1,
       "current_count": 1
@@ -123,13 +123,13 @@
       "current_count": 2
     },
     "019": {
-      "title": "p 进截面猜想",
+      "title": "$p$ 进截面猜想",
       "discipline": "Number theory",
       "first_count": 2,
       "current_count": 2
     },
     "020": {
-      "title": "四次多项式的无平方因子值",
+      "title": "四次多项式的无平方因子值与多项式的无幂因子值",
       "discipline": "Number theory",
       "first_count": 1,
       "current_count": 1
@@ -183,7 +183,7 @@
       "current_count": 1
     },
     "029": {
-      "title": "Artin 原根猜想的无穷性部分",
+      "title": "Artin 原根猜想：对每个底数的无穷性断言",
       "discipline": "Number theory",
       "first_count": 2,
       "current_count": 2
@@ -207,19 +207,19 @@
       "current_count": 5
     },
     "033": {
-      "title": "Campana 轨形 Iitaka 与对数次可加性",
+      "title": "Campana 轨形 Iitaka 猜想与对数次可加性",
       "discipline": "Algebraic and complex geometry",
       "first_count": 5,
       "current_count": 5
     },
     "034": {
-      "title": "对数丰沛性与有效 Iitaka 纤维化",
+      "title": "对数丰度与有效 Iitaka 纤维化",
       "discipline": "Algebraic and complex geometry",
       "first_count": 14,
       "current_count": 14
     },
     "035": {
-      "title": "特征 $p>3$ 下数值维数为一的三维对数丰沛性",
+      "title": "特征 $p>3$ 下数值维数为一的三维对数丰度",
       "discipline": "Algebraic and complex geometry",
       "first_count": 2,
       "current_count": 2
@@ -231,7 +231,7 @@
       "current_count": 4
     },
     "037": {
-      "title": "普通二重点的体积间隙",
+      "title": "普通二重点的精确体积间隙",
       "discipline": "Algebraic and complex geometry",
       "first_count": 2,
       "current_count": 2
@@ -261,13 +261,13 @@
       "current_count": 2
     },
     "042": {
-      "title": "K3 曲面与紧复曲面的 Oka 分类",
+      "title": "K3 曲面与其他紧复曲面的 Oka 分类",
       "discipline": "Algebraic and complex geometry",
       "first_count": 1,
       "current_count": 1
     },
     "043": {
-      "title": "固定行列式模空间的 P=W",
+      "title": "固定行列式模空间的 $P=W$",
       "discipline": "Algebraic and complex geometry",
       "first_count": 1,
       "current_count": 1
@@ -339,7 +339,7 @@
       "current_count": 2
     },
     "056": {
-      "title": "四维极小模型程序的终止",
+      "title": "四维极小模型纲领的终止性",
       "discipline": "Algebraic and complex geometry",
       "first_count": 5,
       "current_count": 5
@@ -369,7 +369,7 @@
       "current_count": 1
     },
     "062": {
-      "title": "LeBrun–Salamon 与射影接触分类",
+      "title": "LeBrun–Salamon 猜想与射影接触分类",
       "discipline": "Algebraic and complex geometry",
       "first_count": 1,
       "current_count": 1
@@ -381,7 +381,7 @@
       "current_count": 1
     },
     "064": {
-      "title": "曲面奇点的 μ 常数问题",
+      "title": "曲面奇点的 $\\mu$ 常数问题",
       "discipline": "Algebraic and complex geometry",
       "first_count": 1,
       "current_count": 1
@@ -441,7 +441,7 @@
       "current_count": 2
     },
     "075": {
-      "title": "L ln L 尺度的 Fourier 收敛",
+      "title": "$L\\log L$ 尺度的 Fourier 收敛猜想",
       "discipline": "Real and complex analysis",
       "first_count": 1,
       "current_count": 1
@@ -465,7 +465,7 @@
       "current_count": 1
     },
     "079": {
-      "title": "三维 Sogge 局部光滑化猜想",
+      "title": "三维 Sogge 局部光滑估计猜想",
       "discipline": "Real and complex analysis",
       "first_count": 1,
       "current_count": 1
@@ -507,7 +507,7 @@
       "current_count": 1
     },
     "086": {
-      "title": "三线性 Hilbert 变换的 L³ 界",
+      "title": "三线性 Hilbert 变换的 $L^3$ 界",
       "discipline": "Real and complex analysis",
       "first_count": 1,
       "current_count": 1
@@ -519,13 +519,13 @@
       "current_count": 3
     },
     "088": {
-      "title": "Petty 投影体体积与单纯形反例",
+      "title": "Petty 投影体体积猜想与单纯形反例",
       "discipline": "Convex and metric geometry",
       "first_count": 2,
       "current_count": 2
     },
     "089": {
-      "title": "平面图与有界树宽图到 L¹ 的有界畸变嵌入",
+      "title": "平面图与有界树宽图到 $L_1$ 的有界畸变嵌入",
       "discipline": "Convex and metric geometry",
       "first_count": 2,
       "current_count": 2
@@ -555,7 +555,7 @@
       "current_count": 1
     },
     "094": {
-      "title": "Lᵖ 中的次多项式降维",
+      "title": "$L_p$ 中的次多项式降维",
       "discipline": "Convex and metric geometry",
       "first_count": 1,
       "current_count": 1
@@ -585,7 +585,7 @@
       "current_count": 1
     },
     "099": {
-      "title": "编辑距离嵌入 ℓ¹ 的最优畸变",
+      "title": "编辑距离嵌入 $\\ell_1$ 的最优畸变",
       "discipline": "Convex and metric geometry",
       "first_count": 3,
       "current_count": 3
@@ -597,7 +597,7 @@
       "current_count": 4
     },
     "101": {
-      "title": "迷向常数的尖锐单纯形猜想",
+      "title": "迷向常数的单纯形最优性猜想",
       "discipline": "Convex and metric geometry",
       "first_count": 1,
       "current_count": 1
@@ -609,7 +609,7 @@
       "current_count": 5
     },
     "103": {
-      "title": "对数空间的去随机化",
+      "title": "对数空间的去随机化：$\\mathsf L=\\mathsf{RL}=\\mathsf{BPL}$",
       "discipline": "Theoretical computer science",
       "first_count": 1,
       "current_count": 1
@@ -621,19 +621,19 @@
       "current_count": 4
     },
     "105": {
-      "title": "完美完备性的二对一博弈猜想",
+      "title": "具有完美完备性的 2-to-1 博弈猜想",
       "discipline": "Theoretical computer science",
       "first_count": 1,
       "current_count": 1
     },
     "106": {
-      "title": "三可染色图的染色困难性",
+      "title": "可三着色图的着色困难性",
       "discipline": "Theoretical computer science",
       "first_count": 1,
       "current_count": 1
     },
     "107": {
-      "title": "矩阵乘法指数至多 9/4",
+      "title": "矩阵乘法指数至多 $9/4$",
       "discipline": "Theoretical computer science",
       "first_count": 3,
       "current_count": 3
@@ -645,13 +645,13 @@
       "current_count": 1
     },
     "109": {
-      "title": "低于 n ln n 的整数乘法",
+      "title": "低于 $n\\log n$ 的整数乘法",
       "discipline": "Theoretical computer science",
       "first_count": 1,
       "current_count": 1
     },
     "110": {
-      "title": "任意度量空间上随机 k 服务器问题的最优竞争比数量级",
+      "title": "任意度量空间上随机 $k$ 服务器问题的最优竞争比数量级",
       "discipline": "Theoretical computer science",
       "first_count": 2,
       "current_count": 2
@@ -675,7 +675,7 @@
       "current_count": 2
     },
     "114": {
-      "title": "整数多拟阵共同基的近似计数",
+      "title": "多拟阵公共整数基的近似计数",
       "discipline": "Theoretical computer science",
       "first_count": 2,
       "current_count": 2
@@ -693,13 +693,13 @@
       "current_count": 3
     },
     "117": {
-      "title": "均匀最稀疏割的困难性与半定间隙",
+      "title": "均匀最稀疏割的困难性与半正定间隙",
       "discipline": "Theoretical computer science",
       "first_count": 2,
       "current_count": 2
     },
     "118": {
-      "title": "装箱的无界间隙与修正整数上取整反例",
+      "title": "装箱的无界间隙与修正整数向上取整猜想",
       "discipline": "Theoretical computer science",
       "first_count": 1,
       "current_count": 1
@@ -735,7 +735,7 @@
       "current_count": 1
     },
     "125": {
-      "title": "度量 k 中位数问题的近似阈值",
+      "title": "度量 $k$ 中位数问题的近似阈值",
       "discipline": "Theoretical computer science",
       "first_count": 2,
       "current_count": 2
@@ -765,13 +765,13 @@
       "current_count": 2
     },
     "130": {
-      "title": "低于 n ln n 的 Fourier 变换",
+      "title": "低于 $n\\log n$ 的 Fourier 变换",
       "discipline": "Theoretical computer science",
       "first_count": 2,
       "current_count": 2
     },
     "131": {
-      "title": "指定度序列的图切换链多项式混合",
+      "title": "指定度序列的图换边链多项式混合",
       "discipline": "Theoretical computer science",
       "first_count": 1,
       "current_count": 1
@@ -819,7 +819,7 @@
       "current_count": 2
     },
     "139": {
-      "title": "对数凹抽样的次多项式查询数",
+      "title": "对数凹采样的次多项式查询数",
       "discipline": "Theoretical computer science",
       "first_count": 1,
       "current_count": 1
@@ -831,7 +831,7 @@
       "current_count": 6
     },
     "141": {
-      "title": "实数存在理论与计数层级",
+      "title": "计数层级中的实数存在理论及存在–全称语句",
       "discipline": "Theoretical computer science",
       "first_count": 1,
       "current_count": 1
@@ -891,7 +891,7 @@
       "current_count": 2
     },
     "151": {
-      "title": "C¹ Shub 熵猜想反例",
+      "title": "Shub 熵猜想的 $C^1$ 反例",
       "discipline": "Dynamical systems and ergodic theory",
       "first_count": 1,
       "current_count": 1
@@ -939,7 +939,7 @@
       "current_count": 1
     },
     "159": {
-      "title": "Erdős 倒数和猜想与 Szemerédi 定量界",
+      "title": "Erdős 倒数和猜想与 Szemerédi 准多项式界",
       "discipline": "Combinatorics",
       "first_count": 1,
       "current_count": 1
@@ -969,7 +969,7 @@
       "current_count": 1
     },
     "165": {
-      "title": "完全图与完全二分图的精确交叉数",
+      "title": "完全图与完全二部图的精确交叉数",
       "discipline": "Combinatorics",
       "first_count": 2,
       "current_count": 2
@@ -993,13 +993,13 @@
       "current_count": 1
     },
     "169": {
-      "title": "Shareshian–Wachs 的 e 正性猜想",
+      "title": "Shareshian–Wachs 的 $e$ 正性猜想",
       "discipline": "Combinatorics",
       "first_count": 1,
       "current_count": 1
     },
     "170": {
-      "title": "非对角 Ramsey 数的最优对数指数",
+      "title": "非对角 Ramsey 数的精确对数指数",
       "discipline": "Combinatorics",
       "first_count": 2,
       "current_count": 2
@@ -1041,13 +1041,13 @@
       "current_count": 1
     },
     "177": {
-      "title": "每个维数的有界度余边界扩张复形",
+      "title": "每个维数的有界度上边缘扩张复形",
       "discipline": "Combinatorics",
       "first_count": 1,
       "current_count": 1
     },
     "178": {
-      "title": "每个固定度数的非二分 Ramanujan 图",
+      "title": "每个固定度数下非二部 Ramanujan 图的确定性构造",
       "discipline": "Combinatorics",
       "first_count": 1,
       "current_count": 1
@@ -1077,7 +1077,7 @@
       "current_count": 3
     },
     "183": {
-      "title": "平面平分线与可分离 k 元子集的幂次改进",
+      "title": "平面平分线与可分离 $k$ 元子集的幂次改进",
       "discipline": "Combinatorics",
       "first_count": 1,
       "current_count": 1
@@ -1119,7 +1119,7 @@
       "current_count": 1
     },
     "190": {
-      "title": "有序二元矩阵移除的多项式界失败",
+      "title": "有序二元矩阵移除的多项式界不成立",
       "discipline": "Combinatorics",
       "first_count": 1,
       "current_count": 1
@@ -1173,7 +1173,7 @@
       "current_count": 1
     },
     "199": {
-      "title": "Auslander–Reiten、Tachikawa 与 Nakayama 反例",
+      "title": "Auslander–Reiten、Tachikawa 与 Nakayama 猜想的反例",
       "discipline": "Algebra",
       "first_count": 2,
       "current_count": 2
@@ -1221,13 +1221,13 @@
       "current_count": 2
     },
     "207": {
-      "title": "ℓ¹ Bass 与 Bass 迹猜想",
+      "title": "$\\ell^1$-Bass 与复 Bass 迹猜想",
       "discipline": "Algebra",
       "first_count": 2,
       "current_count": 2
     },
     "208": {
-      "title": "有限 Benson–Etingof–Ostrik 猜想",
+      "title": "Benson–Etingof–Ostrik 猜想的有限情形",
       "discipline": "Algebra",
       "first_count": 1,
       "current_count": 1
@@ -1251,7 +1251,7 @@
       "current_count": 7
     },
     "212": {
-      "title": "平面首达渗流中双向无限测地线的不存在性与极限形状的光滑性",
+      "title": "平面首达渗流中双向无穷测地线的不存在性与极限形状的光滑性",
       "discipline": "Probability and statistical mechanics",
       "first_count": 2,
       "current_count": 2
@@ -1269,7 +1269,7 @@
       "current_count": 1
     },
     "215": {
-      "title": "平面 O(n) 模型的有质量连续极限",
+      "title": "平面 $O(n)$ 模型的有质量连续极限与质量的精确渐近",
       "discipline": "Probability and statistical mechanics",
       "first_count": 5,
       "current_count": 5
@@ -1335,7 +1335,7 @@
       "current_count": 1
     },
     "226": {
-      "title": "半平面双二聚体的 CLE₄ 猜想",
+      "title": "半平面双二聚体的 $\\mathrm{CLE}_4$ 猜想",
       "discipline": "Probability and statistical mechanics",
       "first_count": 1,
       "current_count": 1
@@ -1371,7 +1371,7 @@
       "current_count": 1
     },
     "232": {
-      "title": "Lipschitz 高度场的高斯与 SLE 极限",
+      "title": "Lipschitz 高度场的高斯场与 SLE 界面极限",
       "discipline": "Probability and statistical mechanics",
       "first_count": 3,
       "current_count": 3
@@ -1389,7 +1389,7 @@
       "current_count": 1
     },
     "235": {
-      "title": "随机 SAT 阈值、方差与可计算性",
+      "title": "随机 SAT 阈值、最优方差界与可计算性",
       "discipline": "Probability and statistical mechanics",
       "first_count": 4,
       "current_count": 4
@@ -1401,7 +1401,7 @@
       "current_count": 1
     },
     "237": {
-      "title": "蜂窝格自避游走的四分之三直径指数",
+      "title": "蜂窝格自回避游走的四分之三直径指数",
       "discipline": "Probability and statistical mechanics",
       "first_count": 13,
       "current_count": 13
@@ -1449,7 +1449,7 @@
       "current_count": 1
     },
     "245": {
-      "title": "β-Barendregt–Geuvers–Klop 猜想",
+      "title": "$\\beta$-Barendregt–Geuvers–Klop 猜想",
       "discipline": "Mathematical logic",
       "first_count": 1,
       "current_count": 1
@@ -1461,13 +1461,13 @@
       "current_count": 1
     },
     "247": {
-      "title": "无限、有限展示且剩余有限的 2-群",
+      "title": "无限、有限展示且剩余有限的 $2$-群",
       "discipline": "Group theory",
       "first_count": 2,
       "current_count": 2
     },
     "248": {
-      "title": "Thompson 群 F 的非可均性",
+      "title": "Thompson 群 $F$ 的非可均性",
       "discipline": "Group theory",
       "first_count": 1,
       "current_count": 1
@@ -1521,7 +1521,7 @@
       "current_count": 2
     },
     "257": {
-      "title": "无几何 CAT(0) 作用的双曲群",
+      "title": "无几何 $\\operatorname{CAT}(0)$ 作用的双曲群",
       "discipline": "Group theory",
       "first_count": 1,
       "current_count": 1
@@ -1551,7 +1551,7 @@
       "current_count": 2
     },
     "262": {
-      "title": "一维 Lieb–Thirring 不等式的最优常数",
+      "title": "一维 Lieb–Thirring 最优不等式",
       "discipline": "Mathematical physics",
       "first_count": 3,
       "current_count": 3
@@ -1563,7 +1563,7 @@
       "current_count": 3
     },
     "264": {
-      "title": "双端 Kerr 数据附近的强宇宙审查",
+      "title": "双端 Kerr 数据附近的强宇宙监督",
       "discipline": "Mathematical physics",
       "first_count": 3,
       "current_count": 3
@@ -1575,7 +1575,7 @@
       "current_count": 2
     },
     "266": {
-      "title": "六维中互无偏基的最大数目为三",
+      "title": "六维中相互无偏基的最大数目为三",
       "discipline": "Mathematical physics",
       "first_count": 2,
       "current_count": 2
@@ -1611,7 +1611,7 @@
       "current_count": 4
     },
     "272": {
-      "title": "无密钥的纠缠与 PPT 平方猜想反例",
+      "title": "无密钥的纠缠与 PPT 平方猜想",
       "discipline": "Mathematical physics",
       "first_count": 1,
       "current_count": 1
@@ -1623,7 +1623,7 @@
       "current_count": 1
     },
     "274": {
-      "title": "QAC⁰ 的 Moore 奇偶性猜想",
+      "title": "$\\mathrm{QAC}^0$ 的 Moore 奇偶性猜想",
       "discipline": "Mathematical physics",
       "first_count": 2,
       "current_count": 2
@@ -1671,7 +1671,7 @@
       "current_count": 2
     },
     "282": {
-      "title": "四维量子场论中从尺度对称性到共形对称性的提升",
+      "title": "四维量子场论中从标度对称性到共形对称性的提升",
       "discipline": "Mathematical physics",
       "first_count": 1,
       "current_count": 1
@@ -1857,13 +1857,13 @@
       "current_count": 1
     },
     "313": {
-      "title": "K(n) 局部球谱的逐次数有限生成",
+      "title": "$K(n)$ 局部球谱的有限生成性",
       "discipline": "Topology",
       "first_count": 1,
       "current_count": 1
     },
     "314": {
-      "title": "有限 p 群的 chromatic Smith 不动点问题",
+      "title": "有限 $p$ 群的 chromatic Smith 不动点问题",
       "discipline": "Topology",
       "first_count": 1,
       "current_count": 1
@@ -1905,7 +1905,7 @@
       "current_count": 1
     },
     "321": {
-      "title": "Wall 有限 D(2) 猜想反例",
+      "title": "Wall 有限 $D(2)$ 猜想反例",
       "discipline": "Topology",
       "first_count": 1,
       "current_count": 1
@@ -1947,7 +1947,7 @@
       "current_count": 1
     },
     "328": {
-      "title": "自反 Banach 空间中的非扩张不动点",
+      "title": "自反 Banach 空间中的非扩张映射的不动点",
       "discipline": "Functional analysis",
       "first_count": 1,
       "current_count": 1
@@ -1977,13 +1977,13 @@
       "current_count": 1
     },
     "333": {
-      "title": "曲面到 ℝ⁴ 的光滑等距浸入",
+      "title": "曲面到 $\\mathbb R^4$ 的光滑等距浸入",
       "discipline": "Differential geometry",
       "first_count": 1,
       "current_count": 1
     },
     "334": {
-      "title": "无法局部等距浸入 ℝ³ 的光滑曲面度量",
+      "title": "无法局部等距浸入 $\\mathbb R^3$ 的光滑曲面度量",
       "discipline": "Differential geometry",
       "first_count": 1,
       "current_count": 1
@@ -2001,7 +2001,7 @@
       "current_count": 3
     },
     "337": {
-      "title": "Cartan–Hadamard 等周与 CAT(0) 填充",
+      "title": "Cartan–Hadamard 等周与 $\\operatorname{CAT}(0)$ 填充",
       "discipline": "Differential geometry",
       "first_count": 2,
       "current_count": 2
@@ -2031,13 +2031,13 @@
       "current_count": 1
     },
     "342": {
-      "title": "Donaldson 从驯服到相容的猜想",
+      "title": "Donaldson 从驯到相容的猜想",
       "discipline": "Differential geometry",
       "first_count": 1,
       "current_count": 1
     },
     "343": {
-      "title": "高维辛球填充的充要判据",
+      "title": "高维辛球堆积的充要判据",
       "discipline": "Differential geometry",
       "first_count": 1,
       "current_count": 1
@@ -2097,7 +2097,7 @@
       "current_count": 1
     },
     "353": {
-      "title": "仿射 Bernstein 刚性的最优维数阈值",
+      "title": "仿射 Bernstein 刚性的精确维数阈值",
       "discipline": "Differential geometry",
       "first_count": 2,
       "current_count": 2
@@ -2169,7 +2169,7 @@
       "current_count": 2
     },
     "365": {
-      "title": "单个边界片段恢复度量与联络",
+      "title": "由单个边界片联合恢复度量与联络",
       "discipline": "Partial differential equations",
       "first_count": 3,
       "current_count": 3
@@ -2223,7 +2223,7 @@
       "current_count": 1
     },
     "374": {
-      "title": "最优输运映射的三分之一次幂稳定性及指数最优性",
+      "title": "最优输运映射的精确三分之一次幂稳定性",
       "discipline": "Partial differential equations",
       "first_count": 1,
       "current_count": 1
@@ -2235,13 +2235,13 @@
       "current_count": 1
     },
     "376": {
-      "title": "受迫 Navier–Stokes 流中的普适计算",
+      "title": "受迫 Navier–Stokes 流中的通用计算",
       "discipline": "Partial differential equations",
       "first_count": 9,
       "current_count": 9
     },
     "377": {
-      "title": "无穷调和函数的内部 C¹,α 正则性",
+      "title": "无穷调和函数的内部 $C^{1,\\alpha}$ 正则性",
       "discipline": "Partial differential equations",
       "first_count": 1,
       "current_count": 1
@@ -2322,7 +2322,7 @@
       "category": "revised",
       "title": "紧致 Kähler 四维簇良极小模型存在性的条件性结果",
       "title_en": "Conditional good minimal models for compact Kähler fourfolds",
-      "note_cn": "明确了独立使用的通常极小模型纲领结果，并显式列出仍需假设的 Iitaka 次可加性与有效丰沛性条件。",
+      "note_cn": "明确了独立使用的通常极小模型纲领结果，并显式列出仍需假设的 Iitaka 次可加性与有效丰度条件。",
       "note_en": "This version clarifies the independent ordinary-MMP input and states the remaining Iitaka-subadditivity and effective-abundance hypotheses explicitly; see the [previous version](../Conditional-good-minimal-models-for-compact-Kahler-fourfolds-October-5-2026/paper.pdf).",
       "source": "preprints/Conditional-good-minimal-models-for-compact-Kahler-fourfolds-October-6-2026/README.md",
       "current_path": "preprints/Conditional-good-minimal-models-for-compact-Kahler-fourfolds-October-6-2026/paper.pdf",
@@ -2388,7 +2388,7 @@
       "id": "010-P03",
       "family": "010",
       "category": "references",
-      "title": "素数 2 处的 Fontaine–Mazur 模性",
+      "title": "素数 2 处的 Fontaine–Mazur 模性与 $2$ 进 pro-modularity",
       "title_en": "Fontaine–Mazur modularity at the prime 2",
       "note_cn": "本版更新了对本论文集中修订稿的引用；旧版仍可查阅。",
       "note_en": "This version updates citations to revised manuscripts in this collection; see the [previous version](../Fontaine-Mazur-modularity-at-the-prime-2-September-23-2026/paper.pdf).",
@@ -2473,7 +2473,7 @@
       "id": "034-P01",
       "family": "034",
       "category": "revised",
-      "title": "对数 Iitaka 次可加性假设下紧致 Kähler 空间的对数丰沛性",
+      "title": "对数 Iitaka 次可加性假设下紧致 Kähler 空间的对数丰度",
       "title_en": "Log abundance for compact Kähler spaces under logarithmic Iitaka subadditivity",
       "note_cn": "补充了归纳所需的底空间表示与乘子理想论证，包括伴随类的拉回与收缩下降步骤。",
       "note_en": "This version supplies base-presentation and multiplier-ideal arguments for the induction, including the adjoint pullback and contraction-descent steps; see the [previous version](../Log-abundance-for-compact-Kahler-spaces-under-logarithmic-Iitaka-subadditivity-October-4-2026/main.pdf).",
@@ -2524,7 +2524,7 @@
       "id": "342-P01",
       "family": "342",
       "category": "revised",
-      "title": "四维流形上驯服性蕴含相容性",
+      "title": "四维流形上驯性蕴含相容性",
       "title_en": "Taming implies compatibility on four-manifolds",
       "note_cn": "用交的正性刻画相容锥，将锥和等式限制在 $h_J^-=b_2^+-1$ 的情形，并补充了四维环面上严格包含的例子。",
       "note_en": "This version characterizes the compatible cone by intersection positivity, restricts the cone-sum equality to $h_J^-=b_2^+-1$, and adds a four-torus example of strict inclusion; see the [previous version](../Taming-implies-compatibility-on-four-manifolds-September-23-2026/paper.pdf).",
@@ -2609,9 +2609,9 @@
       "id": "233-P01",
       "family": "233",
       "category": "revised",
-      "title": "临界 Ashkin-Teller 电流的联合标度极限",
+      "title": "临界 Ashkin–Teller 电流的联合标度极限",
       "title_en": "The joint scaling limit of critical Ashkin-Teller currents",
-      "note_cn": "修正了传递与边界领圈论证，以基于同一极限场的带符号环汤／高斯乘性混沌论证替代游程收敛，并更新了配套论文的引用。",
+      "note_cn": "修正了传递与边界领圈论证，以基于同一极限场的带符号环汤／高斯乘性混沌论证替代 excursion 收敛，并更新了配套论文的引用。",
       "note_en": "This version corrects the transmission and boundary-collar arguments, replaces excursion convergence with a signed-loop-soup/GMC argument tied to the same limiting field, and updates the companion-paper citation; see the [previous version](../The-joint-scaling-limit-of-critical-Ashkin-Teller-currents-September-25-2026/main.pdf).",
       "source": "preprints/The-joint-scaling-limit-of-critical-Ashkin-Teller-currents-October-6-2026/README.md",
       "current_path": "preprints/The-joint-scaling-limit-of-critical-Ashkin-Teller-currents-October-6-2026/main.pdf",
@@ -2643,7 +2643,7 @@
       "id": "019-P02",
       "family": "019",
       "category": "references",
-      "title": "p 进截面猜想",
+      "title": "$p$ 进截面猜想",
       "title_en": "The p-adic section conjecture",
       "note_cn": "本版更新了对本论文集中修订稿的引用；旧版仍可查阅。",
       "note_en": "This version updates citations to revised manuscripts in this collection; see the [previous version](../The-p-adic-section-conjecture-September-24-2026/main.pdf).",
@@ -2805,7 +2805,7 @@
       "family": "066",
       "category": "support",
       "title": "Fano 收缩的有界 klt 补",
-      "note_cn": "新增归一化局部坐标域收缩映射族的紧性证明。它只覆盖辅助的局部紧性结论，不包括一致 Cartier 截面、有界 klt 补及实边界等结论。",
+      "note_cn": "新增局部坐标图的函数域上按归一化权重参数化的回缩映射族的紧性证明。它只覆盖辅助的局部紧性结论，不包括一致 Cartier 截面、有界 klt 补及实边界等结论。",
       "note_en": "The paper develops uniform Cartier sections for Fano-type contractions as a step toward bounded klt complements. The linked formalization proves a local compactness result: for positive numbers $a_i$, the chart-field retractions indexed by nonnegative weights satisfying $\\sum_i a_iw_i=1$ form a compact set in the pointwise topology on the fraction field.\n\nThe chart is built over an algebraically closed field from the localization of a polynomial ring at its origin. Its local domain is Noetherian, essentially of finite type and formally unramified over that localization, and formally étale over the polynomial ring. Uniform Cartier sections, bounded klt complements, and the paper's real-boundary and companion conclusions are outside this supporting statement.",
       "source": "lean/docs/066.md",
       "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
@@ -2825,7 +2825,7 @@
       "id": "lean-075",
       "family": "075",
       "category": "formalization",
-      "title": "L ln L 尺度的 Fourier 收敛",
+      "title": "$L\\log L$ 尺度的 Fourier 收敛猜想",
       "note_cn": "新增 $L\\log L$ 可积条件下通常对称 Fourier 部分和几乎处处收敛的形式化，覆盖完整的部分和序列。",
       "note_en": "The $L\\log L$ Fourier-convergence conjecture asks whether ordinary symmetric Fourier partial sums converge almost everywhere at this integrability scale. The formalization proves this for every measurable complex-valued function on $\\mathbb T=\\mathbb R/(2\\pi\\mathbb Z)$ satisfying $\\int_{\\mathbb T}|f|\\log(2+|f|)<\\infty$. Outside one measurable null set,\n$\\sum_{k=-N}^{N}\\widehat f(k)e^{ikx}\\to f(x)$ along the full sequence $N\\to\\infty$.",
       "source": "lean/docs/075.md",
@@ -2846,8 +2846,8 @@
       "id": "lean-103",
       "family": "103",
       "category": "formalization",
-      "title": "对数空间的去随机化",
-      "note_cn": "新增显式 Turing 机模型下 $\\mathsf L=\\mathsf{RL}=\\mathsf{BPL}$ 的形式化。此次选定的定理陈述语言类相等，未单独陈述论文的显式编译器与具体运行时间界。",
+      "title": "对数空间的去随机化：$\\mathsf L=\\mathsf{RL}=\\mathsf{BPL}$",
+      "note_cn": "新增显式图灵机模型下 $\\mathsf L=\\mathsf{RL}=\\mathsf{BPL}$ 的形式化。此次选定的定理陈述语言类相等，未单独陈述论文的显式编译器与具体运行时间界。",
       "note_en": "The formalization proves $\\mathsf L=\\mathsf{RL}=\\mathsf{BPL}$ for binary languages in an explicit Turing-machine model with logarithmic workspace. The randomized classes use polynomial time: $\\mathsf{RL}$ never accepts a no-instance and accepts a yes-instance with probability at least $1/2$, while $\\mathsf{BPL}$ has acceptance probability at least $2/3$ on yes-instances and at most $1/3$ on no-instances. Thus bounded-error randomness does not enlarge deterministic logarithmic space in this model.\n\nThe selected theorem asserts equality of the language classes. The paper's explicit compiler and numerical running-time bounds are not separately stated in this Comparator target.",
       "source": "lean/docs/103.md",
       "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
@@ -2867,8 +2867,8 @@
       "id": "lean-130",
       "family": "130",
       "category": "formalization",
-      "title": "低于 n ln n 的 Fourier 变换",
-      "note_cn": "新增适用于每个正整数长度的精确 DFT 与卷积算法形式化，工作量为 $O(n(\\log n)^{1-10^{-13}})$。采用精确复数算术及不受限制的系数，给定所选单位根；综合附录中的提取、搜索与输出程序的一致化不在此次范围内。",
+      "title": "低于 $n\\log n$ 的 Fourier 变换",
+      "note_cn": "新增适用于每个正整数长度的精确 DFT 与卷积算法形式化，工作量为 $O(n(\\log n)^{1-10^{-13}})$。采用精确复数算术及不受限制的系数，给定所选单位根；算法综合附录中提取、搜索与输出程序的一致化不在此次范围内。",
       "note_en": "The formalized result gives exact discrete Fourier transforms with arbitrarily small normalized circuit cost along an unbounded sequence of lengths. For every $c>0$ and every cutoff $N_0\\ge2$, some $n\\ge N_0$ has a circuit computing the unnormalized DFT with fewer than $cn\\log_2 n$ gates. Addition, subtraction, and multiplication by a predetermined complex scalar each cost one gate; diagonal scalings are charged. The result is subsequential, with no all-length, bounded-coefficient, conditioning, or bit-complexity claim.\n\nA separate uniform formalization gives fixed deterministic programs for every positive length $n$, computing the canonical discrete Fourier transform and the full convolution of two length-$n$ complex vectors exactly. Their work is $O(n(\\log n)^{1-10^{-13}})=o(n\\log n)$, including root-order selection and scalar preparation. The chosen root of unity is supplied; the model permits exact complex arithmetic and unrestricted coefficients, while integer values and indices remain polynomially bounded in $n$. The synthesis appendix's extraction, search, and printer uniformization is outside these selected statements.",
       "source": "lean/docs/130.md",
       "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
@@ -2912,7 +2912,7 @@
       "family": "157",
       "category": "formalization",
       "title": "Hadwiger 与 Colin de Verdière 猜想反例",
-      "note_cn": "新增任意大的有限简单图反例的形式化，覆盖通常染色数形式的 Hadwiger 猜想。论文的分数染色数加强及 Colin de Verdière 推论不在此次范围内。",
+      "note_cn": "新增任意大的有限简单图反例的形式化，覆盖通常染色数形式的 Hadwiger 猜想的反例。论文的分数染色数加强及 Colin de Verdière 推论不在此次范围内。",
       "note_en": "Hadwiger's conjecture predicts $\\chi(G)\\le h(G)$ for every finite graph, where $h(G)$ is the largest clique-minor order. The formalization constructs arbitrarily large finite simple counterexamples with independence number at most two. For a graph on $m$ vertices it proves\n$h(G)<26m/75+2/3<m/2\\le\\chi(G)$.\nThis disproves the ordinary chromatic form. The paper's fractional-chromatic strengthening and the Colin de Verdière consequence are outside this selected statement.\n\nThe Linear List Hadwiger conjecture asks for a universal linear bound on list chromatic number in terms of clique-minor size. The formalization proves that there is one integer $C\\ge1$ such that every finite nonempty simple graph $G$ satisfies $\\chi_{\\mathrm{list}}(G)\\le C h(G)$, where $h(G)$ is the largest order of a clique minor. The constant is independent of the graph.",
       "source": "lean/docs/157.md",
       "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
@@ -2954,7 +2954,7 @@
       "id": "lean-237",
       "family": "237",
       "category": "support",
-      "title": "蜂窝格自避游走的四分之三直径指数",
+      "title": "蜂窝格自回避游走的四分之三直径指数",
       "note_cn": "新增严格桥总临界权重与 $(1+h)^{-1/4}$ 同阶的形式化，包括路径和的有限性。指定端点长度律、拱与条带的平均长度律及其余矩与更新结论不在此次范围内。",
       "note_en": "The linked formalization establishes finiteness of the critical bridge measures used in the paper. For every strip height $h\\ge1$, the total weight and first length moment of self-avoiding honeycomb bridges from a fixed initial port to a free terminal port are finite. The corresponding sums are also finite when the bridge is confined to the corridor of horizontal width $h(\\log h)^2$, including the normalized first-moment sums.\n\nThese are supporting summability statements. The paper's $h^{4/3+o(1)}$ mean-length law and its central-visit and hexagonal-chord exponents are outside them.\n\nThe linked formalization proves existence of the infinite-length free energy for the critical honeycomb self-avoiding-walk partition function. For every starting vertex, force direction, and real force parameter, the logarithm of the length-$n$ partition function divided by $n$ converges to its stated free-energy limit.\n\nThis selected result supplies the limiting free energy. It does not state the paper's small-force exponent, near-critical correlation scale, or the $3/4$ spatial and moment laws.\n\nFor critical self-avoiding walks on the honeycomb lattice, the formalization proves that the total weight of paths crossing a strip of height $N$ is comparable to $N^{-1/4}$, while the first horizontal-displacement moment of return paths is comparable to $N^{3/4}$. It also proves finiteness of the strip sums, the exact arch–bridge balance identity, comparison of successive moment increments with bridge mass, and monotonicity of bridge mass. The comparison constants are uniform in the strip height.\n\nFor the prescribed-boundary-endpoint companion, let $B_h$ be the total critical weight of strict bridges crossing a strip of integral height $h$, from one fixed bottom port to all compatible top ports, with $B_0=1$. The formalization proves\n$c(1+h)^{-1/4}\\le B_h\\le C(1+h)^{-1/4}$\nfor all $h\\ge0$ and fixed positive constants $c,C$. This includes finiteness of the path sum. The prescribed-endpoint length law, arch and strip mean laws, and remaining moment and renewal conclusions are outside this supporting statement.",
       "source": "lean/docs/237.md",
@@ -7790,7 +7790,7 @@
       "pairs": [
         {
           "en": "Assuming orbifold Iitaka subadditivity and abundance for nef fourfold adjoints of nonnegative Kodaira dimension, we prove the existence of good minimal models for globally strongly ℚ-factorial compact Kähler klt fourfold pairs with effective rational boundary and analytically pseudo-effective actual ℚ-Cartier adjoint.",
-          "zh": "假设轨形 Iitaka 次可加性，以及 Kodaira 维数非负的 nef 四维伴随除子的丰沛性成立，我们证明了整体强 ℚ-factorial 的紧致 Kähler klt 四维对的良极小模型存在性，其中边界为有效有理边界，实际的 ℚ-Cartier 伴随除子在解析意义下伪有效。"
+          "zh": "假设轨形 Iitaka 次可加性，以及 Kodaira 维数非负的 nef 四维伴随除子的丰度成立，我们证明了整体强 $\\mathbb Q$-factorial 的紧致 Kähler klt 四维对的良极小模型存在性，其中边界为有效有理边界，实际的 $\\mathbb Q$-Cartier 伴随除子在解析意义下伪有效。"
         },
         {
           "en": "The ordinary fourfold minimal model program supplies the nef endpoint.",
@@ -7802,7 +7802,7 @@
         },
         {
           "en": "The projective abundance argument used in the proof is included in full.",
-          "zh": "证明中使用的射影丰沛性论证已完整收入文中。"
+          "zh": "证明中使用的射影丰度论证已完整收入文中。"
         }
       ]
     },
@@ -7813,21 +7813,21 @@
       "pairs": [
         {
           "en": "We prove that every smooth almost complex structure on a closed four-manifold which is tamed by a symplectic form is compatible with a symplectic form.",
-          "zh": "我们证明，闭四维流形上每个受某个辛形式驯服的光滑殆复结构，都与某个辛形式相容。"
+          "zh": "我们证明，闭四维流形上每个被某个辛形式所驯的光滑殆复结构，都与某个辛形式相容。"
         },
         {
           "en": "This gives a positive solution to Donaldson's tamed-to-compatible conjecture.",
-          "zh": "这肯定地解决了 Donaldson 的从驯服到相容猜想。"
+          "zh": "这肯定地解决了 Donaldson 的从驯到相容猜想。"
         },
         {
           "en": "We also characterize the compatible cone by strict intersection positivity on the closure of the invariant part of the taming cone.",
-          "zh": "我们还利用交配对在驯服锥不变部分的闭包上严格为正这一条件，刻画了相容锥。"
+          "zh": "我们还利用相交配对在驯锥不变部分的闭包上严格为正这一条件，刻画了相容锥。"
         }
       ]
     }
   ],
   "history_en": "# History\n\nFor any withdrawn papers, their README files explain the gap and link to the retracted manuscript. For any updated papers, previously published editions remain accessible through the version notes in their README.\n\n## October 7, 2026\n\n**Withdrawals**\n\nIn “Algebraicity of Weil classes on split abelian eightfolds” a sign error invalidates a stabilization-trace cancellation argument and the construction used by two dependent papers. As a result, we have withdrawn the following three manuscripts:\n\n- Algebraicity of Weil classes on split abelian eightfolds\n- Algebraicity of Kuga–Satake Correspondences for K3 Surfaces\n- The rational Hodge conjecture for products of K3 surfaces\n\nThe withdrawn papers now carry notices explaining the gap and linking to the archived manuscripts.\n\n**Fixes**\n\nWe have revised 14 other manuscripts with proof repairs, corrected statements, clearer hypotheses and dependencies, and one correction to an obsolete citation. The changes include:\n\n- Lipschitz heights and Ashkin–Teller currents (4 manuscripts): repaired crossing, boundary-attachment, conditioning and convergence arguments, including additional work on the real-Lipschitz interface proof.\n- Kähler minimal model programs and abundance (6 manuscripts): expanded positivity and contraction arguments and clarified which results are used as inputs, with their required hypotheses.\n- Taming and hypersymplectic deformation (2 manuscripts): corrected the cone-equality claim in Taming implies compatibility, added a strict-inclusion example, and removed an unnecessary cone-comparison dependency from the hypersymplectic paper.\n- Incompressible Box Transport and Finite Computation: revised the torus-projection and common-clock estimates.\n- Exact Birch–Swinnerton-Dyer Formula from Low Selmer Corank: removed an obsolete introductory citation to a removed supporting manuscript.\n\nAlso, as a consequence of these fixes we updated 13 additional manuscripts to cite the revised editions of companion papers. These changes update references and version dates.\n\n**Additional Formalizations**\n\nWe have added an additional 6 formalizations and 5 other additions covering supporting results. This brings the total percentage of top-line results formalized to 300 / 719 = ~42%.\n",
-  "history_cn": "对已撤回的论文，其 README 说明证明中的缺口，并链接到撤回前的论文。对已修订的论文，其 README 的版本说明保留通往已发布旧版的链接。\n\n## 2026 年 10 月 7 日\n\n### 撤回\n\n《分裂八维阿贝尔簇上 Weil 类的代数性》中的符号错误，使稳定化迹的消去论证及两篇依赖论文所用的构造失效。因此，撤回以下三篇论文：\n\n- 分裂八维阿贝尔簇上 Weil 类的代数性\n- K3 曲面的 Kuga–Satake 对应的代数性\n- K3 曲面乘积的有理 Hodge 猜想\n\n已撤回论文现附有通知，说明缺口并链接到归档论文。\n\n### 修订\n\n另有 14 篇论文经过修订，包括修补证明、修正陈述、明确假设与依赖关系，以及更正一条过时的引用。具体包括：\n\n- Lipschitz 高度与 Ashkin–Teller 流（4 篇）：修补穿越、边界连接、条件化与收敛论证，并进一步补充实值 Lipschitz 界面证明。\n- Kähler 极小模型纲领与丰沛性（6 篇）：扩充正性与收缩论证，明确所引用的输入结果及其所需假设。\n- 驯服性与 hypersymplectic 形变（2 篇）：修正《四维流形上驯服性蕴含相容性》中的锥相等断言，补充严格包含的例子，并删除 hypersymplectic 论文中不必要的锥比较依赖。\n- 《长方体的不可压缩输运与有限计算》：修订环面投影与共同时间参数的估计。\n- 《由低 Selmer 余秩导出的精确 Birch–Swinnerton-Dyer 公式》：删除引言中指向已移除辅助论文的一条过时引用。\n\n此外，因上述修订，另有 13 篇论文更新了对配套论文修订版的引用。这些改动涉及参考文献与版本日期。\n\n### 新增形式化\n\n新增 6 项形式化，以及覆盖辅助结果的另外 5 项补充。主结果已形式化的比例由此达到 $300/719$，约为 $42\\%$。",
+  "history_cn": "对已撤回的论文，其 README 说明证明中的缺口，并链接到撤回前的论文。对已修订的论文，其 README 的版本说明保留通往已发布旧版的链接。\n\n## 2026 年 10 月 7 日\n\n### 撤回\n\n《分裂八维阿贝尔簇上 Weil 类的代数性》中的符号错误，使稳定化迹的消去论证及两篇依赖论文所用的构造失效。因此，撤回以下三篇论文：\n\n- 分裂八维阿贝尔簇上 Weil 类的代数性\n- K3 曲面的 Kuga–Satake 对应的代数性\n- K3 曲面乘积的有理 Hodge 猜想\n\n已撤回论文现附有通知，说明缺口并链接到归档论文。\n\n### 修订\n\n另有 14 篇论文经过修订，包括修补证明、修正陈述、明确假设与依赖关系，以及更正一条过时的引用。具体包括：\n\n- Lipschitz 高度与 Ashkin–Teller 流（4 篇）：修补穿越、边界连接、条件化与收敛论证，并进一步补充实值 Lipschitz 界面证明。\n- Kähler 极小模型纲领与丰度（6 篇）：扩充正性与收缩论证，明确所引用的输入结果及其所需假设。\n- 驯性与 hypersymplectic 形变（2 篇）：修正《四维流形上驯性蕴含相容性》中的锥相等断言，补充严格包含的例子，并删除 hypersymplectic 论文中不必要的锥比较依赖。\n- 《长方体的不可压缩输运与有限计算》：修订环面投影与共同时间参数的估计。\n- 《由低 Selmer 余秩导出的精确 Birch–Swinnerton-Dyer 公式》：删除引言中指向已移除辅助论文的一条过时引用。\n\n此外，因上述修订，另有 13 篇论文更新了对配套论文修订版的引用。这些改动涉及参考文献与版本日期。\n\n### 新增形式化\n\n新增 6 项形式化，以及另外 5 项覆盖辅助结果的补充。主结果已形式化的比例由此达到 $300/719$，约为 $42\\%$。",
   "copy": {
     "expected_counts": {
       "withdrawn": 3,
@@ -7840,7 +7840,7 @@
       "032-P07": "证明中用于得到负双点的稳定化迹论证存在符号错误。按照论文的带符号双点约定，记 $I(f_1)=-m$，其中 $m>0$；原证明把每个反向稳定化迹的符号取为 $+1$，据此声称插入 $m$ 个这样的迹后，带符号计数为零。\n\n计入标准尖点两条分支相反的源定向后，每个反向迹在这一约定下的符号应为 $-1$，因此新的计数为 $I_{\\mathrm{new}}=I(f_1)-m=-2m\\ne0$。\n\n此处所引用的 Eliashberg–Murphy 消去定理要求带符号双点计数为零，因而其假设不成立。后续的定向手术与嵌入膜构造因此缺乏依据，论文未能证明其所声称的代数性定理。\n\n此次撤回针对证明，并不表示数学命题为假。",
       "032-P02": "证明依赖于对《分裂八维阿贝尔簇上 Weil 类的代数性》中存在错误的稳定化迹构造的改造。该构造中的符号错误使所需的带符号双点消去无法成立，因此论文所声称的代数性定理仍未得到证明。\n\n此次撤回针对证明，并不表示数学命题为假。",
       "032-P01": "证明依赖于对《分裂八维阿贝尔簇上 Weil 类的代数性》中存在错误的稳定化迹构造的改造。该构造中的符号错误使所需的带符号双点消去无法成立，因此论文所声称的射影 K3 曲面乘积的有理 Hodge 定理仍未得到证明。\n\n此次撤回针对证明，并不表示数学命题为假。",
-      "034-P03": "明确了独立使用的通常极小模型纲领结果，并显式列出仍需假设的 Iitaka 次可加性与有效丰沛性条件。",
+      "034-P03": "明确了独立使用的通常极小模型纲领结果，并显式列出仍需假设的 Iitaka 次可加性与有效丰度条件。",
       "341-P01": "明确了形变论证中所用的指定上同调类判据，删除了一条不必要的锥比较引用，并更新了配套论文的引用。",
       "002-P01": "删除了一条过时的辅助文献引用，并更新了对本论文集中修订稿的引用。",
       "056-P04": "补充了载体正性与乘子理想论证，并修订了通常负射线纲领中的收缩归纳。",
@@ -7852,7 +7852,7 @@
       "056-P02": "明确了仅从配套的四维簇论文中使用独立的负性、余维二光滑性与闭链比较结果。",
       "056-P01": "明确了证明所用的独立相对极小模型纲领与双有理比较结果，并更新了对配套修订稿的引用。",
       "232-P02": "由配套论文中 $x=1$ 时的加权环域回路定理，推出条件切割与回路估计。",
-      "233-P01": "修正了传递与边界领圈论证，以基于同一极限场的带符号环汤／高斯乘性混沌论证替代游程收敛，并更新了配套论文的引用。",
+      "233-P01": "修正了传递与边界领圈论证，以基于同一极限场的带符号环汤／高斯乘性混沌论证替代 excursion 收敛，并更新了配套论文的引用。",
       "232-P03": "修补了边界连接、落点比较与多尺度分离论证，包括条件随机游走与连接步骤；补充了整条曲线收敛所需的终端侧识别与调和质量不回返论证。"
     },
     "lean": {
@@ -7869,22 +7869,22 @@
       "066": {
         "category": "support",
         "title": "Fano 收缩的有界 klt 补",
-        "note": "新增归一化局部坐标域收缩映射族的紧性证明。它只覆盖辅助的局部紧性结论，不包括一致 Cartier 截面、有界 klt 补及实边界等结论。"
+        "note": "新增局部坐标图的函数域上按归一化权重参数化的回缩映射族的紧性证明。它只覆盖辅助的局部紧性结论，不包括一致 Cartier 截面、有界 klt 补及实边界等结论。"
       },
       "075": {
         "category": "formalization",
-        "title": "L ln L 尺度的 Fourier 收敛",
+        "title": "$L\\log L$ 尺度的 Fourier 收敛猜想",
         "note": "新增 $L\\log L$ 可积条件下通常对称 Fourier 部分和几乎处处收敛的形式化，覆盖完整的部分和序列。"
       },
       "103": {
         "category": "formalization",
-        "title": "对数空间的去随机化",
-        "note": "新增显式 Turing 机模型下 $\\mathsf L=\\mathsf{RL}=\\mathsf{BPL}$ 的形式化。此次选定的定理陈述语言类相等，未单独陈述论文的显式编译器与具体运行时间界。"
+        "title": "对数空间的去随机化：$\\mathsf L=\\mathsf{RL}=\\mathsf{BPL}$",
+        "note": "新增显式图灵机模型下 $\\mathsf L=\\mathsf{RL}=\\mathsf{BPL}$ 的形式化。此次选定的定理陈述语言类相等，未单独陈述论文的显式编译器与具体运行时间界。"
       },
       "130": {
         "category": "formalization",
-        "title": "低于 n ln n 的 Fourier 变换",
-        "note": "新增适用于每个正整数长度的精确 DFT 与卷积算法形式化，工作量为 $O(n(\\log n)^{1-10^{-13}})$。采用精确复数算术及不受限制的系数，给定所选单位根；综合附录中的提取、搜索与输出程序的一致化不在此次范围内。"
+        "title": "低于 $n\\log n$ 的 Fourier 变换",
+        "note": "新增适用于每个正整数长度的精确 DFT 与卷积算法形式化，工作量为 $O(n(\\log n)^{1-10^{-13}})$。采用精确复数算术及不受限制的系数，给定所选单位根；算法综合附录中提取、搜索与输出程序的一致化不在此次范围内。"
       },
       "137": {
         "category": "formalization",
@@ -7894,7 +7894,7 @@
       "157": {
         "category": "formalization",
         "title": "Hadwiger 与 Colin de Verdière 猜想反例",
-        "note": "新增任意大的有限简单图反例的形式化，覆盖通常染色数形式的 Hadwiger 猜想。论文的分数染色数加强及 Colin de Verdière 推论不在此次范围内。"
+        "note": "新增任意大的有限简单图反例的形式化，覆盖通常染色数形式的 Hadwiger 猜想的反例。论文的分数染色数加强及 Colin de Verdière 推论不在此次范围内。"
       },
       "195": {
         "category": "support",
@@ -7903,7 +7903,7 @@
       },
       "237": {
         "category": "support",
-        "title": "蜂窝格自避游走的四分之三直径指数",
+        "title": "蜂窝格自回避游走的四分之三直径指数",
         "note": "新增严格桥总临界权重与 $(1+h)^{-1/4}$ 同阶的形式化，包括路径和的有限性。指定端点长度律、拱与条带的平均长度律及其余矩与更新结论不在此次范围内。"
       },
       "301": {
@@ -7913,18 +7913,18 @@
       }
     },
     "current_032_title": "CM 阿贝尔簇的有理 Hodge 猜想",
-    "history_cn": "对已撤回的论文，其 README 说明证明中的缺口，并链接到撤回前的论文。对已修订的论文，其 README 的版本说明保留通往已发布旧版的链接。\n\n## 2026 年 10 月 7 日\n\n### 撤回\n\n《分裂八维阿贝尔簇上 Weil 类的代数性》中的符号错误，使稳定化迹的消去论证及两篇依赖论文所用的构造失效。因此，撤回以下三篇论文：\n\n- 分裂八维阿贝尔簇上 Weil 类的代数性\n- K3 曲面的 Kuga–Satake 对应的代数性\n- K3 曲面乘积的有理 Hodge 猜想\n\n已撤回论文现附有通知，说明缺口并链接到归档论文。\n\n### 修订\n\n另有 14 篇论文经过修订，包括修补证明、修正陈述、明确假设与依赖关系，以及更正一条过时的引用。具体包括：\n\n- Lipschitz 高度与 Ashkin–Teller 流（4 篇）：修补穿越、边界连接、条件化与收敛论证，并进一步补充实值 Lipschitz 界面证明。\n- Kähler 极小模型纲领与丰沛性（6 篇）：扩充正性与收缩论证，明确所引用的输入结果及其所需假设。\n- 驯服性与 hypersymplectic 形变（2 篇）：修正《四维流形上驯服性蕴含相容性》中的锥相等断言，补充严格包含的例子，并删除 hypersymplectic 论文中不必要的锥比较依赖。\n- 《长方体的不可压缩输运与有限计算》：修订环面投影与共同时间参数的估计。\n- 《由低 Selmer 余秩导出的精确 Birch–Swinnerton-Dyer 公式》：删除引言中指向已移除辅助论文的一条过时引用。\n\n此外，因上述修订，另有 13 篇论文更新了对配套论文修订版的引用。这些改动涉及参考文献与版本日期。\n\n### 新增形式化\n\n新增 6 项形式化，以及覆盖辅助结果的另外 5 项补充。主结果已形式化的比例由此达到 $300/719$，约为 $42\\%$。",
+    "history_cn": "对已撤回的论文，其 README 说明证明中的缺口，并链接到撤回前的论文。对已修订的论文，其 README 的版本说明保留通往已发布旧版的链接。\n\n## 2026 年 10 月 7 日\n\n### 撤回\n\n《分裂八维阿贝尔簇上 Weil 类的代数性》中的符号错误，使稳定化迹的消去论证及两篇依赖论文所用的构造失效。因此，撤回以下三篇论文：\n\n- 分裂八维阿贝尔簇上 Weil 类的代数性\n- K3 曲面的 Kuga–Satake 对应的代数性\n- K3 曲面乘积的有理 Hodge 猜想\n\n已撤回论文现附有通知，说明缺口并链接到归档论文。\n\n### 修订\n\n另有 14 篇论文经过修订，包括修补证明、修正陈述、明确假设与依赖关系，以及更正一条过时的引用。具体包括：\n\n- Lipschitz 高度与 Ashkin–Teller 流（4 篇）：修补穿越、边界连接、条件化与收敛论证，并进一步补充实值 Lipschitz 界面证明。\n- Kähler 极小模型纲领与丰度（6 篇）：扩充正性与收缩论证，明确所引用的输入结果及其所需假设。\n- 驯性与 hypersymplectic 形变（2 篇）：修正《四维流形上驯性蕴含相容性》中的锥相等断言，补充严格包含的例子，并删除 hypersymplectic 论文中不必要的锥比较依赖。\n- 《长方体的不可压缩输运与有限计算》：修订环面投影与共同时间参数的估计。\n- 《由低 Selmer 余秩导出的精确 Birch–Swinnerton-Dyer 公式》：删除引言中指向已移除辅助论文的一条过时引用。\n\n此外，因上述修订，另有 13 篇论文更新了对配套论文修订版的引用。这些改动涉及参考文献与版本日期。\n\n### 新增形式化\n\n新增 6 项形式化，以及另外 5 项覆盖辅助结果的补充。主结果已形式化的比例由此达到 $300/719$，约为 $42\\%$。",
     "abstracts": {
       "034-P03": [
-        "假设轨形 Iitaka 次可加性，以及 Kodaira 维数非负的 nef 四维伴随除子的丰沛性成立，我们证明了整体强 ℚ-factorial 的紧致 Kähler klt 四维对的良极小模型存在性，其中边界为有效有理边界，实际的 ℚ-Cartier 伴随除子在解析意义下伪有效。",
+        "假设轨形 Iitaka 次可加性，以及 Kodaira 维数非负的 nef 四维伴随除子的丰度成立，我们证明了整体强 $\\mathbb Q$-factorial 的紧致 Kähler klt 四维对的良极小模型存在性，其中边界为有效有理边界，实际的 $\\mathbb Q$-Cartier 伴随除子在解析意义下伪有效。",
         "通常的四维极小模型纲领给出了 nef 终点。",
         "我们通过纤维化论证证明非消失性；在代数维数为零时，则通过奇异度量、全纯叶状结构和从约化边界作延拓来证明。",
-        "证明中使用的射影丰沛性论证已完整收入文中。"
+        "证明中使用的射影丰度论证已完整收入文中。"
       ],
       "342-P01": [
-        "我们证明，闭四维流形上每个受某个辛形式驯服的光滑殆复结构，都与某个辛形式相容。",
-        "这肯定地解决了 Donaldson 的从驯服到相容猜想。",
-        "我们还利用交配对在驯服锥不变部分的闭包上严格为正这一条件，刻画了相容锥。"
+        "我们证明，闭四维流形上每个被某个辛形式所驯的光滑殆复结构，都与某个辛形式相容。",
+        "这肯定地解决了 Donaldson 的从驯到相容猜想。",
+        "我们还利用相交配对在驯锥不变部分的闭包上严格为正这一条件，刻画了相容锥。"
       ]
     }
   },
@@ -7966,7 +7966,7 @@
     },
     {
       "id": "003-P02",
-      "title": "准 Riemann 猜想（11/12 界的另一种证明）",
+      "title": "准 Riemann 猜想（$11/12$ 界的另一种证明）",
       "title_en": "The Quasi-Riemann Hypothesis (alternate 11/12 proof)",
       "path": "preprints/The-Quasi-Riemann-Hypothesis-October-5-2026/paper2.pdf",
       "date": "2026-10-05"
@@ -8029,14 +8029,14 @@
     },
     {
       "id": "009-P01",
-      "title": "由模 ℓ 的 Milnor K 理论重构函数域",
+      "title": "由模 $\\ell$ 的 Milnor $K$ 理论重构函数域",
       "title_en": "Reconstruction of Function Fields from Mod-ℓ Milnor K-Theory",
       "path": "preprints/Reconstruction-of-Function-Fields-from-Mod-ell-Milnor-K-Theory-October-5-2026/mod-ell-bogomolov-pop.pdf",
       "date": "2026-10-05"
     },
     {
       "id": "009-P02",
-      "title": "由模特征数的 Milnor K 理论进行重构",
+      "title": "由模特征数的 Milnor $K$ 理论进行重构",
       "title_en": "Reconstruction from Milnor K-theory modulo the characteristic",
       "path": "preprints/Reconstruction-from-Milnor-K-theory-modulo-the-characteristic-October-5-2026/paper.pdf",
       "date": "2026-10-05"
@@ -8064,7 +8064,7 @@
     },
     {
       "id": "010-P03",
-      "title": "素数 2 处的 Fontaine–Mazur 模性",
+      "title": "素数 2 处的 Fontaine–Mazur 模性与 $2$ 进 pro-modularity",
       "title_en": "Fontaine–Mazur modularity at the prime 2",
       "path": "preprints/Fontaine-Mazur-modularity-at-the-prime-2-September-23-2026/paper.pdf",
       "date": "2026-09-23"
@@ -8127,7 +8127,7 @@
     },
     {
       "id": "014-P04",
-      "title": "例外群的整体 generic 表示在分歧地方的缓增性",
+      "title": "例外群的整体 generic 表示在分歧位的缓增性",
       "title_en": "Temperedness at ramified places for globally generic exceptional groups",
       "path": "preprints/Temperedness-at-ramified-places-for-globally-generic-exceptional-groups-October-5-2026/ramified-ramanujan.pdf",
       "date": "2026-10-05"
@@ -8190,7 +8190,7 @@
     },
     {
       "id": "016-P02",
-      "title": "A2 中曲线的 Zilber–Pink 猜想的 E×CM 部分",
+      "title": "$\\mathcal A_2$ 中曲线的 Zilber–Pink 猜想的 $E\\times\\mathrm{CM}$ 部分",
       "title_en": "The E×CM component of Zilber–Pink for curves in A2",
       "path": "preprints/The-E-times-CM-Component-of-Zilber-Pink-for-Curves-in-A2-September-24-2026/paper.pdf",
       "date": "2026-09-24"
@@ -8204,14 +8204,14 @@
     },
     {
       "id": "016-P04",
-      "title": "椭圆曲线的平方与 A2 中曲线的 Zilber–Pink 猜想",
+      "title": "椭圆曲线的平方与 $\\mathcal A_2$ 中曲线的 Zilber–Pink 猜想",
       "title_en": "Elliptic squares and Zilber–Pink for curves in A2",
       "path": "preprints/Elliptic-Squares-and-Zilber-Pink-for-Curves-in-A2-September-24-2026/paper.pdf",
       "date": "2026-09-24"
     },
     {
       "id": "017-P01",
-      "title": "π 的无理性指数为 2",
+      "title": "$\\pi$ 的无理性指数为 2",
       "title_en": "The irrationality exponent of pi is 2",
       "path": "preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/paper.pdf",
       "date": "2026-09-24"
@@ -8239,7 +8239,7 @@
     },
     {
       "id": "019-P02",
-      "title": "p 进截面猜想",
+      "title": "$p$ 进截面猜想",
       "title_en": "The p-adic section conjecture",
       "path": "preprints/The-p-adic-section-conjecture-September-24-2026/main.pdf",
       "date": "2026-09-24"
@@ -8358,7 +8358,7 @@
     },
     {
       "id": "032-P04",
-      "title": "K3 二次型条件下的代数 Kuga–Satake 对应与 Hodge 猜想",
+      "title": "K3 二次型轨迹上的代数 Kuga–Satake 对应与 Hodge 猜想",
       "title_en": "Algebraic Kuga–Satake correspondences and Hodge conjectures on a K3 quadratic locus",
       "path": "preprints/Algebraic-Kuga-Satake-correspondences-and-Hodge-conjectures-on-a-K3-quadratic-locus-September-30-2026/paper.pdf",
       "date": "2026-09-30"
@@ -8421,14 +8421,14 @@
     },
     {
       "id": "033-P05",
-      "title": "紧致对数光滑 Kähler 纤维化的 B-半丰沛性",
+      "title": "紧致对数光滑 Kähler 纤维化的 $B$-半丰沛性",
       "title_en": "B-semiampleness for compact log-smooth Kähler fibrations",
       "path": "preprints/B-semiampleness-for-compact-log-smooth-Kahler-fibrations-September-10-2026/paper.pdf",
       "date": "2026-09-10"
     },
     {
       "id": "034-P01",
-      "title": "对数 Iitaka 次可加性假设下紧致 Kähler 空间的对数丰沛性",
+      "title": "对数 Iitaka 次可加性假设下紧致 Kähler 空间的对数丰度",
       "title_en": "Log abundance for compact Kähler spaces under logarithmic Iitaka subadditivity",
       "path": "preprints/Log-abundance-for-compact-Kahler-spaces-under-logarithmic-Iitaka-subadditivity-October-4-2026/main.pdf",
       "date": "2026-10-04"
@@ -8449,14 +8449,14 @@
     },
     {
       "id": "034-P04",
-      "title": "特征为零时的对数丰沛性",
+      "title": "特征为零时的对数丰度",
       "title_en": "Log abundance in characteristic zero",
       "path": "preprints/Log-abundance-in-characteristic-zero-September-24-2026/paper.pdf",
       "date": "2026-09-24"
     },
     {
       "id": "034-P05",
-      "title": "nef 伴随除子的极小度量与边界取内点时的单射性",
+      "title": "nef 伴随除子的极小度量与内部边界情形的单射性",
       "title_en": "Minimal metrics and interior injectivity for nef adjoints",
       "path": "preprints/Minimal-metrics-and-interior-injectivity-for-nef-adjoints-September-27-2026/paper.pdf",
       "date": "2026-09-27"
@@ -8470,7 +8470,7 @@
     },
     {
       "id": "034-P07",
-      "title": "从伴随除子的约化支撑提升截面",
+      "title": "从伴随除子的约化支集提升截面",
       "title_en": "Lifting sections from the reduced support of an adjoint",
       "path": "preprints/Lifting-sections-from-the-reduced-support-of-an-adjoint-September-27-2026/paper.pdf",
       "date": "2026-09-27"
@@ -8519,21 +8519,21 @@
     },
     {
       "id": "034-P14",
-      "title": "紧致 Kähler 四维簇在非消失性成立后的丰沛性",
+      "title": "紧致 Kähler 四维簇：由非消失性推出丰度",
       "title_en": "Abundance after nonvanishing for compact Kähler fourfolds",
       "path": "preprints/Abundance-after-nonvanishing-for-compact-Kahler-fourfolds-September-27-2026/paper.pdf",
       "date": "2026-09-27"
     },
     {
       "id": "035-P01",
-      "title": "正特征下三维簇在数值维数为一时的对数丰沛性",
+      "title": "正特征下三维簇在数值维数为一时的对数丰度",
       "title_en": "Log abundance in numerical dimension one for threefolds in positive characteristic",
       "path": "preprints/Log-abundance-in-numerical-dimension-one-for-threefolds-in-positive-characteristic-October-5-2026/paper.pdf",
       "date": "2026-10-05"
     },
     {
       "id": "035-P02",
-      "title": "正特征下具有终端奇点的三维簇在数值维数为一时的丰沛性",
+      "title": "正特征下具有终端奇点的三维簇在数值维数为一时的丰度",
       "title_en": "Abundance in numerical dimension one for terminal threefolds in positive characteristic",
       "path": "preprints/Abundance-in-numerical-dimension-one-for-terminal-threefolds-in-positive-characteristic-September-24-2026/paper.pdf",
       "date": "2026-09-24"
@@ -8554,7 +8554,7 @@
     },
     {
       "id": "036-P03",
-      "title": "广义对数典范 Q-对的极小模型与 Mori 纤维空间",
+      "title": "广义对数典范 $\\mathbb Q$-对的极小模型与 Mori 纤维空间",
       "title_en": "Minimal models and Mori fibre spaces for generalized log canonical Q-pairs",
       "path": "preprints/Minimal-models-and-Mori-fibre-spaces-for-generalized-log-canonical-Q-pairs-September-24-2026/paper.pdf",
       "date": "2026-09-24"
@@ -8617,7 +8617,7 @@
     },
     {
       "id": "040-P01",
-      "title": "p_g=0 曲面的 Bloch 猜想",
+      "title": "$p_g=0$ 曲面的 Bloch 猜想",
       "title_en": "Bloch’s conjecture for surfaces with p_g=0",
       "path": "preprints/Blochs-Conjecture-for-Surfaces-with-pg-equals-q-equals-0-September-24-2026/paper.pdf",
       "date": "2026-09-24"
@@ -8631,7 +8631,7 @@
     },
     {
       "id": "041-P02",
-      "title": "强超 Kähler SYZ 猜想",
+      "title": "强形式的超 Kähler SYZ 猜想",
       "title_en": "The strong hyperkähler SYZ conjecture",
       "path": "preprints/The-Strong-Hyperkahler-SYZ-Conjecture-September-23-2026/main.pdf",
       "date": "2026-09-23"
@@ -8645,7 +8645,7 @@
     },
     {
       "id": "043-P01",
-      "title": "固定行列式、合数秩情形中的 P=W",
+      "title": "固定行列式、合数秩情形中的 $P=W$",
       "title_en": "P=W in composite rank for fixed determinant",
       "path": "preprints/P-equals-W-in-composite-rank-for-fixed-determinant-September-24-2026/P-equals-W-in-composite-rank-for-fixed-determinant-September-24-2026.pdf",
       "date": "2026-09-24"
@@ -8834,7 +8834,7 @@
     },
     {
       "id": "059-P02",
-      "title": "ℂ⁴ 中在环境空间内同胚、重数分别为四和五的孤立超曲面奇点芽",
+      "title": "$\\mathbb C^4$ 中在环境空间内同胚、重数分别为四和五的孤立超曲面奇点芽",
       "title_en": "Ambiently homeomorphic isolated hypersurface germs in ℂ⁴ with multiplicities four and five",
       "path": "preprints/Ambiently-homeomorphic-isolated-hypersurface-germs-in-C4-with-multiplicities-four-and-five-September-27-2026/paper.pdf",
       "date": "2026-09-27"
@@ -8862,7 +8862,7 @@
     },
     {
       "id": "064-P01",
-      "title": "μ 不变的曲面奇点族的拓扑平凡性",
+      "title": "曲面奇点的 $\\mu$ 常数族的拓扑平凡性",
       "title_en": "Topological triviality of mu-constant families of surface singularities",
       "path": "preprints/Topological-triviality-of-mu-constant-families-of-surface-singularities-September-24-2026/main.pdf",
       "date": "2026-09-24"
@@ -9009,7 +9009,7 @@
     },
     {
       "id": "075-P01",
-      "title": "L log L 中几乎处处的 Fourier 收敛",
+      "title": "$L\\log L$ 中几乎处处的 Fourier 收敛",
       "title_en": "Almost-everywhere Fourier convergence in L log L",
       "path": "preprints/Almost-everywhere-Fourier-convergence-in-L-log-L-September-23-2026/paper.pdf",
       "date": "2026-09-23"
@@ -9058,7 +9058,7 @@
     },
     {
       "id": "079-P01",
-      "title": "三维波动方程的临界局部光滑化",
+      "title": "三维波动方程的临界局部光滑估计",
       "title_en": "Critical local smoothing for the three-dimensional wave equation",
       "path": "preprints/Critical-local-smoothing-for-the-three-dimensional-wave-equation-September-24-2026/paper.pdf",
       "date": "2026-09-24"
@@ -9093,7 +9093,7 @@
     },
     {
       "id": "082-P02",
-      "title": "二进三角 Hilbert 形式的 L³ 界",
+      "title": "二进三角 Hilbert 形式的 $L^3$ 界",
       "title_en": "An L³ bound for the dyadic triangular Hilbert form",
       "path": "preprints/An-L3-bound-for-the-dyadic-triangular-Hilbert-form-October-5-2026/dyadic-triangular-hilbert.pdf",
       "date": "2026-10-05"
@@ -9135,7 +9135,7 @@
     },
     {
       "id": "086-P01",
-      "title": "三线性 Hilbert 变换的 <i>L</i><sup>3</sup> 界",
+      "title": "三线性 Hilbert 变换的 $L^3$ 界",
       "title_en": "An <i>L</i><sup>3</sup> bound for the trilinear Hilbert transform",
       "path": "preprints/An-L3-bound-for-the-trilinear-Hilbert-transform-October-5-2026/paper.pdf",
       "date": "2026-10-05"
@@ -9156,7 +9156,7 @@
     },
     {
       "id": "087-P03",
-      "title": "对称极对偶乘积中的辛球",
+      "title": "对称极体乘积中的辛球",
       "title_en": "Symplectic Balls in Symmetric Polar Products",
       "path": "preprints/Symplectic-Balls-in-Symmetric-Polar-Products-September-22-2026/paper.pdf",
       "date": "2026-09-22"
@@ -9177,14 +9177,14 @@
     },
     {
       "id": "089-P01",
-      "title": "平面图度量到 L1 的常数畸变嵌入",
+      "title": "平面图度量到 $L_1$ 的常数畸变嵌入",
       "title_en": "Planar Graph Metrics Embed into L1 with Constant Distortion",
       "path": "preprints/Planar-Graph-Metrics-Embed-into-L1-with-Constant-Distortion-September-23-2026/paper.pdf",
       "date": "2026-09-23"
     },
     {
       "id": "089-P02",
-      "title": "树宽有界图的 L1 嵌入",
+      "title": "树宽有界图的 $L_1$ 嵌入",
       "title_en": "L1 Embeddings of Graphs of Bounded Treewidth",
       "path": "preprints/L1-Embeddings-of-Graphs-of-Bounded-Treewidth-September-23-2026/paper.pdf",
       "date": "2026-09-23"
@@ -9226,14 +9226,14 @@
     },
     {
       "id": "092-P01",
-      "title": "n log n 阶的单一格覆盖界",
+      "title": "$n\\log n$ 阶的单一格覆盖界",
       "title_en": "A single-lattice covering bound of order n log n",
       "path": "preprints/A-single-lattice-covering-bound-of-order-n-log-n-September-23-2026/paper.pdf",
       "date": "2026-09-23"
     },
     {
       "id": "092-P02",
-      "title": "n log n 阶的平移覆盖密度",
+      "title": "$n\\log n$ 阶的平移覆盖密度",
       "title_en": "Translative covering densities of order n log n",
       "path": "preprints/Translative-covering-densities-of-order-n-log-n-September-23-2026/paper.pdf",
       "date": "2026-09-23"
@@ -9247,7 +9247,7 @@
     },
     {
       "id": "094-P01",
-      "title": "Lp 空间中的次多项式降维",
+      "title": "$L_p$ 空间中的次多项式降维",
       "title_en": "Subpolynomial dimension reduction in Lp",
       "path": "preprints/Subpolynomial-dimension-reduction-in-Lp-September-23-2026/paper.pdf",
       "date": "2026-09-23"
@@ -9296,7 +9296,7 @@
     },
     {
       "id": "099-P01",
-      "title": "l1 中的编辑距离：指数仅相差常数因子的匹配上下界",
+      "title": "$\\ell_1$ 中的编辑距离：指数仅相差常数因子的匹配上下界",
       "title_en": "Edit Distance in l1: Matching Bounds up to Constants in the Exponent",
       "path": "preprints/Edit-Distance-in-l1-Matching-Bounds-up-to-Constants-in-the-Exponent-September-27-2026/paper.pdf",
       "date": "2026-09-27"
@@ -9310,7 +9310,7 @@
     },
     {
       "id": "099-P03",
-      "title": "二元编辑距离的 l1 畸变的树构造",
+      "title": "二元编辑距离的 $\\ell_1$ 畸变的树构造",
       "title_en": "Tree Constructions for the l1 Distortion of Binary Edit Distance",
       "path": "preprints/Tree-Constructions-for-the-l1-Distortion-of-Binary-Edit-Distance-September-27-2026/paper.pdf",
       "date": "2026-09-27"
@@ -9387,7 +9387,7 @@
     },
     {
       "id": "103-P01",
-      "title": "对数空间的精确去随机化：L = RL = BPL",
+      "title": "对数空间的精确去随机化：$\\mathsf L=\\mathsf{RL}=\\mathsf{BPL}$",
       "title_en": "Exact derandomization of logarithmic space: L = RL = BPL",
       "path": "preprints/Exact-Derandomization-of-Logarithmic-Space-L-equals-RL-equals-BPL-September-23-2026/paper.pdf",
       "date": "2026-09-23"
@@ -9436,7 +9436,7 @@
     },
     {
       "id": "107-P01",
-      "title": "矩阵乘法指数的 9/4 上界",
+      "title": "矩阵乘法指数的 $9/4$ 上界",
       "title_en": "An Upper Bound of 9/4 for the Matrix Multiplication Exponent",
       "path": "preprints/Matrix-Multiplication-Nine-Fourths-October-2-2026/paper.pdf",
       "date": "2026-10-02"
@@ -9464,21 +9464,21 @@
     },
     {
       "id": "109-P01",
-      "title": "低于 n log n 时间的整数乘法",
+      "title": "低于 $n\\log n$ 时间的整数乘法",
       "title_en": "Integer multiplication below n log n",
       "path": "preprints/Integer-multiplication-below-n-log-n-September-23-2026/paper.pdf",
       "date": "2026-09-23"
     },
     {
       "id": "110-P01",
-      "title": "任意度量上的对数平方竞争比随机 k 服务器算法",
+      "title": "任意度量上的对数平方竞争比随机 $k$ 服务器算法",
       "title_en": "Squared-logarithmic randomized k-server on arbitrary metrics",
       "path": "preprints/Squared-logarithmic-randomized-k-server-on-arbitrary-metrics-September-24-2026/Squared-logarithmic-randomized-k-server-on-arbitrary-metrics-September-24-2026.pdf",
       "date": "2026-09-24"
     },
     {
       "id": "110-P02",
-      "title": "对数平方 k 服务器界的一致计算",
+      "title": "对数平方 $k$ 服务器界的一致计算",
       "title_en": "Uniform computation of the squared-logarithmic k-server bound",
       "path": "preprints/Uniform-computation-of-the-squared-logarithmic-k-server-bound-September-24-2026/Uniform-computation-of-the-squared-logarithmic-k-server-bound-September-24-2026.pdf",
       "date": "2026-09-24"
@@ -9506,7 +9506,7 @@
     },
     {
       "id": "113-P02",
-      "title": "完美匹配多胞体的熵与面维数",
+      "title": "完美匹配多胞形的熵与面维数",
       "title_en": "Entropy and Face Dimension of the Perfect-Matching Polytope",
       "path": "preprints/Entropy-and-Face-Dimension-of-the-Perfect-Matching-Polytope-September-23-2026/main.pdf",
       "date": "2026-09-23"
@@ -9534,7 +9534,7 @@
     },
     {
       "id": "115-P02",
-      "title": "条目有界列联表计数的完全多项式随机近似方案",
+      "title": "单元格有界列联表计数的完全多项式随机近似方案",
       "title_en": "An FPRAS for Cell-Bounded Contingency Tables",
       "path": "preprints/An-FPRAS-for-Cell-Bounded-Contingency-Tables-September-24-2026/main.pdf",
       "date": "2026-09-24"
@@ -9576,7 +9576,7 @@
     },
     {
       "id": "118-P01",
-      "title": "装箱问题的加法近似困难性与无界配置间隙",
+      "title": "装箱问题的加法近似困难性与无界构型间隙",
       "title_en": "Additive hardness and unbounded configuration gaps in bin packing",
       "path": "preprints/Additive-hardness-and-unbounded-configuration-gaps-in-bin-packing-September-24-2026/Additive-hardness-and-unbounded-configuration-gaps-in-bin-packing-September-24-2026.pdf",
       "date": "2026-09-24"
@@ -9639,14 +9639,14 @@
     },
     {
       "id": "125-P01",
-      "title": "度量 k 中位数问题的单指数恢复与有界价格严格性",
+      "title": "度量 $k$ 中位数问题的单指数恢复与有界价格严格性",
       "title_en": "Single-exponential recovery and bounded-price strictness for metric k-median",
       "path": "preprints/Single-Exponential-Recovery-and-Bounded-Price-Strictness-for-Metric-k-Median-September-24-2026/paper.pdf",
       "date": "2026-09-24"
     },
     {
       "id": "125-P02",
-      "title": "度量 k 中位数问题的近似阈值",
+      "title": "度量 $k$ 中位数问题的近似阈值",
       "title_en": "The approximation threshold for metric k-median",
       "path": "preprints/The-Approximation-Threshold-for-Metric-k-Median-September-24-2026/main.pdf",
       "date": "2026-09-24"
@@ -9849,7 +9849,7 @@
     },
     {
       "id": "141-P01",
-      "title": "计数层级中的实数存在—全称语句",
+      "title": "计数层级中的实数存在–全称语句",
       "title_en": "Existential–universal real sentences in the counting hierarchy",
       "path": "preprints/Existential-universal-real-sentences-in-the-counting-hierarchy-October-4-2026/etr-counting-hierarchy.pdf",
       "date": "2026-10-04"
@@ -9947,7 +9947,7 @@
     },
     {
       "id": "151-P01",
-      "title": "熵猜想的一个 C^1 反例",
+      "title": "熵猜想的一个 $C^1$ 反例",
       "title_en": "A C^1 Counterexample to the Entropy Conjecture",
       "path": "preprints/A-C1-Counterexample-to-the-Entropy-Conjecture-September-25-2026/article.pdf",
       "date": "2026-09-25"
@@ -10087,7 +10087,7 @@
     },
     {
       "id": "165-P02",
-      "title": "完全二分图的交叉数",
+      "title": "完全二部图的交叉数",
       "title_en": "The crossing number of complete bipartite graphs",
       "path": "preprints/The-crossing-number-of-complete-bipartite-graphs-September-23-2026/paper.pdf",
       "date": "2026-09-23"
@@ -10129,7 +10129,7 @@
     },
     {
       "id": "170-P01",
-      "title": "r(5,t) 的精确对数指数",
+      "title": "$r(5,t)$ 的精确对数指数",
       "title_en": "The sharp logarithmic exponent of r(5,t)",
       "path": "preprints/The-Sharp-Logarithmic-Exponent-of-r-5-t-September-24-2026/paper.pdf",
       "date": "2026-09-24"
@@ -10206,14 +10206,14 @@
     },
     {
       "id": "177-P01",
-      "title": "每个维数中的有界度余边界扩张复形",
+      "title": "每个维数中的有界度上边缘扩张复形",
       "title_en": "Bounded-degree coboundary expanders in every dimension",
       "path": "preprints/Bounded-degree-coboundary-expanders-in-every-dimension-September-24-2026/paper.pdf",
       "date": "2026-09-24"
     },
     {
       "id": "178-P01",
-      "title": "每个固定度数下非二分 Ramanujan 图的确定性构造",
+      "title": "每个固定度数下非二部 Ramanujan 图的确定性构造",
       "title_en": "Deterministic nonbipartite Ramanujan graphs in every fixed degree",
       "path": "preprints/Deterministic-nonbipartite-Ramanujan-graphs-in-every-fixed-degree-September-23-2026/paper.pdf",
       "date": "2026-09-23"
@@ -10227,7 +10227,7 @@
     },
     {
       "id": "180-P01",
-      "title": "三正则二分平面图中的配对状态与 Hamilton 圈",
+      "title": "三正则二部平面图中的配对状态与 Hamilton 圈",
       "title_en": "Paired states and Hamiltonian cycles in cubic bipartite planar graphs",
       "path": "preprints/Paired-states-and-Hamiltonian-cycles-in-cubic-bipartite-planar-graphs-September-24-2026/paper.pdf",
       "date": "2026-09-24"
@@ -10297,7 +10297,7 @@
     },
     {
       "id": "186-P02",
-      "title": "单调图性质的锐阈值界",
+      "title": "单调图性质的精确阈值界",
       "title_en": "A Sharp Threshold Bound for Monotone Graph Properties",
       "path": "preprints/A-Sharp-Threshold-Bound-for-Monotone-Graph-Properties-September-25-2026/paper.pdf",
       "date": "2026-09-25"
@@ -10500,7 +10500,7 @@
     },
     {
       "id": "207-P01",
-      "title": "离散群的 ℓ¹-Bass 猜想",
+      "title": "离散群的 $\\ell^1$-Bass 猜想",
       "title_en": "The ℓ¹-Bass Conjecture for Discrete Groups",
       "path": "preprints/The-l1-Bass-Conjecture-for-Discrete-Groups-October-5-2026/l1-bass-conjecture.pdf",
       "date": "2026-10-05"
@@ -10528,7 +10528,7 @@
     },
     {
       "id": "209-P02",
-      "title": "Gersten 猜想在三阶的一个整系数反例",
+      "title": "Gersten 猜想在次数为三时的一个整系数反例",
       "title_en": "An integral degree-three Gersten counterexample",
       "path": "preprints/An-Integral-Degree-Three-Gersten-Counterexample-September-26-2026/paper.pdf",
       "date": "2026-09-26"
@@ -10577,7 +10577,7 @@
     },
     {
       "id": "211-P05",
-      "title": "临界 Liouville 量子球面与 q=4 时 FK 地图的几何极限",
+      "title": "临界 Liouville 量子球面与 $q=4$ 时 FK 地图的几何极限",
       "title_en": "The critical Liouville quantum sphere and geometric limits of FK maps at q=4",
       "path": "preprints/The-critical-Liouville-quantum-sphere-and-geometric-limits-of-FK-maps-at-q-equals-4-September-24-2026/main.pdf",
       "date": "2026-09-24"
@@ -10633,35 +10633,35 @@
     },
     {
       "id": "215-P01",
-      "title": "二维 O(3) 模型的典范有质量连续极限",
+      "title": "二维 $O(3)$ 模型的典范有质量连续极限",
       "title_en": "The canonical massive continuum limit of the two-dimensional O(3) model",
       "path": "preprints/The-canonical-massive-continuum-limit-of-the-two-dimensional-O3-model-October-4-2026/massive-continuum-o3.pdf",
       "date": "2026-10-04"
     },
     {
       "id": "215-P02",
-      "title": "二维 O(3) 自旋场的一个孤立粒子极点",
+      "title": "二维 $O(3)$ 自旋场的一个孤立粒子极点",
       "title_en": "An Isolated Particle Pole for the Two-Dimensional O(3) Spin Field",
       "path": "preprints/An-Isolated-Particle-Pole-for-the-Two-Dimensional-O3-Spin-Field-October-4-2026/o3-particle-pole.pdf",
       "date": "2026-10-04"
     },
     {
       "id": "215-P03",
-      "title": "二维 O(4) 晶格模型质量的精确渐近",
+      "title": "二维 $O(4)$ 晶格模型质量的精确渐近",
       "title_en": "Exact mass asymptotics for the two-dimensional O(4) lattice model",
       "path": "preprints/Exact-mass-asymptotics-for-the-two-dimensional-O4-lattice-model-October-5-2026/exact-mass-o4.pdf",
       "date": "2026-10-05"
     },
     {
       "id": "215-P04",
-      "title": "二维 O(4) 模型的最优质量界",
+      "title": "二维 $O(4)$ 模型的最优质量界",
       "title_en": "Sharp mass bounds for the two-dimensional O(4) model",
       "path": "preprints/Sharp-mass-bounds-for-the-two-dimensional-O4-model-September-23-2026/paper.pdf",
       "date": "2026-09-23"
     },
     {
       "id": "215-P05",
-      "title": "二维经典 O(n) 模型中的指数衰减",
+      "title": "二维经典 $O(n)$ 模型中的指数衰减",
       "title_en": "Exponential decay in two-dimensional classical O(n) models",
       "path": "preprints/Exponential-decay-in-two-dimensional-classical-On-models-September-23-2026/paper.pdf",
       "date": "2026-09-23"
@@ -10724,14 +10724,14 @@
     },
     {
       "id": "218-P01",
-      "title": "一般弱随机键 Ising 模型的淬火 SLE₃ 极限",
+      "title": "一般弱随机键 Ising 模型的淬火 $\\mathrm{SLE}_3$ 极限",
       "title_en": "Quenched SLE₃ limits for general weak random-bond Ising models",
       "path": "preprints/Quenched-SLE3-limits-for-general-weak-random-bond-Ising-models-October-5-2026/general-weak-random-bond-ising.pdf",
       "date": "2026-10-05"
     },
     {
       "id": "218-P02",
-      "title": "弱随机键 Ising 模型的淬火 SLE₃ 普适性",
+      "title": "弱随机键 Ising 模型的淬火 $\\mathrm{SLE}_3$ 普适性",
       "title_en": "Quenched SLE₃ Universality for the Weak Random-Bond Ising Model",
       "path": "preprints/Quenched-SLE3-Universality-for-the-Weak-Random-Bond-Ising-Model-October-5-2026/quenched-sle3-weak-random-bond-ising.pdf",
       "date": "2026-10-05"
@@ -10745,14 +10745,14 @@
     },
     {
       "id": "218-P04",
-      "title": "弱相互作用下 Ising 体内关联的共形普适性",
+      "title": "弱相互作用下 Ising 体相关联的共形普适性",
       "title_en": "Conformal universality of bulk Ising correlations under weak interactions",
       "path": "preprints/Conformal-universality-of-bulk-Ising-correlations-under-weak-interactions-September-23-2026/paper.pdf",
       "date": "2026-09-23"
     },
     {
       "id": "218-P05",
-      "title": "弱有限程 Ising 相互作用的 SLE3 普适性",
+      "title": "弱有限程 Ising 相互作用的 $\\mathrm{SLE}_3$ 普适性",
       "title_en": "SLE3 universality for weak finite-range Ising interactions",
       "path": "preprints/SLE3-universality-for-weak-finite-range-Ising-interactions-September-23-2026/paper.pdf",
       "date": "2026-09-23"
@@ -10836,7 +10836,7 @@
     },
     {
       "id": "223-P01",
-      "title": "1 <= q < 4 时方格上的 FK 界面与嵌套环",
+      "title": "$1\\le q<4$ 时方格上的 FK 界面与嵌套环",
       "title_en": "Square-lattice FK interfaces and nested loops for 1 <= q < 4",
       "path": "preprints/Square-lattice-FK-interfaces-and-nested-loops-for-1-leq-q-lt-4-September-23-2026/paper.pdf",
       "date": "2026-09-23"
@@ -10899,7 +10899,7 @@
     },
     {
       "id": "225-P01",
-      "title": "平衡六顶点模型的高斯自由场极限及其方差倍数 1/arcsin(c/2)",
+      "title": "平衡六顶点模型的高斯自由场极限及其方差乘子 $1/\\arcsin(c/2)$",
       "title_en": "The Gaussian free field limit of the balanced six-vertex model with variance multiplier 1/arcsin(c/2)",
       "path": "preprints/The-Gaussian-free-field-limit-of-the-balanced-six-vertex-model-with-variance-multiplier-1-over-arcsin-c-over-2-September-23-2026/The-Gaussian-free-field-limit-of-the-balanced-six-vertex-model-with-variance-multiplier-1-over-arcsin-c-over-2-September-23-2026.pdf",
       "date": "2026-09-23"
@@ -11004,14 +11004,14 @@
     },
     {
       "id": "230-P01",
-      "title": "SLE 的精确 Hausdorff 规范函数",
+      "title": "SLE 的精确 Hausdorff 纲函数",
       "title_en": "An exact Hausdorff gauge for SLE",
       "path": "preprints/An-exact-Hausdorff-gauge-for-SLE-September-25-2026/An-exact-Hausdorff-gauge-for-SLE-September-25-2026.pdf",
       "date": "2026-09-25"
     },
     {
       "id": "230-P02",
-      "title": "SLE 的显式精确 Hausdorff 规范函数",
+      "title": "SLE 的显式精确 Hausdorff 纲函数",
       "title_en": "An explicit exact Hausdorff gauge for SLE",
       "path": "preprints/An-explicit-exact-Hausdorff-gauge-for-SLE-September-26-2026/An-explicit-exact-Hausdorff-gauge-for-SLE-September-26-2026.pdf",
       "date": "2026-09-26"
@@ -11046,7 +11046,7 @@
     },
     {
       "id": "233-P01",
-      "title": "临界 Ashkin-Teller 电流的联合标度极限",
+      "title": "临界 Ashkin–Teller 电流的联合标度极限",
       "title_en": "The joint scaling limit of critical Ashkin-Teller currents",
       "path": "preprints/The-joint-scaling-limit-of-critical-Ashkin-Teller-currents-September-25-2026/main.pdf",
       "date": "2026-09-25"
@@ -11074,7 +11074,7 @@
     },
     {
       "id": "235-P03",
-      "title": "随机 k-SAT 首达时间的方差",
+      "title": "随机 $k$-SAT 首达时间的方差",
       "title_en": "Variance of the Random k-SAT Hitting Time",
       "path": "preprints/Variance-of-the-Random-k-SAT-Hitting-Time-September-27-2026/article.pdf",
       "date": "2026-09-27"
@@ -11088,7 +11088,7 @@
     },
     {
       "id": "236-P01",
-      "title": "正则树上自由边界 Ising 模型成为 IID 因子的锐阈值",
+      "title": "正则树上自由边界 Ising 模型成为 IID 因子的精确阈值",
       "title_en": "The sharp factor-of-IID threshold for the free Ising model on regular trees",
       "path": "preprints/The-sharp-factor-of-IID-threshold-for-the-free-Ising-model-on-regular-trees-September-26-2026/article.pdf",
       "date": "2026-09-26"
@@ -11347,7 +11347,7 @@
     },
     {
       "id": "247-P01",
-      "title": "一个无限的有限展示剩余有限 2-群",
+      "title": "一个无限的有限展示剩余有限 $2$-群",
       "title_en": "An infinite finitely presented residually finite 2-group",
       "path": "preprints/An-infinite-finitely-presented-residually-finite-2-group-October-5-2026/residually-finite-torsion.pdf",
       "date": "2026-10-05"
@@ -11361,7 +11361,7 @@
     },
     {
       "id": "248-P01",
-      "title": "Thompson 群 F 非可均",
+      "title": "Thompson 群 $F$ 非可均",
       "title_en": "Thompson's group F is nonamenable",
       "path": "preprints/Thompsons-group-F-is-nonamenable-September-23-2026/paper.pdf",
       "date": "2026-09-23"
@@ -11382,14 +11382,14 @@
     },
     {
       "id": "250-P02",
-      "title": "包含字问题可判定群的 F∞ 型单群",
+      "title": "包含字问题可判定群的 $F_\\infty$ 型单群",
       "title_en": "Simple F∞ overgroups of groups with decidable word problem",
       "path": "preprints/Simple-F-infinity-overgroups-of-groups-with-decidable-word-problem-September-23-2026/paper.pdf",
       "date": "2026-09-23"
     },
     {
       "id": "250-P03",
-      "title": "一个 F∞ 型通用群",
+      "title": "一个 $F_\\infty$ 型通用群",
       "title_en": "A universal group of type F∞",
       "path": "preprints/A-universal-group-of-type-F-infinity-September-23-2026/paper.pdf",
       "date": "2026-09-23"
@@ -11424,14 +11424,14 @@
     },
     {
       "id": "254-P01",
-      "title": "调和高度与 Artin K(pi,1) 猜想",
+      "title": "调和高度与 Artin $K(\\pi,1)$ 猜想",
       "title_en": "Harmonic heights and the Artin K(pi,1) conjecture",
       "path": "preprints/Harmonic-heights-and-the-Artin-K-pi-1-conjecture-September-23-2026/paper.pdf",
       "date": "2026-09-23"
     },
     {
       "id": "254-P02",
-      "title": "一个不具有几何 CAT(0) 作用的 Artin 群",
+      "title": "一个不具有几何 $\\operatorname{CAT}(0)$ 作用的 Artin 群",
       "title_en": "An Artin group with no geometric CAT(0) action",
       "path": "preprints/An-Artin-group-with-no-geometric-CAT-0-action-September-23-2026/paper.pdf",
       "date": "2026-09-23"
@@ -11466,7 +11466,7 @@
     },
     {
       "id": "257-P01",
-      "title": "一个不具有几何 CAT(0) 作用的双曲群",
+      "title": "一个不具有几何 $\\operatorname{CAT}(0)$ 作用的双曲群",
       "title_en": "A hyperbolic group with no geometric CAT(0) action",
       "path": "preprints/A-hyperbolic-group-with-no-geometric-CAT0-action-September-25-2026/paper.pdf",
       "date": "2026-09-25"
@@ -11529,7 +11529,7 @@
     },
     {
       "id": "260-P06",
-      "title": "不要求极大性的反 de Sitter Penrose 不等式与原始数据的刚性",
+      "title": "不要求极大性的 anti-de Sitter Penrose 不等式与原始数据的刚性",
       "title_en": "The nonmaximal anti-de Sitter Penrose Inequality and original-data rigidity",
       "path": "preprints/The-nonmaximal-anti-de-Sitter-Penrose-Inequality-and-original-data-rigidity-October-5-2026/paper.pdf",
       "date": "2026-10-05"
@@ -11543,7 +11543,7 @@
     },
     {
       "id": "260-P08",
-      "title": "Schwarzschild–反 de Sitter 数据共形扰动的局部 Penrose 不等式",
+      "title": "Schwarzschild–anti-de Sitter 数据共形扰动的局部 Penrose 不等式",
       "title_en": "A local Penrose inequality for conformal perturbations of Schwarzschild–anti-de Sitter data",
       "path": "preprints/A-local-Penrose-inequality-for-conformal-perturbations-of-Schwarzschild-anti-de-Sitter-data-October-5-2026/paper.pdf",
       "date": "2026-10-05"
@@ -11613,7 +11613,7 @@
     },
     {
       "id": "262-P03",
-      "title": "一维 Lieb–Thirring 不等式的最优常数",
+      "title": "一维 Lieb–Thirring 最优不等式",
       "title_en": "Sharp one-dimensional Lieb–Thirring constants",
       "path": "preprints/Sharp-One-Dimensional-Lieb-Thirring-Constants-September-23-2026/paper.pdf",
       "date": "2026-09-23"
@@ -11648,14 +11648,14 @@
     },
     {
       "id": "264-P02",
-      "title": "旋转次极端 Kerr 时空附近一般情形下的未来 C1 不可延拓性",
+      "title": "旋转次极端 Kerr 时空附近一般情形下的未来 $C^1$ 不可延拓性",
       "title_en": "Generic C1 Future Inextendibility Near Rotating Subextremal Kerr Spacetimes",
       "path": "preprints/Generic-C1-Future-Inextendibility-Near-Rotating-Subextremal-Kerr-Spacetimes-September-23-2026/paper.pdf",
       "date": "2026-09-23"
     },
     {
       "id": "264-P03",
-      "title": "Kerr 附近演化的定量分析与一般情形下的未来 C2 不可延拓性",
+      "title": "Kerr 附近演化的定量分析与一般情形下的未来 $C^2$ 不可延拓性",
       "title_en": "Quantitative Near-Kerr Evolution and Generic C2 Future Inextendibility",
       "path": "preprints/Quantitative-Near-Kerr-Evolution-and-Generic-C2-Future-Inextendibility-September-23-2026/paper.pdf",
       "date": "2026-09-23"
@@ -11725,21 +11725,21 @@
     },
     {
       "id": "268-P01",
-      "title": "周期边界条件下的自旋一 Haldane 能隙",
+      "title": "周期边界条件下的自旋一 Haldane 谱隙",
       "title_en": "The periodic spin-one Haldane gap",
       "path": "preprints/The-periodic-spin-one-Haldane-gap-September-24-2026/paper.pdf",
       "date": "2026-09-24"
     },
     {
       "id": "268-P02",
-      "title": "边界磁场作用下自旋一 Heisenberg 链的能隙",
+      "title": "边界磁场作用下自旋一 Heisenberg 链的谱隙",
       "title_en": "A boundary-field gap for the spin-one Heisenberg chain",
       "path": "preprints/A-boundary-field-gap-for-the-spin-one-Heisenberg-chain-September-24-2026/paper.pdf",
       "date": "2026-09-24"
     },
     {
       "id": "269-P01",
-      "title": "球面 Laughlin 能隙的一致稳定性",
+      "title": "球面 Laughlin 谱隙的一致稳定性",
       "title_en": "Uniform Stability of the Spherical Laughlin Gap",
       "path": "preprints/Uniform-Stability-of-the-Spherical-Laughlin-Gap-October-5-2026/uniform-stability-spherical-laughlin-gap.pdf",
       "date": "2026-10-05"
@@ -11753,7 +11753,7 @@
     },
     {
       "id": "270-P01",
-      "title": "SU(N) BFSS 模型的唯一阈值束缚态",
+      "title": "$\\mathrm{SU}(N)$ BFSS 模型的唯一阈值束缚态",
       "title_en": "The unique threshold bound state of the SU(N) BFSS model",
       "path": "preprints/The-unique-threshold-bound-state-of-the-SU-N-BFSS-model-September-24-2026/paper.pdf",
       "date": "2026-09-24"
@@ -11767,7 +11767,7 @@
     },
     {
       "id": "271-P01",
-      "title": "三维有限作用程 Heisenberg 铁磁体的 Bloch 定律",
+      "title": "三维有限程 Heisenberg 铁磁体的 Bloch 定律",
       "title_en": "Bloch's Law for Finite-Range Heisenberg Ferromagnets in Three Dimensions",
       "path": "preprints/Blochs-Law-for-Finite-Range-Heisenberg-Ferromagnets-in-Three-Dimensions-October-5-2026/bloch-law-heisenberg.pdf",
       "date": "2026-10-05"
@@ -11795,7 +11795,7 @@
     },
     {
       "id": "272-P01",
-      "title": "局部维数为十、可蒸馏秘密密钥为零的纠缠态",
+      "title": "局部维数为十、可蒸馏密钥为零的纠缠态",
       "title_en": "Entanglement with zero distillable secret key in local dimension ten",
       "path": "preprints/Entanglement-with-zero-distillable-secret-key-in-local-dimension-ten-September-27-2026/paper.pdf",
       "date": "2026-09-27"
@@ -11809,7 +11809,7 @@
     },
     {
       "id": "274-P01",
-      "title": "乘积投影局部化与 QAC0 奇偶性下界",
+      "title": "乘积投影局部化与 $\\mathrm{QAC}^0$ 奇偶性下界",
       "title_en": "Product-projection localization and the QAC0 parity lower bound",
       "path": "preprints/Product-projection-localization-and-the-QAC0-parity-lower-bound-September-24-2026/paper.pdf",
       "date": "2026-09-24"
@@ -11851,14 +11851,14 @@
     },
     {
       "id": "278-P01",
-      "title": "不能由 Kohn-Sham 系综表示的 Coulomb 基态密度",
+      "title": "不能由 Kohn–Sham 系综表示的 Coulomb 基态密度",
       "title_en": "A Coulomb ground-state density without Kohn-Sham ensemble representation",
       "path": "preprints/A-Coulomb-Ground-State-Density-without-Kohn-Sham-Ensemble-Representation-September-25-2026/paper.pdf",
       "date": "2026-09-25"
     },
     {
       "id": "279-P01",
-      "title": "固定有限门集上的精确量子因数分解",
+      "title": "固定有限门集上的精确量子整数分解",
       "title_en": "Exact quantum factoring over a fixed finite gate set",
       "path": "preprints/Exact-quantum-factoring-over-a-fixed-finite-gate-set-September-25-2026/main.pdf",
       "date": "2026-09-25"
@@ -11879,14 +11879,14 @@
     },
     {
       "id": "281-P02",
-      "title": "零温 Sherrington-Kirkpatrick 序参量的满支集",
+      "title": "零温 Sherrington–Kirkpatrick 序参量的全支集",
       "title_en": "Full support of the zero-temperature Sherrington-Kirkpatrick order parameter",
       "path": "preprints/Full-support-of-the-zero-temperature-Sherrington-Kirkpatrick-order-parameter-September-27-2026/main.pdf",
       "date": "2026-09-27"
     },
     {
       "id": "282-P01",
-      "title": "操作框架下四维量子场论的尺度对称性与共形对称性",
+      "title": "操作框架下四维量子场论的标度对称性与共形对称性",
       "title_en": "Scale and conformal symmetry in four-dimensional operational quantum field theory",
       "path": "preprints/Scale-and-conformal-symmetry-in-four-dimensional-operational-quantum-field-theory-September-26-2026/main.pdf",
       "date": "2026-09-26"
@@ -11970,7 +11970,7 @@
     },
     {
       "id": "289-P03",
-      "title": "相近却不空间共轭的可分 C* 代数",
+      "title": "相近却不空间共轭的可分 $C^*$ 代数",
       "title_en": "Close Separable C*-Algebras Without Spatial Conjugacy",
       "path": "preprints/Close-Separable-Cstar-Algebras-Without-Spatial-Conjugacy-October-5-2026/paper.pdf",
       "date": "2026-10-05"
@@ -12012,7 +12012,7 @@
     },
     {
       "id": "291-P04",
-      "title": "迹投影方法与一致性质 Gamma",
+      "title": "迹投影方法与一致性质 $\\Gamma$",
       "title_en": "Tracial projection methods and uniform property Gamma",
       "path": "preprints/Tracial-projection-methods-and-uniform-property-Gamma-September-23-2026/paper.pdf",
       "date": "2026-09-23"
@@ -12117,7 +12117,7 @@
     },
     {
       "id": "303-P01",
-      "title": "弱纯无限性与 O-infinity 吸收性",
+      "title": "弱纯无限性与 $\\mathcal O_\\infty$ 吸收性",
       "title_en": "Weak pure infiniteness and O-infinity absorption",
       "path": "preprints/Weak-pure-infiniteness-and-O-infinity-absorption-September-25-2026/paper.pdf",
       "date": "2026-09-25"
@@ -12145,7 +12145,7 @@
     },
     {
       "id": "305-P03",
-      "title": "没有非球面流形模型的 PD4 群",
+      "title": "没有非球面流形模型的 $\\mathrm{PD}_4$ 群",
       "title_en": "A PD4 group without an aspherical manifold model",
       "path": "preprints/A-PD4-group-without-an-aspherical-manifold-model-September-24-2026/paper.pdf",
       "date": "2026-09-24"
@@ -12180,7 +12180,7 @@
     },
     {
       "id": "308-P02",
-      "title": "素数 1009 处的有限 Smith–Toda 复形 V(4)",
+      "title": "素数 1009 处的有限 Smith–Toda 复形 $V(4)$",
       "title_en": "A finite Smith–Toda complex V(4) at the prime 1009",
       "path": "preprints/A-finite-Smith-Toda-complex-V4-at-the-prime-1009-September-23-2026/paper.pdf",
       "date": "2026-09-23"
@@ -12201,7 +12201,7 @@
     },
     {
       "id": "311-P01",
-      "title": "稳定子轨道与可对偶化 K(n) 局部谱的厚张量理想",
+      "title": "稳定子轨道与可对偶 $K(n)$ 局部谱的厚张量理想",
       "title_en": "Stabilizer orbits and thick tensor ideals of dualizable K(n)-local spectra",
       "path": "preprints/Stabilizer-Orbits-and-Thick-Tensor-Ideals-of-Dualizable-Kn-Local-Spectra-September-24-2026/paper.pdf",
       "date": "2026-09-24"
@@ -12215,7 +12215,7 @@
     },
     {
       "id": "313-P01",
-      "title": "K(n) 局部球谱的有限生成性",
+      "title": "$K(n)$ 局部球谱的有限生成性",
       "title_en": "Finite generation for the K(n)-local sphere",
       "path": "preprints/Finite-generation-for-the-Kn-local-sphere-September-24-2026/Finite-generation-for-the-Kn-local-sphere-September-24-2026.pdf",
       "date": "2026-09-24"
@@ -12250,42 +12250,42 @@
     },
     {
       "id": "318-P01",
-      "title": "一般素数处的滤过chromatic 分裂",
+      "title": "一般素数处的滤过 chromatic 分裂",
       "title_en": "Filtered chromatic splitting at generic primes",
       "path": "preprints/Filtered-chromatic-splitting-at-generic-primes-September-25-2026/paper.pdf",
       "date": "2026-09-25"
     },
     {
       "id": "318-P02",
-      "title": "高度三的chromatic 交叠：显式滤过及其粘接映射",
+      "title": "高度三的 chromatic 交叠：显式滤过及其粘接映射",
       "title_en": "The height-three chromatic overlap: an explicit filtration and its attachments",
       "path": "preprints/The-height-three-chromatic-overlap-an-explicit-filtration-and-its-attachments-September-27-2026/paper.pdf",
       "date": "2026-09-27"
     },
     {
       "id": "318-P03",
-      "title": "高度三强chromatic 分裂的有理障碍",
+      "title": "高度三强 chromatic 分裂的有理障碍",
       "title_en": "A rational obstruction to strong chromatic splitting at height three",
       "path": "preprints/A-rational-obstruction-to-strong-chromatic-splitting-at-height-three-September-25-2026/paper.pdf",
       "date": "2026-09-25"
     },
     {
       "id": "318-P04",
-      "title": "素数三处chromatic 交叠的有限装配失效",
+      "title": "素数三处 chromatic 交叠的有限装配失效",
       "title_en": "Failure of finite assembly for a chromatic overlap at the prime three",
       "path": "preprints/Failure-of-finite-assembly-for-a-chromatic-overlap-at-the-prime-three-September-25-2026/paper.pdf",
       "date": "2026-09-25"
     },
     {
       "id": "318-P05",
-      "title": "弱chromatic 分裂的反例：球谱核与下降指数",
+      "title": "弱 chromatic 分裂的反例：球谱核与下降指数",
       "title_en": "Counterexamples to weak chromatic splitting: sphere kernels and descent exponents",
       "path": "preprints/Counterexamples-to-weak-chromatic-splitting-sphere-kernels-and-descent-exponents-September-27-2026/paper.pdf",
       "date": "2026-09-27"
     },
     {
       "id": "319-P01",
-      "title": "高度二处 Hahn-Wilson 猜想的反例",
+      "title": "高度二处 Hahn–Wilson 猜想的反例",
       "title_en": "Counterexamples to the Hahn-Wilson conjecture at height two",
       "path": "preprints/Counterexamples-to-the-Hahn-Wilson-conjecture-at-height-two-September-26-2026/paper.pdf",
       "date": "2026-09-26"
@@ -12299,7 +12299,7 @@
     },
     {
       "id": "321-P01",
-      "title": "Wall 的 D(2) 问题的一个反例",
+      "title": "Wall 的 $D(2)$ 问题的一个反例",
       "title_en": "A Counterexample to Wall's D(2) Problem",
       "path": "preprints/A-Counterexample-to-Walls-D2-Problem-October-6-2026/wall-d2-counterexample.pdf",
       "date": "2026-10-06"
@@ -12327,7 +12327,7 @@
     },
     {
       "id": "324-P02",
-      "title": "不含 c0 线性副本却双 Lipschitz 吸收 c0",
+      "title": "不含 $c_0$ 线性副本却双 Lipschitz 吸收 $c_0$",
       "title_en": "Bi-Lipschitz Absorption of c0 Without a Linear Copy of c0",
       "path": "preprints/Bi-Lipschitz-Absorption-of-c0-Without-a-Linear-Copy-of-c0-September-26-2026/paper.pdf",
       "date": "2026-09-26"
@@ -12348,7 +12348,7 @@
     },
     {
       "id": "326-P01",
-      "title": "逼近性质假设下的余型—余型猜想",
+      "title": "逼近性质假设下的余型–余型猜想",
       "title_en": "The cotype–cotype conjecture under the approximation property",
       "path": "preprints/The-cotype-cotype-conjecture-under-the-approximation-property-September-23-2026/paper.pdf",
       "date": "2026-09-23"
@@ -12404,7 +12404,7 @@
     },
     {
       "id": "331-P04",
-      "title": "L1 的一个 Daugavet 子空间中的精确渐近模",
+      "title": "$L_1$ 的一个 Daugavet 子空间中的精确渐近模",
       "title_en": "Exact asymptotic moduli in a Daugavet subspace of L1",
       "path": "preprints/Exact-asymptotic-moduli-in-a-Daugavet-subspace-of-L1-September-27-2026/manuscript.pdf",
       "date": "2026-09-27"
@@ -12418,7 +12418,7 @@
     },
     {
       "id": "331-P06",
-      "title": "实 L1 中的独立乘积：具有渐近中点凸性但不存在渐近一致凸重赋范",
+      "title": "实 $L_1$ 中的独立乘积：具有渐近中点凸性但不存在渐近一致凸重赋范",
       "title_en": "Independent products in real L1: asymptotic midpoint convexity without AUC renormings",
       "path": "preprints/Independent-products-in-real-L1-asymptotic-midpoint-convexity-without-AUC-renormings-September-27-2026/manuscript.pdf",
       "date": "2026-09-27"
@@ -12432,7 +12432,7 @@
     },
     {
       "id": "332-P01",
-      "title": "<i>ℓ</i><sub>1</sub> 的度量 Markov 余型为二",
+      "title": "$\\ell_1$ 的度量 Markov 余型为二",
       "title_en": "Metric Markov Cotype Two of <i>ℓ</i><sub>1</sub> ",
       "path": "preprints/Metric-Markov-Cotype-Two-of-l1-October-5-2026/l1-markov-cotype.pdf",
       "date": "2026-10-05"
@@ -12495,7 +12495,7 @@
     },
     {
       "id": "337-P02",
-      "title": "CAT(0) 空间中整系数填充的最优界",
+      "title": "$\\operatorname{CAT}(0)$ 空间中整系数填充的最优界",
       "title_en": "Sharp integral fillings in CAT(0) spaces",
       "path": "preprints/Sharp-integral-fillings-in-CAT(0)-spaces-September-23-2026/paper.pdf",
       "date": "2026-09-23"
@@ -12530,7 +12530,7 @@
     },
     {
       "id": "342-P01",
-      "title": "四维流形上驯服性蕴含相容性",
+      "title": "四维流形上驯性蕴含相容性",
       "title_en": "Taming implies compatibility on four-manifolds",
       "path": "preprints/Taming-implies-compatibility-on-four-manifolds-September-23-2026/paper.pdf",
       "date": "2026-09-23"
@@ -12614,7 +12614,7 @@
     },
     {
       "id": "348-P02",
-      "title": "非负曲率四维流形的 L² Einstein 间隙",
+      "title": "非负曲率四维流形的 $L^2$ Einstein 间隙",
       "title_en": "An L² Einstein Gap for Nonnegatively Curved Four-Manifolds",
       "path": "preprints/An-L2-Einstein-Gap-for-Nonnegatively-Curved-Four-Manifolds-October-5-2026/einstein-gap.pdf",
       "date": "2026-10-05"
@@ -12852,14 +12852,14 @@
     },
     {
       "id": "368-P01",
-      "title": "1≤p≤2 时三维中的强微分同胚逼近",
+      "title": "$1\\le p\\le2$ 时三维中的强微分同胚逼近",
       "title_en": "Strong diffeomorphic approximation in three dimensions for 1≤p≤2",
       "path": "preprints/Strong-diffeomorphic-approximation-in-three-dimensions-for-1-le-p-le-2-September-24-2026/main.pdf",
       "date": "2026-09-24"
     },
     {
       "id": "368-P02",
-      "title": "p>2 时三维中的强微分同胚逼近",
+      "title": "$p>2$ 时三维中的强微分同胚逼近",
       "title_en": "Strong diffeomorphic approximation in three dimensions for p>2",
       "path": "preprints/Strong-diffeomorphic-approximation-in-three-dimensions-for-p-gt-2-September-24-2026/main.pdf",
       "date": "2026-09-24"
@@ -12901,7 +12901,7 @@
     },
     {
       "id": "374-P01",
-      "title": "Brenier 映射的三分之一阶稳定性及其最优性",
+      "title": "Brenier 映射的精确三分之一阶稳定性",
       "title_en": "Sharp One-Third Stability of Brenier Maps",
       "path": "preprints/Sharp-One-Third-Stability-of-Brenier-Maps-September-25-2026/article.pdf",
       "date": "2026-09-25"
@@ -13293,10 +13293,10 @@
           {
             "action": "changed",
             "kind": "reference",
-            "title": "四维流形上驯服性蕴含相容性",
+            "title": "四维流形上驯性蕴含相容性",
             "before": {
               "label": "37",
-              "title": "四维流形上驯服性蕴含相容性",
+              "title": "四维流形上驯性蕴含相容性",
               "date": "2026.09.23",
               "url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Taming-implies-compatibility-on-four-manifolds-September-23-2026/paper.pdf",
               "text": "OpenAI, Taming implies compatibility on four-manifolds, OpenAI Math Release preprint OAI:Taming-implies-compatibility-on-four-manifolds-September-23-2026, 2026.",
@@ -13319,7 +13319,7 @@
             },
             "after": {
               "label": "37",
-              "title": "四维流形上驯服性蕴含相容性",
+              "title": "四维流形上驯性蕴含相容性",
               "date": "2026.10.06",
               "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Taming-implies-compatibility-on-four-manifolds-October-6-2026/paper.pdf",
               "text": "OpenAI, Taming implies compatibility on four-manifolds, OpenAI Math Release preprint OAI:Taming-implies-compatibility-on-four-manifolds-October-6-2026, 2026.",
@@ -14098,10 +14098,10 @@
           {
             "action": "changed",
             "kind": "reference",
-            "title": "素数 2 处的 Fontaine–Mazur 模性",
+            "title": "素数 2 处的 Fontaine–Mazur 模性与 $2$ 进 pro-modularity",
             "before": {
               "label": "49",
-              "title": "素数 2 处的 Fontaine–Mazur 模性",
+              "title": "素数 2 处的 Fontaine–Mazur 模性与 $2$ 进 pro-modularity",
               "date": "2026.09.23",
               "url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Fontaine-Mazur-modularity-at-the-prime-2-September-23-2026/paper.pdf",
               "text": "OpenAI. Fontaine–Mazur modularity at the prime 2. OpenAI Math Release preprint OAI:Fontaine-Mazur-modularity-at-the-prime-2-September-23-2026, 2026. Theorem 1.1 and Section 2.1.",
@@ -14124,7 +14124,7 @@
             },
             "after": {
               "label": "49",
-              "title": "素数 2 处的 Fontaine–Mazur 模性",
+              "title": "素数 2 处的 Fontaine–Mazur 模性与 $2$ 进 pro-modularity",
               "date": "2026.10.06",
               "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Fontaine-Mazur-modularity-at-the-prime-2-October-6-2026/paper.pdf",
               "text": "OpenAI. Fontaine–Mazur modularity at the prime 2. OpenAI Math Release preprint OAI:Fontaine-Mazur-modularity-at-the-prime-2-October-6-2026, 2026. Theorem 1.1 and Section 2.1.",
@@ -14605,10 +14605,10 @@
           {
             "action": "changed",
             "kind": "reference",
-            "title": "对数 Iitaka 次可加性假设下紧致 Kähler 空间的对数丰沛性",
+            "title": "对数 Iitaka 次可加性假设下紧致 Kähler 空间的对数丰度",
             "before": {
               "label": "32",
-              "title": "对数 Iitaka 次可加性假设下紧致 Kähler 空间的对数丰沛性",
+              "title": "对数 Iitaka 次可加性假设下紧致 Kähler 空间的对数丰度",
               "date": "2026.10.04",
               "url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Log-abundance-for-compact-Kahler-spaces-under-logarithmic-Iitaka-subadditivity-October-4-2026/main.pdf",
               "text": "OpenAI. Log abundance for compact Kähler spaces under logarithmic Iitaka subadditivity. OpenAI Math Release preprint OAI:Log-abundance-for-compact-Kahler-spaces-under-logarithmic-Iitaka-subadditivity-October-4-2026, 2026.",
@@ -14631,7 +14631,7 @@
             },
             "after": {
               "label": "32",
-              "title": "对数 Iitaka 次可加性假设下紧致 Kähler 空间的对数丰沛性",
+              "title": "对数 Iitaka 次可加性假设下紧致 Kähler 空间的对数丰度",
               "date": "2026.10.06",
               "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Log-abundance-for-compact-Kahler-spaces-under-logarithmic-Iitaka-subadditivity-October-6-2026/main.pdf",
               "text": "OpenAI. Log abundance for compact Kähler spaces under logarithmic Iitaka subadditivity. OpenAI Math Release preprint OAI:Log-abundance-for-compact-Kahler-spaces-under-logarithmic-Iitaka-subadditivity-October-6-2026, 2026. Theorem 2.13, Lemma 3.6, Proposition 3.8, Proposition 3.30, and Theorem 3.55.",
@@ -15832,10 +15832,10 @@
           {
             "action": "changed",
             "kind": "reference",
-            "title": "素数 2 处的 Fontaine–Mazur 模性",
+            "title": "素数 2 处的 Fontaine–Mazur 模性与 $2$ 进 pro-modularity",
             "before": {
               "label": "17",
-              "title": "素数 2 处的 Fontaine–Mazur 模性",
+              "title": "素数 2 处的 Fontaine–Mazur 模性与 $2$ 进 pro-modularity",
               "date": "2026.09.23",
               "url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Fontaine-Mazur-modularity-at-the-prime-2-September-23-2026/paper.pdf",
               "text": "OpenAI. Fontaine–Mazur modularity at the prime 2. OpenAI Math Release preprint OAI:Fontaine-Mazur-modularity-at-the-prime-2-September-23-2026, 2026.",
@@ -15858,7 +15858,7 @@
             },
             "after": {
               "label": "17",
-              "title": "素数 2 处的 Fontaine–Mazur 模性",
+              "title": "素数 2 处的 Fontaine–Mazur 模性与 $2$ 进 pro-modularity",
               "date": "2026.10.06",
               "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Fontaine-Mazur-modularity-at-the-prime-2-October-6-2026/paper.pdf",
               "text": "OpenAI. Fontaine–Mazur modularity at the prime 2. OpenAI Math Release preprint OAI:Fontaine-Mazur-modularity-at-the-prime-2-October-6-2026, 2026.",
@@ -15989,7 +15989,7 @@
             "action": "added",
             "action_label": "新增 Lean",
             "kind": "content",
-            "text": "新增归一化局部坐标域收缩映射族的紧性证明。它只覆盖辅助的局部紧性结论，不包括一致 Cartier 截面、有界 klt 补及实边界等结论。",
+            "text": "新增局部坐标图的函数域上按归一化权重参数化的回缩映射族的紧性证明。它只覆盖辅助的局部紧性结论，不包括一致 Cartier 截面、有界 klt 补及实边界等结论。",
             "source": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/docs/066.md"
           }
         ],
@@ -16019,7 +16019,7 @@
             "action": "added",
             "action_label": "新增 Lean",
             "kind": "content",
-            "text": "新增显式 Turing 机模型下 $\\mathsf L=\\mathsf{RL}=\\mathsf{BPL}$ 的形式化。此次选定的定理陈述语言类相等，未单独陈述论文的显式编译器与具体运行时间界。",
+            "text": "新增显式图灵机模型下 $\\mathsf L=\\mathsf{RL}=\\mathsf{BPL}$ 的形式化。此次选定的定理陈述语言类相等，未单独陈述论文的显式编译器与具体运行时间界。",
             "source": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/docs/103.md"
           }
         ],
@@ -16034,7 +16034,7 @@
             "action": "added",
             "action_label": "新增 Lean",
             "kind": "content",
-            "text": "新增适用于每个正整数长度的精确 DFT 与卷积算法形式化，工作量为 $O(n(\\log n)^{1-10^{-13}})$。采用精确复数算术及不受限制的系数，给定所选单位根；综合附录中的提取、搜索与输出程序的一致化不在此次范围内。",
+            "text": "新增适用于每个正整数长度的精确 DFT 与卷积算法形式化，工作量为 $O(n(\\log n)^{1-10^{-13}})$。采用精确复数算术及不受限制的系数，给定所选单位根；算法综合附录中提取、搜索与输出程序的一致化不在此次范围内。",
             "source": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/docs/130.md"
           }
         ],
@@ -16064,7 +16064,7 @@
             "action": "added",
             "action_label": "新增 Lean",
             "kind": "content",
-            "text": "新增任意大的有限简单图反例的形式化，覆盖通常染色数形式的 Hadwiger 猜想。论文的分数染色数加强及 Colin de Verdière 推论不在此次范围内。",
+            "text": "新增任意大的有限简单图反例的形式化，覆盖通常染色数形式的 Hadwiger 猜想的反例。论文的分数染色数加强及 Colin de Verdière 推论不在此次范围内。",
             "source": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/docs/157.md"
           }
         ],

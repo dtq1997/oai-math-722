@@ -320846,7 +320846,7 @@
     "O04": [
       {
         "id": "O04-R1",
-        "title": "相邻素数的短间隔",
+        "title": "素数短间隔界的改进",
         "url": "https://cdn.openai.com/pdf/51126fac-1b68-4128-9666-c908bcc16033/short_gaps.pdf",
         "references": [
           {
@@ -321017,7 +321017,7 @@
     "O05": [
       {
         "id": "O05-R1",
-        "title": "相邻素数的长间隔",
+        "title": "素数长间隔界的改进",
         "url": "https://cdn.openai.com/pdf/51126fac-1b68-4128-9666-c908bcc16033/long_gaps.pdf",
         "references": [
           {
@@ -322267,7 +322267,7 @@
     "C03": [
       {
         "id": "C03-R1",
-        "title": "Elekes–Rónyai 近二次膨胀猜想的反例",
+        "title": "实数域上 Elekes–Rónyai 近二次膨胀猜想的反例",
         "url": "https://arxiv.org/abs/2606.16738v1",
         "references": [
           {
@@ -322722,7 +322722,7 @@
     "C04": [
       {
         "id": "C04-R1",
-        "title": "奇数维 Calabi–Yau 簇上阿贝尔群秩界的反例",
+        "title": "奇数维 Calabi–Yau 簇上阿贝尔 $p$ 群作用秩界的反例",
         "url": "https://arxiv.org/abs/2607.04891v1",
         "references": [
           {
@@ -323897,7 +323897,7 @@
     "C09": [
       {
         "id": "C09-R1",
-        "title": "Nesterov 加速梯度法的迭代点收敛",
+        "title": "Nesterov 加速梯度法的迭代点收敛：一个 AI 辅助证明",
         "url": "https://arxiv.org/abs/2510.23513v2",
         "references": [
           {
@@ -324424,7 +324424,7 @@
     "C08": [
       {
         "id": "C08-R1",
-        "title": "多元独立集多项式的下界",
+        "title": "多元独立集多项式及其推广的下界",
         "url": "https://arxiv.org/abs/2602.02450v2",
         "references": [
           {
@@ -325786,7 +325786,7 @@
     "C11": [
       {
         "id": "C11-R1",
-        "title": "周期—指数猜想的反例",
+        "title": "周期–指数猜想的反例",
         "url": "https://arxiv.org/abs/2608.03684v2",
         "references": [
           {
@@ -336644,7 +336644,7 @@
     "O01": [
       {
         "id": "O01-R1",
-        "title": "平面单位距离问题",
+        "title": "含有大量单位距离的平面点集",
         "url": "https://cdn.openai.com/pdf/74c24085-19b0-4534-9c90-465b8e29ad73/unit-distance-proof.pdf",
         "references": [
           {
@@ -344818,7 +344818,7 @@
     "Z01": [
       {
         "id": "Z01-R1",
-        "title": "ζ(5) 的无理性",
+        "title": "$\\zeta(5)$ 的无理性",
         "url": "https://zenodo.org/records/22826419/files/ZETA5_IS_IRRATIONAL.pdf",
         "references": [
           {

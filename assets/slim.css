@@ -1,0 +1,26 @@
+/* [Codex] 保留原版图表的位置、外观与展开状态，只精简卡片和手机导航。 */
+.entry-card .card-heading{display:flex;flex-wrap:wrap;align-items:baseline;gap:0 10px;margin:12px 0 10px}
+.entry-card .card-heading h3{margin:0}
+.card-status{display:flex;flex-wrap:wrap;gap:5px}
+.card-status .update-tag.withdrawn{font-weight:700;font-size:12px;color:var(--withdraw-ink);border:1px solid currentColor}
+.entry-card .card-count{display:block;font-size:11px;color:var(--muted);margin-top:10px}
+.entry-card>.entry-meta:last-child{border:0;padding:0}
+.entry-card .card-count.entry-meta{display:flex;gap:10px}
+.matrix-count-note{width:100%}
+.history-change-meta .record-number{margin-right:2px}
+.history-change-meta>span:last-child{margin-left:0}
+@media(max-width:800px){
+ .topbar{flex-direction:row;align-items:center;gap:12px;padding:10px 16px;overflow-x:auto;white-space:nowrap;scrollbar-width:thin}
+ .topbar>a{font-size:13px;flex-shrink:0}
+ .topbar nav{flex-wrap:nowrap;gap:16px;align-items:center;flex-shrink:0;font-size:11px}
+ .topbar nav a:last-child{display:inline}
+ .topbar nav a,.topbar nav button{flex-shrink:0}
+ .history-change-meta{gap:6px;font-size:11px}
+ .history-change-meta>span:last-child{font-size:11px}
+ .topbar nav a{padding:8px 0}
+ .tag,.matrix-label small{font-size:11px}
+ summary{padding:4px 0}
+}
+/* [Claude] 宋体把 en dash 画成全角，标题里的 Kuga–Satake 显示成“Kuga – Satake”；en dash 改用西文衬线字形。 */
+@font-face{font-family:"Latin Dash";src:local("Georgia"),local("Times New Roman"),local("Noto Serif"),local("DejaVu Serif");unicode-range:U+2013}
+:root{--serif:"Latin Dash","Songti SC","STSong","Noto Serif CJK SC",Georgia,serif}

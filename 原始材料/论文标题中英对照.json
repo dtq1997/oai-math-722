@@ -25,7 +25,7 @@
     "title_en": "The Quasi-Riemann Hypothesis: A Zero-Free Half-Plane $`\\Re s\\gt 7/8`$ "
   },
   "003-P02": {
-    "title_cn": "准 Riemann 猜想（11/12 界的另一种证明）",
+    "title_cn": "准 Riemann 猜想（$11/12$ 界的另一种证明）",
     "source_sha256": "f49bafb38dcea2fe4f1b4da1781a0ff6e931a4a03403c961405c78ecc3f64609",
     "title_en": "The Quasi-Riemann Hypothesis (alternate 11/12 proof)"
   },
@@ -70,12 +70,12 @@
     "title_en": "The Deligne-Drinfeld conjecture"
   },
   "009-P01": {
-    "title_cn": "由模 ℓ 的 Milnor K 理论重构函数域",
+    "title_cn": "由模 $\\ell$ 的 Milnor $K$ 理论重构函数域",
     "source_sha256": "38d10a1a511fbcb837fac3d27344779ed8ac708d1b8fa5bac20669df2e802ab3",
     "title_en": "Reconstruction of Function Fields from Mod-ℓ Milnor K-Theory"
   },
   "009-P02": {
-    "title_cn": "由模特征数的 Milnor K 理论进行重构",
+    "title_cn": "由模特征数的 Milnor $K$ 理论进行重构",
     "source_sha256": "84a767b07541638d62bb32571b634b4cba9673e36eb5b3f12a076ac82ae7195f",
     "title_en": "Reconstruction from Milnor K-theory modulo the characteristic"
   },
@@ -95,7 +95,7 @@
     "title_en": "The Dimension of the Two-Adic Hecke Algebra at Odd Level"
   },
   "010-P03": {
-    "title_cn": "素数 2 处的 Fontaine–Mazur 模性",
+    "title_cn": "素数 2 处的 Fontaine–Mazur 模性与 $2$ 进 pro-modularity",
     "source_sha256": "eae4c627b2bcdedb62fa1b8c7a7accd57f22cfb39d331be9244bf8ab993dbbf2",
     "title_en": "Fontaine–Mazur modularity at the prime 2"
   },
@@ -140,7 +140,7 @@
     "title_en": "Ramanujan-Arthur Decompositions of Cuspidal Functions at Full Finite Level"
   },
   "014-P04": {
-    "title_cn": "例外群的整体 generic 表示在分歧地方的缓增性",
+    "title_cn": "例外群的整体 generic 表示在分歧位的缓增性",
     "source_sha256": "e25ebfc635ded43ebf292cc6c911db4d37e365dde09eba72496fe0dc12e99573",
     "title_en": "Temperedness at ramified places for globally generic exceptional groups"
   },
@@ -185,7 +185,7 @@
     "title_en": "The abelian Zilber–Pink conjecture"
   },
   "016-P02": {
-    "title_cn": "A2 中曲线的 Zilber–Pink 猜想的 E×CM 部分",
+    "title_cn": "$\\mathcal A_2$ 中曲线的 Zilber–Pink 猜想的 $E\\times\\mathrm{CM}$ 部分",
     "source_sha256": "9c24251cfe17e885716ab4480a7623975db4d3b2f70067998497901cf6f75e4f",
     "title_en": "The E×CM component of Zilber–Pink for curves in A2"
   },
@@ -195,12 +195,12 @@
     "title_en": "Quaternionic division points on curves in the Siegel threefold"
   },
   "016-P04": {
-    "title_cn": "椭圆曲线的平方与 A2 中曲线的 Zilber–Pink 猜想",
+    "title_cn": "椭圆曲线的平方与 $\\mathcal A_2$ 中曲线的 Zilber–Pink 猜想",
     "source_sha256": "b239fbc2ce55c18512e6db97ae3785fb8872e0c9de9d02329faba352d0e8bd92",
     "title_en": "Elliptic squares and Zilber–Pink for curves in A2"
   },
   "017-P01": {
-    "title_cn": "π 的无理性指数为 2",
+    "title_cn": "$\\pi$ 的无理性指数为 2",
     "source_sha256": "079d235707facf52e91e7cfbd59dc168eb5b6dbbd0fa71c19b34f381e960ad21",
     "title_en": "The irrationality exponent of pi is 2"
   },
@@ -220,7 +220,7 @@
     "title_en": "Étale covers with a prescribed exterior sheet"
   },
   "019-P02": {
-    "title_cn": "p 进截面猜想",
+    "title_cn": "$p$ 进截面猜想",
     "source_sha256": "96b3be9c35535a9735d5d4a05b4f89f9b3790a0f3721b5f6948da5df6835da8f",
     "title_en": "The p-adic section conjecture"
   },
@@ -305,7 +305,7 @@
     "title_en": "The rational Hodge conjecture for CM abelian varieties"
   },
   "032-P04": {
-    "title_cn": "K3 二次型条件下的代数 Kuga–Satake 对应与 Hodge 猜想",
+    "title_cn": "K3 二次型轨迹上的代数 Kuga–Satake 对应与 Hodge 猜想",
     "source_sha256": "e3fd519f5b349b005e2a70105b35c9673c78a11116656b6889416819285c91d0",
     "title_en": "Algebraic Kuga–Satake correspondences and Hodge conjectures on a K3 quadratic locus"
   },
@@ -350,12 +350,12 @@
     "title_en": "Projective Hodge lines and ordinary Iitaka subadditivity"
   },
   "033-P05": {
-    "title_cn": "紧致对数光滑 Kähler 纤维化的 B-半丰沛性",
+    "title_cn": "紧致对数光滑 Kähler 纤维化的 $B$-半丰沛性",
     "source_sha256": "b9791621c08fdacace9a0707d46f2f66f138584831ef84edadea28885d74e957",
     "title_en": "B-semiampleness for compact log-smooth Kähler fibrations"
   },
   "034-P01": {
-    "title_cn": "对数 Iitaka 次可加性假设下紧致 Kähler 空间的对数丰沛性",
+    "title_cn": "对数 Iitaka 次可加性假设下紧致 Kähler 空间的对数丰度",
     "source_sha256": "1b100e539275ddbfa3a0e54e06560fd63a3e817227e8908391a9a65e7cb0a926",
     "title_en": "Log abundance for compact Kähler spaces under logarithmic Iitaka subadditivity"
   },
@@ -370,12 +370,12 @@
     "title_en": "Conditional good minimal models for compact Kähler fourfolds"
   },
   "034-P04": {
-    "title_cn": "特征为零时的对数丰沛性",
+    "title_cn": "特征为零时的对数丰度",
     "source_sha256": "092d9b5c1efff0c6f0102223924e48ae4219f8caed3b1400962c4d48467b865d",
     "title_en": "Log abundance in characteristic zero"
   },
   "034-P05": {
-    "title_cn": "nef 伴随除子的极小度量与边界取内点时的单射性",
+    "title_cn": "nef 伴随除子的极小度量与内部边界情形的单射性",
     "source_sha256": "661b421175cbd0d07739af9fc9865c44e33e65d6b83421f07844f1a6eb4b83b2",
     "title_en": "Minimal metrics and interior injectivity for nef adjoints"
   },
@@ -385,7 +385,7 @@
     "title_en": "Fourfold nonvanishing by minimal metrics and moving jets"
   },
   "034-P07": {
-    "title_cn": "从伴随除子的约化支撑提升截面",
+    "title_cn": "从伴随除子的约化支集提升截面",
     "source_sha256": "fddb4c5ea11708ff185a9ec24e78a39e89e306af79e3103d1910e447b4b05968",
     "title_en": "Lifting sections from the reduced support of an adjoint"
   },
@@ -420,17 +420,17 @@
     "title_en": "Uniform effective log Iitaka fibrations for fourfolds"
   },
   "034-P14": {
-    "title_cn": "紧致 Kähler 四维簇在非消失性成立后的丰沛性",
+    "title_cn": "紧致 Kähler 四维簇：由非消失性推出丰度",
     "source_sha256": "a1341e856b7c271457d8c8bdc2414c490700c76ae49bdef5591f32635878b380",
     "title_en": "Abundance after nonvanishing for compact Kähler fourfolds"
   },
   "035-P01": {
-    "title_cn": "正特征下三维簇在数值维数为一时的对数丰沛性",
+    "title_cn": "正特征下三维簇在数值维数为一时的对数丰度",
     "source_sha256": "c464da5b47f335721b11d9db2a94e008d867d1d06bac4cdc2b0862ea779ad7ed",
     "title_en": "Log abundance in numerical dimension one for threefolds in positive characteristic"
   },
   "035-P02": {
-    "title_cn": "正特征下具有终端奇点的三维簇在数值维数为一时的丰沛性",
+    "title_cn": "正特征下具有终端奇点的三维簇在数值维数为一时的丰度",
     "source_sha256": "4738ea1ae96a356cdbb7895beb5b690bce98942b6549b425c0db4e824cf6245f",
     "title_en": "Abundance in numerical dimension one for terminal threefolds in positive characteristic"
   },
@@ -445,7 +445,7 @@
     "title_en": "Numerical Semiampleness of Nef Adjoint Divisors"
   },
   "036-P03": {
-    "title_cn": "广义对数典范 Q-对的极小模型与 Mori 纤维空间",
+    "title_cn": "广义对数典范 $\\mathbb Q$-对的极小模型与 Mori 纤维空间",
     "source_sha256": "d71df723193443e5d8aaa28309565bf9bfe5d0466beb064fd9a84f035db42f65",
     "title_en": "Minimal models and Mori fibre spaces for generalized log canonical Q-pairs"
   },
@@ -490,7 +490,7 @@
     "title_en": "Maximal multipoint Seshadri constants in positive characteristic"
   },
   "040-P01": {
-    "title_cn": "p_g=0 曲面的 Bloch 猜想",
+    "title_cn": "$p_g=0$ 曲面的 Bloch 猜想",
     "source_sha256": "752bd31e1704dc8fcedc0566ce3cf7256f66b50b864389c77422726c2b1c42ee",
     "title_en": "Bloch’s conjecture for surfaces with p_g=0"
   },
@@ -500,7 +500,7 @@
     "title_en": "Projective-space bases of Lagrangian fibrations"
   },
   "041-P02": {
-    "title_cn": "强超 Kähler SYZ 猜想",
+    "title_cn": "强形式的超 Kähler SYZ 猜想",
     "source_sha256": "4ea2f4a87051c469857f85d24f3373f3f9af251d765f7e9ee2636422f6a736a8",
     "title_en": "The strong hyperkähler SYZ conjecture"
   },
@@ -510,7 +510,7 @@
     "title_en": "Every complex K3 surface is Oka"
   },
   "043-P01": {
-    "title_cn": "固定行列式、合数秩情形中的 P=W",
+    "title_cn": "固定行列式、合数秩情形中的 $P=W$",
     "source_sha256": "7a3cb1dd753dd398dd1df432862fc5896581ae5bae877b413a2efb7c9a48e241",
     "title_en": "P=W in composite rank for fixed determinant"
   },
@@ -645,7 +645,7 @@
     "title_en": "Ambiently homeomorphic isolated hypersurfaces of multiplicities two and three"
   },
   "059-P02": {
-    "title_cn": "ℂ⁴ 中在环境空间内同胚、重数分别为四和五的孤立超曲面奇点芽",
+    "title_cn": "$\\mathbb C^4$ 中在环境空间内同胚、重数分别为四和五的孤立超曲面奇点芽",
     "source_sha256": "599e7628389e9d7c9c6c1cb5a7533cd045ca6129e50a2e46333c8399fcdcd845",
     "title_en": "Ambiently homeomorphic isolated hypersurface germs in ℂ⁴ with multiplicities four and five"
   },
@@ -665,7 +665,7 @@
     "title_en": "The generalized Mukai conjecture"
   },
   "064-P01": {
-    "title_cn": "μ 不变的曲面奇点族的拓扑平凡性",
+    "title_cn": "曲面奇点的 $\\mu$ 常数族的拓扑平凡性",
     "source_sha256": "0f2e100686d85695948c3491bebe24ab2411f336d5f6c4df72b269df004c05b7",
     "title_en": "Topological triviality of mu-constant families of surface singularities"
   },
@@ -770,7 +770,7 @@
     "title_en": "Every four-dimensional Kakeya set has full Hausdorff dimension"
   },
   "075-P01": {
-    "title_cn": "L log L 中几乎处处的 Fourier 收敛",
+    "title_cn": "$L\\log L$ 中几乎处处的 Fourier 收敛",
     "source_sha256": "f86ead47b068ddabad1f4677ebfc1d99b921ca1a257920cb31b5b1d07a93aaec",
     "title_en": "Almost-everywhere Fourier convergence in L log L"
   },
@@ -805,7 +805,7 @@
     "title_en": "Bochner–Riesz multipliers in three dimensions"
   },
   "079-P01": {
-    "title_cn": "三维波动方程的临界局部光滑化",
+    "title_cn": "三维波动方程的临界局部光滑估计",
     "source_sha256": "ddbb6c742874ce154b3cc3364ef5b8072b27dc50d901c3ac0c50927f55f09f89",
     "title_en": "Critical local smoothing for the three-dimensional wave equation"
   },
@@ -830,7 +830,7 @@
     "title_en": "Annular variation of the triangular Hilbert transform at the symmetric point"
   },
   "082-P02": {
-    "title_cn": "二进三角 Hilbert 形式的 L³ 界",
+    "title_cn": "二进三角 Hilbert 形式的 $L^3$ 界",
     "source_sha256": "e38c12a23772c6509cfc4258f30b6dc9eb05334e3d37ba46835f9978431671d5",
     "title_en": "An L³ bound for the dyadic triangular Hilbert form"
   },
@@ -860,7 +860,7 @@
     "title_en": "An Endpoint Gradient Bound for the Centered Disk Maximal Operator"
   },
   "086-P01": {
-    "title_cn": "三线性 Hilbert 变换的 <i>L</i><sup>3</sup> 界",
+    "title_cn": "三线性 Hilbert 变换的 $L^3$ 界",
     "source_sha256": "dfa0e818e9e9c86d34d606c2d25b95e43fc12bbba982a49565147bd5ae033bed",
     "title_en": "An <i>L</i><sup>3</sup> bound for the trilinear Hilbert transform"
   },
@@ -875,7 +875,7 @@
     "title_en": "The Mahler Conjecture for General Convex Bodies"
   },
   "087-P03": {
-    "title_cn": "对称极对偶乘积中的辛球",
+    "title_cn": "对称极体乘积中的辛球",
     "source_sha256": "a2ca9572ab77355aa9a8f7e9059bca8793b67fba7c429698564dbab6bf68e4fb",
     "title_en": "Symplectic Balls in Symmetric Polar Products"
   },
@@ -890,12 +890,12 @@
     "title_en": "A product counterexample to the simplex maximum for projection-body volume"
   },
   "089-P01": {
-    "title_cn": "平面图度量到 L1 的常数畸变嵌入",
+    "title_cn": "平面图度量到 $L_1$ 的常数畸变嵌入",
     "source_sha256": "a1a501f047da0e9c62dd836d5f9e35a74e71a86f3380faa5ef5601d5b455b3f8",
     "title_en": "Planar Graph Metrics Embed into L1 with Constant Distortion"
   },
   "089-P02": {
-    "title_cn": "树宽有界图的 L1 嵌入",
+    "title_cn": "树宽有界图的 $L_1$ 嵌入",
     "source_sha256": "762c6de8a7b543d3380c26050a64192c258fcb37700ba01684bcea9433473e43",
     "title_en": "L1 Embeddings of Graphs of Bounded Treewidth"
   },
@@ -925,12 +925,12 @@
     "title_en": "The logarithmic Brunn–Minkowski conjecture"
   },
   "092-P01": {
-    "title_cn": "n log n 阶的单一格覆盖界",
+    "title_cn": "$n\\log n$ 阶的单一格覆盖界",
     "source_sha256": "9b563327b9dc2ae1a2b6cec96295d501e59fc26770fd8ccb808cad3dadcf2dbe",
     "title_en": "A single-lattice covering bound of order n log n"
   },
   "092-P02": {
-    "title_cn": "n log n 阶的平移覆盖密度",
+    "title_cn": "$n\\log n$ 阶的平移覆盖密度",
     "source_sha256": "de3596beb55c8f44583318c2787ea51783fda92f004b8a029722ab21b792e81a",
     "title_en": "Translative covering densities of order n log n"
   },
@@ -940,7 +940,7 @@
     "title_en": "A dimension-free logarithmic Sobolev inequality for subgaussian log-concave measures"
   },
   "094-P01": {
-    "title_cn": "Lp 空间中的次多项式降维",
+    "title_cn": "$L_p$ 空间中的次多项式降维",
     "source_sha256": "e1fc8820c34feaea0087acdcfaf37cfc28c87848d488267cfc3dedc54a954a2d",
     "title_en": "Subpolynomial dimension reduction in Lp"
   },
@@ -975,7 +975,7 @@
     "title_en": "A doubling Hilbert subset with no finite-dimensional bi-Lipschitz embedding"
   },
   "099-P01": {
-    "title_cn": "l1 中的编辑距离：指数仅相差常数因子的匹配上下界",
+    "title_cn": "$\\ell_1$ 中的编辑距离：指数仅相差常数因子的匹配上下界",
     "source_sha256": "1ac7184b066aee6024c5d0a0a89223c1f5df67dcae57b375883ba77034ae0371",
     "title_en": "Edit Distance in l1: Matching Bounds up to Constants in the Exponent"
   },
@@ -985,7 +985,7 @@
     "title_en": "Finite-Circle Obstructions, Binary Codes, and Histogram Embeddings for Edit Distance"
   },
   "099-P03": {
-    "title_cn": "二元编辑距离的 l1 畸变的树构造",
+    "title_cn": "二元编辑距离的 $\\ell_1$ 畸变的树构造",
     "source_sha256": "12bb4da2f32a1496033382485a798fe76032ccf2c71323a2032bf44e597fb950",
     "title_en": "Tree Constructions for the l1 Distortion of Binary Edit Distance"
   },
@@ -1040,7 +1040,7 @@
     "title_en": "Constant-factor hardness of directed feedback vertex set"
   },
   "103-P01": {
-    "title_cn": "对数空间的精确去随机化：L = RL = BPL",
+    "title_cn": "对数空间的精确去随机化：$\\mathsf L=\\mathsf{RL}=\\mathsf{BPL}$",
     "source_sha256": "b3a50152a219ce015e15911141df9aa47ed6cb7ff08d757bc2700f51c49892dc",
     "title_en": "Exact derandomization of logarithmic space: L = RL = BPL"
   },
@@ -1075,7 +1075,7 @@
     "title_en": "Hardness of finding large independent sets in three-colorable graphs"
   },
   "107-P01": {
-    "title_cn": "矩阵乘法指数的 9/4 上界",
+    "title_cn": "矩阵乘法指数的 $9/4$ 上界",
     "source_sha256": "9a7cce22f71bb3722132c4bb10c34c9181da96cdef2d987dec3a304afb9772a8",
     "title_en": "An Upper Bound of 9/4 for the Matrix Multiplication Exponent"
   },
@@ -1095,17 +1095,17 @@
     "title_en": "A cubic lower bound for border determinantal complexity of the permanent"
   },
   "109-P01": {
-    "title_cn": "低于 n log n 时间的整数乘法",
+    "title_cn": "低于 $n\\log n$ 时间的整数乘法",
     "source_sha256": "0f90509f091ddea6468e9e6f2ea6812e577a5d05418574025f7ca4da2157168c",
     "title_en": "Integer multiplication below n log n"
   },
   "110-P01": {
-    "title_cn": "任意度量上的对数平方竞争比随机 k 服务器算法",
+    "title_cn": "任意度量上的对数平方竞争比随机 $k$ 服务器算法",
     "source_sha256": "a7ad0d00f88865506a77ed0171391afc4374dbc723c8ec63aa3bec4aea31c155",
     "title_en": "Squared-logarithmic randomized k-server on arbitrary metrics"
   },
   "110-P02": {
-    "title_cn": "对数平方 k 服务器界的一致计算",
+    "title_cn": "对数平方 $k$ 服务器界的一致计算",
     "source_sha256": "640dbd9ded4ed7ad6569127a432a66c137d000db9d4b07734ef724ae264e84eb",
     "title_en": "Uniform computation of the squared-logarithmic k-server bound"
   },
@@ -1125,7 +1125,7 @@
     "title_en": "A Fully Polynomial Randomized Approximation Scheme for Perfect Matchings in General Graphs"
   },
   "113-P02": {
-    "title_cn": "完美匹配多胞体的熵与面维数",
+    "title_cn": "完美匹配多胞形的熵与面维数",
     "source_sha256": "f0012b8696b00ab3514f0a41e2645014c92a3a4450c57996c7661baa5ef48d13",
     "title_en": "Entropy and Face Dimension of the Perfect-Matching Polytope"
   },
@@ -1145,7 +1145,7 @@
     "title_en": "Exact Uniform Sampling of Contingency Tables with Arbitrary Margins"
   },
   "115-P02": {
-    "title_cn": "条目有界列联表计数的完全多项式随机近似方案",
+    "title_cn": "单元格有界列联表计数的完全多项式随机近似方案",
     "source_sha256": "166bfc3c456cc2e271adc317589c4fd17f0d083977ab98f0f0805e7bb082f246",
     "title_en": "An FPRAS for Cell-Bounded Contingency Tables"
   },
@@ -1175,7 +1175,7 @@
     "title_en": "Near-square-root logarithmic integrality gaps for uniform sparsest cut"
   },
   "118-P01": {
-    "title_cn": "装箱问题的加法近似困难性与无界配置间隙",
+    "title_cn": "装箱问题的加法近似困难性与无界构型间隙",
     "source_sha256": "be4d1fdd657bc43db8224b1d8755ad990f2a8d74185bdf9aa92b0ba482540627",
     "title_en": "Additive hardness and unbounded configuration gaps in bin packing"
   },
@@ -1220,12 +1220,12 @@
     "title_en": "A Polynomial-Time Algorithm for Three-Machine Unit-Job Scheduling"
   },
   "125-P01": {
-    "title_cn": "度量 k 中位数问题的单指数恢复与有界价格严格性",
+    "title_cn": "度量 $k$ 中位数问题的单指数恢复与有界价格严格性",
     "source_sha256": "8592f41744f191a3021eecdd086b8730dfbcf2c47a2643b4a9e2d5777e2b3b08",
     "title_en": "Single-exponential recovery and bounded-price strictness for metric k-median"
   },
   "125-P02": {
-    "title_cn": "度量 k 中位数问题的近似阈值",
+    "title_cn": "度量 $k$ 中位数问题的近似阈值",
     "source_sha256": "668d2a61d13536201503bcd9d980d5fecba486f0481ea809bbc4ed14a2b6871a",
     "title_en": "The approximation threshold for metric k-median"
   },
@@ -1370,7 +1370,7 @@
     "title_en": "Subsphere methods for memory-sample lower bounds in noiseless Gaussian regression"
   },
   "141-P01": {
-    "title_cn": "计数层级中的实数存在—全称语句",
+    "title_cn": "计数层级中的实数存在–全称语句",
     "source_sha256": "836ba5eb654568345f524b632cf2d2dc5ad39c9d8a8f7c83f0d239df816ab87a",
     "title_en": "Existential–universal real sentences in the counting hierarchy"
   },
@@ -1440,7 +1440,7 @@
     "title_en": "Ergodicity of triangular billiards with an irrational angle"
   },
   "151-P01": {
-    "title_cn": "熵猜想的一个 C^1 反例",
+    "title_cn": "熵猜想的一个 $C^1$ 反例",
     "source_sha256": "3829d21f77dd9737015365c5cd272c511e9db4557c3f76c05255a51a504ccb54",
     "title_en": "A C^1 Counterexample to the Entropy Conjecture"
   },
@@ -1540,7 +1540,7 @@
     "title_en": "The crossing number of complete graphs"
   },
   "165-P02": {
-    "title_cn": "完全二分图的交叉数",
+    "title_cn": "完全二部图的交叉数",
     "source_sha256": "61be98fcaad8cb4ec694013ea77ffaef7635afe96886796406ab5cef767cdc4d",
     "title_en": "The crossing number of complete bipartite graphs"
   },
@@ -1570,7 +1570,7 @@
     "title_en": "Elementary positivity of chromatic quasisymmetric functions"
   },
   "170-P01": {
-    "title_cn": "r(5,t) 的精确对数指数",
+    "title_cn": "$r(5,t)$ 的精确对数指数",
     "source_sha256": "a8c0d5808707690d8f5731223b4967adc9e3a708b1a9ddc155c1db09cd2e48e7",
     "title_en": "The sharp logarithmic exponent of r(5,t)"
   },
@@ -1625,12 +1625,12 @@
     "title_en": "The second Kahn–Kalai conjecture"
   },
   "177-P01": {
-    "title_cn": "每个维数中的有界度余边界扩张复形",
+    "title_cn": "每个维数中的有界度上边缘扩张复形",
     "source_sha256": "121f86433c4e49f6309abd0d745d94cadc92376d45c144d892ccbf35960285ea",
     "title_en": "Bounded-degree coboundary expanders in every dimension"
   },
   "178-P01": {
-    "title_cn": "每个固定度数下非二分 Ramanujan 图的确定性构造",
+    "title_cn": "每个固定度数下非二部 Ramanujan 图的确定性构造",
     "source_sha256": "fad1c2e49fe40add68a5931f3ecce7cc9afe69b6db31e4c1bec362dbc561822f",
     "title_en": "Deterministic nonbipartite Ramanujan graphs in every fixed degree"
   },
@@ -1640,7 +1640,7 @@
     "title_en": "The circulant Hadamard conjecture"
   },
   "180-P01": {
-    "title_cn": "三正则二分平面图中的配对状态与 Hamilton 圈",
+    "title_cn": "三正则二部平面图中的配对状态与 Hamilton 圈",
     "source_sha256": "3cf0d887d17046c93ff137a364ea4338e19ee4df8ac62aba607c2fa5ca106d1a",
     "title_en": "Paired states and Hamiltonian cycles in cubic bipartite planar graphs"
   },
@@ -1690,7 +1690,7 @@
     "title_en": "A uniform influence bound for hypergraph properties"
   },
   "186-P02": {
-    "title_cn": "单调图性质的锐阈值界",
+    "title_cn": "单调图性质的精确阈值界",
     "source_sha256": "a843c1d78b1ff5ae45a2b041a23a501d0c9dad10b19681db1e625d4040dce9fd",
     "title_en": "A Sharp Threshold Bound for Monotone Graph Properties"
   },
@@ -1835,7 +1835,7 @@
     "title_en": "A negative solution to the finite lattice representation problem"
   },
   "207-P01": {
-    "title_cn": "离散群的 ℓ¹-Bass 猜想",
+    "title_cn": "离散群的 $\\ell^1$-Bass 猜想",
     "source_sha256": "95a1a0f9d1f1671672176c116f1796691cb8b9cd301063f5c3117188c41a637a",
     "title_en": "The ℓ¹-Bass Conjecture for Discrete Groups"
   },
@@ -1855,7 +1855,7 @@
     "title_en": "An integral counterexample to Gersten's conjecture"
   },
   "209-P02": {
-    "title_cn": "Gersten 猜想在三阶的一个整系数反例",
+    "title_cn": "Gersten 猜想在次数为三时的一个整系数反例",
     "source_sha256": "8c7007ee919f3f5f5382595d40e9dd16ceaa07f59eb7b8e2708a54e63ffaece0",
     "title_en": "An integral degree-three Gersten counterexample"
   },
@@ -1890,7 +1890,7 @@
     "title_en": "Canonical conformal limits of subcritical FK planar maps"
   },
   "211-P05": {
-    "title_cn": "临界 Liouville 量子球面与 q=4 时 FK 地图的几何极限",
+    "title_cn": "临界 Liouville 量子球面与 $q=4$ 时 FK 地图的几何极限",
     "source_sha256": "75a0e409b696d6e831035ce8bb92fe5ffd2869a2cfc346cf53d5ee8ed3f37c36",
     "title_en": "The critical Liouville quantum sphere and geometric limits of FK maps at q=4"
   },
@@ -1930,27 +1930,27 @@
     "title_en": "Nonuniqueness of percolation on nonamenable quasi-transitive graphs"
   },
   "215-P01": {
-    "title_cn": "二维 O(3) 模型的典范有质量连续极限",
+    "title_cn": "二维 $O(3)$ 模型的典范有质量连续极限",
     "source_sha256": "3a597fb75db9aee875d502f1e9b68c65a2f421e8220b82609a3f969a310523d6",
     "title_en": "The canonical massive continuum limit of the two-dimensional O(3) model"
   },
   "215-P02": {
-    "title_cn": "二维 O(3) 自旋场的一个孤立粒子极点",
+    "title_cn": "二维 $O(3)$ 自旋场的一个孤立粒子极点",
     "source_sha256": "b289819b618f4f4b89c2c304d41312a3e65c430585e3f54bed7f86edd9cd16d0",
     "title_en": "An Isolated Particle Pole for the Two-Dimensional O(3) Spin Field"
   },
   "215-P03": {
-    "title_cn": "二维 O(4) 晶格模型质量的精确渐近",
+    "title_cn": "二维 $O(4)$ 晶格模型质量的精确渐近",
     "source_sha256": "ad765eaf6a0acc2688e347af06d9b927c75b65f3aec0c0e2a460b19b12b1956a",
     "title_en": "Exact mass asymptotics for the two-dimensional O(4) lattice model"
   },
   "215-P04": {
-    "title_cn": "二维 O(4) 模型的最优质量界",
+    "title_cn": "二维 $O(4)$ 模型的最优质量界",
     "source_sha256": "b21f7c924474bab9a9b32ab89f267175c01b67fc13688e49ac0b0b4d75e36868",
     "title_en": "Sharp mass bounds for the two-dimensional O(4) model"
   },
   "215-P05": {
-    "title_cn": "二维经典 O(n) 模型中的指数衰减",
+    "title_cn": "二维经典 $O(n)$ 模型中的指数衰减",
     "source_sha256": "4f03e1c5b4fca72ebb2840d235edb267e4d41d3a91d28831a80ba13e09e6841a",
     "title_en": "Exponential decay in two-dimensional classical O(n) models"
   },
@@ -1995,12 +1995,12 @@
     "title_en": "The low-temperature Sherrington–Kirkpatrick fluctuation scale"
   },
   "218-P01": {
-    "title_cn": "一般弱随机键 Ising 模型的淬火 SLE₃ 极限",
+    "title_cn": "一般弱随机键 Ising 模型的淬火 $\\mathrm{SLE}_3$ 极限",
     "source_sha256": "d7e7bca6981cd15d3a669fd101ef59c30a991a975af68f87b3ef52299a78bd59",
     "title_en": "Quenched SLE₃ limits for general weak random-bond Ising models"
   },
   "218-P02": {
-    "title_cn": "弱随机键 Ising 模型的淬火 SLE₃ 普适性",
+    "title_cn": "弱随机键 Ising 模型的淬火 $\\mathrm{SLE}_3$ 普适性",
     "source_sha256": "ce3c4aa249814d1c4d9c5a2c93becd2964ccc448e8024e3516e7e35a4b373057",
     "title_en": "Quenched SLE₃ Universality for the Weak Random-Bond Ising Model"
   },
@@ -2010,12 +2010,12 @@
     "title_en": "Logarithmic Relative Fluctuations in the Weakly Disordered Planar Ising Model"
   },
   "218-P04": {
-    "title_cn": "弱相互作用下 Ising 体内关联的共形普适性",
+    "title_cn": "弱相互作用下 Ising 体相关联的共形普适性",
     "source_sha256": "e2a62890f1775b86d65e2a1fb607ee3997253b62b0eaaafdff63f46deb4f5554",
     "title_en": "Conformal universality of bulk Ising correlations under weak interactions"
   },
   "218-P05": {
-    "title_cn": "弱有限程 Ising 相互作用的 SLE3 普适性",
+    "title_cn": "弱有限程 Ising 相互作用的 $\\mathrm{SLE}_3$ 普适性",
     "source_sha256": "0e4ec126453370b3a2cb03abacd2f816087413aaed48ee23d89439d63a94386d",
     "title_en": "SLE3 universality for weak finite-range Ising interactions"
   },
@@ -2075,7 +2075,7 @@
     "title_en": "The free energy of the spherical random perceptron"
   },
   "223-P01": {
-    "title_cn": "1 <= q < 4 时方格上的 FK 界面与嵌套环",
+    "title_cn": "$1\\le q<4$ 时方格上的 FK 界面与嵌套环",
     "source_sha256": "a37102fe07c9240cc807002a6682192a12df6abab831c8b3e89790825b7648ab",
     "title_en": "Square-lattice FK interfaces and nested loops for 1 <= q < 4"
   },
@@ -2120,7 +2120,7 @@
     "title_en": "Cardy’s formula for critical Poisson–Voronoi percolation"
   },
   "225-P01": {
-    "title_cn": "平衡六顶点模型的高斯自由场极限及其方差倍数 1/arcsin(c/2)",
+    "title_cn": "平衡六顶点模型的高斯自由场极限及其方差乘子 $1/\\arcsin(c/2)$",
     "source_sha256": "37feffabd176316c55c06692bee89fdfe3dfc8444a0408748b0931a7da76714c",
     "title_en": "The Gaussian free field limit of the balanced six-vertex model with variance multiplier 1/arcsin(c/2)"
   },
@@ -2195,12 +2195,12 @@
     "title_en": "The exact reconstruction threshold for the three-state symmetric channel"
   },
   "230-P01": {
-    "title_cn": "SLE 的精确 Hausdorff 规范函数",
+    "title_cn": "SLE 的精确 Hausdorff 纲函数",
     "source_sha256": "27accc2e918ff8df8ac19b2727d23954eecf8f45272dad83b76ce1d53a4a045c",
     "title_en": "An exact Hausdorff gauge for SLE"
   },
   "230-P02": {
-    "title_cn": "SLE 的显式精确 Hausdorff 规范函数",
+    "title_cn": "SLE 的显式精确 Hausdorff 纲函数",
     "source_sha256": "b0909bcfbbc2bc5212cf01ec644c3f67af788873e1a9a5357b39ca80a75c3161",
     "title_en": "An explicit exact Hausdorff gauge for SLE"
   },
@@ -2225,7 +2225,7 @@
     "title_en": "Uniform real Lipschitz surfaces on the triangular lattice"
   },
   "233-P01": {
-    "title_cn": "临界 Ashkin-Teller 电流的联合标度极限",
+    "title_cn": "临界 Ashkin–Teller 电流的联合标度极限",
     "source_sha256": "c185b4d2da76b6a01241a10e27da42b85e4833a07061649471e8de926e21edf6",
     "title_en": "The joint scaling limit of critical Ashkin-Teller currents"
   },
@@ -2245,7 +2245,7 @@
     "title_en": "Linear Variance of the Random 3-SAT Hitting Time"
   },
   "235-P03": {
-    "title_cn": "随机 k-SAT 首达时间的方差",
+    "title_cn": "随机 $k$-SAT 首达时间的方差",
     "source_sha256": "cc69ec77e6a3d8153020c1ecbfa73c5d7ed823d2db7e828a5559f6ad5a52c82d",
     "title_en": "Variance of the Random k-SAT Hitting Time"
   },
@@ -2255,7 +2255,7 @@
     "title_en": "Computing the Random 3-SAT Threshold"
   },
   "236-P01": {
-    "title_cn": "正则树上自由边界 Ising 模型成为 IID 因子的锐阈值",
+    "title_cn": "正则树上自由边界 Ising 模型成为 IID 因子的精确阈值",
     "source_sha256": "763ec832f84799813dcec0765715346b82a283e87927c168c8a8656f6a18974e",
     "title_en": "The sharp factor-of-IID threshold for the free Ising model on regular trees"
   },
@@ -2440,7 +2440,7 @@
     "title_en": "A Modulus Proof of Cannon’s Conjecture"
   },
   "247-P01": {
-    "title_cn": "一个无限的有限展示剩余有限 2-群",
+    "title_cn": "一个无限的有限展示剩余有限 $2$-群",
     "source_sha256": "99447d8b068ecd4509834d14aa51d95c5425c7379ab21f0a7f685e9524551bfa",
     "title_en": "An infinite finitely presented residually finite 2-group"
   },
@@ -2450,7 +2450,7 @@
     "title_en": "An infinite finitely presented periodic group"
   },
   "248-P01": {
-    "title_cn": "Thompson 群 F 非可均",
+    "title_cn": "Thompson 群 $F$ 非可均",
     "source_sha256": "6026bf14706ede41cfe76867811895dd7519b791281bb45251bab5a2ce3fec9f",
     "title_en": "Thompson's group F is nonamenable"
   },
@@ -2465,12 +2465,12 @@
     "title_en": "Finite algebraic envelopes and the Boone–Higman conjecture"
   },
   "250-P02": {
-    "title_cn": "包含字问题可判定群的 F∞ 型单群",
+    "title_cn": "包含字问题可判定群的 $F_\\infty$ 型单群",
     "source_sha256": "fec6305134113a86c7d9c5543f001d0a98a4352068392f1db8c9ee77b6349ce5",
     "title_en": "Simple F∞ overgroups of groups with decidable word problem"
   },
   "250-P03": {
-    "title_cn": "一个 F∞ 型通用群",
+    "title_cn": "一个 $F_\\infty$ 型通用群",
     "source_sha256": "273442e1c886fbee238a7fccc4253075cb3907add1a45a5abea377bc9de729c5",
     "title_en": "A universal group of type F∞"
   },
@@ -2495,12 +2495,12 @@
     "title_en": "An infinite finitely presented simple amenable group"
   },
   "254-P01": {
-    "title_cn": "调和高度与 Artin K(pi,1) 猜想",
+    "title_cn": "调和高度与 Artin $K(\\pi,1)$ 猜想",
     "source_sha256": "1a3295da5e44b4579f2e6103f5cfabba2d4425ad2d235b317fbfb0bda7d35500",
     "title_en": "Harmonic heights and the Artin K(pi,1) conjecture"
   },
   "254-P02": {
-    "title_cn": "一个不具有几何 CAT(0) 作用的 Artin 群",
+    "title_cn": "一个不具有几何 $\\operatorname{CAT}(0)$ 作用的 Artin 群",
     "source_sha256": "7505fbd30da8da4a497fad12b2685d16a662b3a6bfff2465b292881a113810f6",
     "title_en": "An Artin group with no geometric CAT(0) action"
   },
@@ -2525,7 +2525,7 @@
     "title_en": "The Kervaire theorem for groups"
   },
   "257-P01": {
-    "title_cn": "一个不具有几何 CAT(0) 作用的双曲群",
+    "title_cn": "一个不具有几何 $\\operatorname{CAT}(0)$ 作用的双曲群",
     "source_sha256": "9fc74b85a3da244065e635a8e891afbef181f7f81d668e4f50ed4110a5016140",
     "title_en": "A hyperbolic group with no geometric CAT(0) action"
   },
@@ -2570,7 +2570,7 @@
     "title_en": "Electromagnetic tails and the Kerr–Newman Penrose inequality"
   },
   "260-P06": {
-    "title_cn": "不要求极大性的反 de Sitter Penrose 不等式与原始数据的刚性",
+    "title_cn": "不要求极大性的 anti-de Sitter Penrose 不等式与原始数据的刚性",
     "source_sha256": "f5f8b0a423c7d99cc2343e18398d7ed800ae442323287674b4d49150873e2ae9",
     "title_en": "The nonmaximal anti-de Sitter Penrose Inequality and original-data rigidity"
   },
@@ -2580,7 +2580,7 @@
     "title_en": "The Penrose inequality for maximal asymptotically hyperbolic initial data"
   },
   "260-P08": {
-    "title_cn": "Schwarzschild–反 de Sitter 数据共形扰动的局部 Penrose 不等式",
+    "title_cn": "Schwarzschild–anti-de Sitter 数据共形扰动的局部 Penrose 不等式",
     "source_sha256": "eb0bb9c5655238f0be50959d8b2d274a6730a74c85cbffd3e3ce3d36b36b5c86",
     "title_en": "A local Penrose inequality for conformal perturbations of Schwarzschild–anti-de Sitter data"
   },
@@ -2630,7 +2630,7 @@
     "title_en": "Sharp one-dimensional Lieb–Thirring inequalities for matrix potentials"
   },
   "262-P03": {
-    "title_cn": "一维 Lieb–Thirring 不等式的最优常数",
+    "title_cn": "一维 Lieb–Thirring 最优不等式",
     "source_sha256": "9263673b1328a4d7e3f3ef1e131dce08f01dd03a4560dfe4db6b3022351203a9",
     "title_en": "Sharp one-dimensional Lieb–Thirring constants"
   },
@@ -2655,12 +2655,12 @@
     "title_en": "Generic Future Inextendibility with Square-Integrable Connection Near a Fixed Kerr Spacetime"
   },
   "264-P02": {
-    "title_cn": "旋转次极端 Kerr 时空附近一般情形下的未来 C1 不可延拓性",
+    "title_cn": "旋转次极端 Kerr 时空附近一般情形下的未来 $C^1$ 不可延拓性",
     "source_sha256": "22e2042cee18e2ebf24b807e1287b7a9413f9623d58a05b9f3ef33dc6887043f",
     "title_en": "Generic C1 Future Inextendibility Near Rotating Subextremal Kerr Spacetimes"
   },
   "264-P03": {
-    "title_cn": "Kerr 附近演化的定量分析与一般情形下的未来 C2 不可延拓性",
+    "title_cn": "Kerr 附近演化的定量分析与一般情形下的未来 $C^2$ 不可延拓性",
     "source_sha256": "e7bf4743372a851ec18fc255b5980f3c93f727c1b3127175e49ed0c51857f69b",
     "title_en": "Quantitative Near-Kerr Evolution and Generic C2 Future Inextendibility"
   },
@@ -2710,17 +2710,17 @@
     "title_en": "Ground-state condensation in the dilute hard-sphere gas"
   },
   "268-P01": {
-    "title_cn": "周期边界条件下的自旋一 Haldane 能隙",
+    "title_cn": "周期边界条件下的自旋一 Haldane 谱隙",
     "source_sha256": "16b0f1c98b5cd7a32376f7266cb4acfff140f5f8ebe9296d88ae8e914b09ffb9",
     "title_en": "The periodic spin-one Haldane gap"
   },
   "268-P02": {
-    "title_cn": "边界磁场作用下自旋一 Heisenberg 链的能隙",
+    "title_cn": "边界磁场作用下自旋一 Heisenberg 链的谱隙",
     "source_sha256": "236493a05bdda09d23160056608fa87f566382e1dd261df306a76d53fa9c6130",
     "title_en": "A boundary-field gap for the spin-one Heisenberg chain"
   },
   "269-P01": {
-    "title_cn": "球面 Laughlin 能隙的一致稳定性",
+    "title_cn": "球面 Laughlin 谱隙的一致稳定性",
     "source_sha256": "0418179732ab2669b7a691d5d06a155a9b288f89a8c131aa0ff1a5540bb3bb53",
     "title_en": "Uniform Stability of the Spherical Laughlin Gap"
   },
@@ -2730,7 +2730,7 @@
     "title_en": "A Fock-space inequality and the Laughlin spectral gap"
   },
   "270-P01": {
-    "title_cn": "SU(N) BFSS 模型的唯一阈值束缚态",
+    "title_cn": "$\\mathrm{SU}(N)$ BFSS 模型的唯一阈值束缚态",
     "source_sha256": "1d9f87265f94d47c3cde422bb796368c148e73978be94be9de0705fb913d55b6",
     "title_en": "The unique threshold bound state of the SU(N) BFSS model"
   },
@@ -2740,7 +2740,7 @@
     "title_en": "Positive eigenvalues of the relative SU(2) BFSS Hamiltonian"
   },
   "271-P01": {
-    "title_cn": "三维有限作用程 Heisenberg 铁磁体的 Bloch 定律",
+    "title_cn": "三维有限程 Heisenberg 铁磁体的 Bloch 定律",
     "source_sha256": "c431d3906add799c2ee97339a89fc15197c134a2c0e2c5039153c94525599d28",
     "title_en": "Bloch's Law for Finite-Range Heisenberg Ferromagnets in Three Dimensions"
   },
@@ -2760,7 +2760,7 @@
     "title_en": "Spontaneous magnetization in the quantum Heisenberg ferromagnet"
   },
   "272-P01": {
-    "title_cn": "局部维数为十、可蒸馏秘密密钥为零的纠缠态",
+    "title_cn": "局部维数为十、可蒸馏密钥为零的纠缠态",
     "source_sha256": "de1934879d07bec68ba7507069242b91d6c454f290a67e91cbf494355a7e1cac",
     "title_en": "Entanglement with zero distillable secret key in local dimension ten"
   },
@@ -2770,7 +2770,7 @@
     "title_en": "The entropy photon-number inequality"
   },
   "274-P01": {
-    "title_cn": "乘积投影局部化与 QAC0 奇偶性下界",
+    "title_cn": "乘积投影局部化与 $\\mathrm{QAC}^0$ 奇偶性下界",
     "source_sha256": "93fd84f063e45669d87fddb7e2877f5602fbdb12a62c765961ae29dc0d0ab10e",
     "title_en": "Product-projection localization and the QAC0 parity lower bound"
   },
@@ -2800,12 +2800,12 @@
     "title_en": "Threshold parallel repetition for finite-dimensional entangled games"
   },
   "278-P01": {
-    "title_cn": "不能由 Kohn-Sham 系综表示的 Coulomb 基态密度",
+    "title_cn": "不能由 Kohn–Sham 系综表示的 Coulomb 基态密度",
     "source_sha256": "047238f4f862d36f17748058642c5cfa3c803222c69d3e9201699ec8b8f95364",
     "title_en": "A Coulomb ground-state density without Kohn-Sham ensemble representation"
   },
   "279-P01": {
-    "title_cn": "固定有限门集上的精确量子因数分解",
+    "title_cn": "固定有限门集上的精确量子整数分解",
     "source_sha256": "439890b08d23003160c5e5fe7f21b91614c5e530050464210cc708ae18f1117b",
     "title_en": "Exact quantum factoring over a fixed finite gate set"
   },
@@ -2820,12 +2820,12 @@
     "title_en": "QAOA attains the SK ground-state energy in the thermodynamic-first limit"
   },
   "281-P02": {
-    "title_cn": "零温 Sherrington-Kirkpatrick 序参量的满支集",
+    "title_cn": "零温 Sherrington–Kirkpatrick 序参量的全支集",
     "source_sha256": "38a94d426c96e3fb11b2ecc2970f538ca141ce57261c4285cd69b9399a2b6174",
     "title_en": "Full support of the zero-temperature Sherrington-Kirkpatrick order parameter"
   },
   "282-P01": {
-    "title_cn": "操作框架下四维量子场论的尺度对称性与共形对称性",
+    "title_cn": "操作框架下四维量子场论的标度对称性与共形对称性",
     "source_sha256": "c491d0285e76b0189962701777f7ca6fa36cae56af8937f3cad3f0be2255ced9",
     "title_en": "Scale and conformal symmetry in four-dimensional operational quantum field theory"
   },
@@ -2885,7 +2885,7 @@
     "title_en": "Near Inclusions of von Neumann Algebras Without Small Spatial Embeddings"
   },
   "289-P03": {
-    "title_cn": "相近却不空间共轭的可分 C* 代数",
+    "title_cn": "相近却不空间共轭的可分 $C^*$ 代数",
     "source_sha256": "73ae20cbbab5c09f96ffbca752c3a3603ba12f663d274a4d6618dce25ce011fa",
     "title_en": "Close Separable C*-Algebras Without Spatial Conjugacy"
   },
@@ -2915,7 +2915,7 @@
     "title_en": "Nuclear dimension and Jiang–Su stability without elementary subquotients"
   },
   "291-P04": {
-    "title_cn": "迹投影方法与一致性质 Gamma",
+    "title_cn": "迹投影方法与一致性质 $\\Gamma$",
     "source_sha256": "8a02a40e9e67886960d660ae07d3086255ae68ca2c0279afc4508516fa0b14df",
     "title_en": "Tracial projection methods and uniform property Gamma"
   },
@@ -2990,7 +2990,7 @@
     "title_en": "Radius of comparison equals half the mean dimension"
   },
   "303-P01": {
-    "title_cn": "弱纯无限性与 O-infinity 吸收性",
+    "title_cn": "弱纯无限性与 $\\mathcal O_\\infty$ 吸收性",
     "source_sha256": "847ffc7ffb3d39ec570ff0cb3ee5e8ca6d2f746b906d8745c34a10195065684b",
     "title_en": "Weak pure infiniteness and O-infinity absorption"
   },
@@ -3010,7 +3010,7 @@
     "title_en": "A marked tensor obstruction to four-dimensional disk embedding"
   },
   "305-P03": {
-    "title_cn": "没有非球面流形模型的 PD4 群",
+    "title_cn": "没有非球面流形模型的 $\\mathrm{PD}_4$ 群",
     "source_sha256": "19bbefbe868f32945e5e875554aa89fd3e4a30f000e1d534155e0d1a16a77fa4",
     "title_en": "A PD4 group without an aspherical manifold model"
   },
@@ -3035,7 +3035,7 @@
     "title_en": "Finite Smith–Toda Complexes at Varying Primes"
   },
   "308-P02": {
-    "title_cn": "素数 1009 处的有限 Smith–Toda 复形 V(4)",
+    "title_cn": "素数 1009 处的有限 Smith–Toda 复形 $V(4)$",
     "source_sha256": "4de8b3a6544e1627d42c5b5a0be51403eb944fede2de54dc3925c6dd834aca04",
     "title_en": "A finite Smith–Toda complex V(4) at the prime 1009"
   },
@@ -3050,7 +3050,7 @@
     "title_en": "Rational homology and Quillen's conjecture"
   },
   "311-P01": {
-    "title_cn": "稳定子轨道与可对偶化 K(n) 局部谱的厚张量理想",
+    "title_cn": "稳定子轨道与可对偶 $K(n)$ 局部谱的厚张量理想",
     "source_sha256": "354b2e5e3e0c2801191869369a985684698f0e532148cf95b444368de7e7855f",
     "title_en": "Stabilizer orbits and thick tensor ideals of dualizable K(n)-local spectra"
   },
@@ -3060,7 +3060,7 @@
     "title_en": "The Grothendieck homotopy hypothesis via elementary expansions"
   },
   "313-P01": {
-    "title_cn": "K(n) 局部球谱的有限生成性",
+    "title_cn": "$K(n)$ 局部球谱的有限生成性",
     "source_sha256": "e40f66111beeacd9093640dc1d0f9f6a467b31ba4941e4d80385bb35a540c5fd",
     "title_en": "Finite generation for the K(n)-local sphere"
   },
@@ -3085,32 +3085,32 @@
     "title_en": "Thomason Model Structures in Every Strict Higher Dimension"
   },
   "318-P01": {
-    "title_cn": "一般素数处的滤过chromatic 分裂",
+    "title_cn": "一般素数处的滤过 chromatic 分裂",
     "source_sha256": "47695f66b71cb291702af7cce28a6cb04630940f2a2d207f1f7485d78678a336",
     "title_en": "Filtered chromatic splitting at generic primes"
   },
   "318-P02": {
-    "title_cn": "高度三的chromatic 交叠：显式滤过及其粘接映射",
+    "title_cn": "高度三的 chromatic 交叠：显式滤过及其粘接映射",
     "source_sha256": "3825757fade06c75eb86e9bd12ceea507edc2c7190084488d72831d9d798df14",
     "title_en": "The height-three chromatic overlap: an explicit filtration and its attachments"
   },
   "318-P03": {
-    "title_cn": "高度三强chromatic 分裂的有理障碍",
+    "title_cn": "高度三强 chromatic 分裂的有理障碍",
     "source_sha256": "a3f1c0c8b702fde2ec6464591542f525ce035db023941e67f03a4dcf38322162",
     "title_en": "A rational obstruction to strong chromatic splitting at height three"
   },
   "318-P04": {
-    "title_cn": "素数三处chromatic 交叠的有限装配失效",
+    "title_cn": "素数三处 chromatic 交叠的有限装配失效",
     "source_sha256": "d37b14d2120370a914185a17a6755fff2c6645f1f0e2d3e43d1a233358d79481",
     "title_en": "Failure of finite assembly for a chromatic overlap at the prime three"
   },
   "318-P05": {
-    "title_cn": "弱chromatic 分裂的反例：球谱核与下降指数",
+    "title_cn": "弱 chromatic 分裂的反例：球谱核与下降指数",
     "source_sha256": "0bf22832c42b845d32029657fdd7538573a831ab30d39ca4159537437056681e",
     "title_en": "Counterexamples to weak chromatic splitting: sphere kernels and descent exponents"
   },
   "319-P01": {
-    "title_cn": "高度二处 Hahn-Wilson 猜想的反例",
+    "title_cn": "高度二处 Hahn–Wilson 猜想的反例",
     "source_sha256": "a630fcdd104b539b82fc73a4dd403dbfb8ec416d54531fe70ff1516947e0447c",
     "title_en": "Counterexamples to the Hahn-Wilson conjecture at height two"
   },
@@ -3120,7 +3120,7 @@
     "title_en": "Nonhomeomorphic closed aspherical four-manifolds with the same homotopy type"
   },
   "321-P01": {
-    "title_cn": "Wall 的 D(2) 问题的一个反例",
+    "title_cn": "Wall 的 $D(2)$ 问题的一个反例",
     "source_sha256": "261d8d645805316d1618404b034c60c8ce77f0226fc3dee17e1c4c8d0b84ffb2",
     "title_en": "A Counterexample to Wall's D(2) Problem"
   },
@@ -3140,7 +3140,7 @@
     "title_en": "Lipschitz Equivalent Separable Banach Spaces Need Not Be Linearly Isomorphic"
   },
   "324-P02": {
-    "title_cn": "不含 c0 线性副本却双 Lipschitz 吸收 c0",
+    "title_cn": "不含 $c_0$ 线性副本却双 Lipschitz 吸收 $c_0$",
     "source_sha256": "21f7124d0314b06488e6e4bd4d8bac280b5e6cc3358eaebd50bca626155ce7b3",
     "title_en": "Bi-Lipschitz Absorption of c0 Without a Linear Copy of c0"
   },
@@ -3155,7 +3155,7 @@
     "title_en": "The complete Crouzeix theorem: optimal similarity and a common positive boundary representation"
   },
   "326-P01": {
-    "title_cn": "逼近性质假设下的余型—余型猜想",
+    "title_cn": "逼近性质假设下的余型–余型猜想",
     "source_sha256": "1cc769ca0b92441add25329f95ceb4acc031db1575b0e5f2730382cecf0d1b5c",
     "title_en": "The cotype–cotype conjecture under the approximation property"
   },
@@ -3195,7 +3195,7 @@
     "title_en": "Distortion of countably branching diamonds from midpoint and tree energies"
   },
   "331-P04": {
-    "title_cn": "L1 的一个 Daugavet 子空间中的精确渐近模",
+    "title_cn": "$L_1$ 的一个 Daugavet 子空间中的精确渐近模",
     "source_sha256": "c69140a690b20e07d014ca25ce80029e57632a1ee48f7b96b5c02e64c99c6142",
     "title_en": "Exact asymptotic moduli in a Daugavet subspace of L1"
   },
@@ -3205,7 +3205,7 @@
     "title_en": "Midpoint convexity from bounded tree potentials and path costs"
   },
   "331-P06": {
-    "title_cn": "实 L1 中的独立乘积：具有渐近中点凸性但不存在渐近一致凸重赋范",
+    "title_cn": "实 $L_1$ 中的独立乘积：具有渐近中点凸性但不存在渐近一致凸重赋范",
     "source_sha256": "1faa3cbd9d9b304d3976ed571398b515c6d49e41669b87d75c47d182937e021e",
     "title_en": "Independent products in real L1: asymptotic midpoint convexity without AUC renormings"
   },
@@ -3215,7 +3215,7 @@
     "title_en": "Midpoint convexity from two recursive potentials"
   },
   "332-P01": {
-    "title_cn": "<i>ℓ</i><sub>1</sub> 的度量 Markov 余型为二",
+    "title_cn": "$\\ell_1$ 的度量 Markov 余型为二",
     "source_sha256": "7521826ff1c8541e8741b92b65c1e4272b48bb1b0985b94cc0b5dc4dff5f68a2",
     "title_en": "Metric Markov Cotype Two of <i>ℓ</i><sub>1</sub> "
   },
@@ -3260,7 +3260,7 @@
     "title_en": "Generalized Cartan–Hadamard isoperimetry and Euclidean equality rigidity"
   },
   "337-P02": {
-    "title_cn": "CAT(0) 空间中整系数填充的最优界",
+    "title_cn": "$\\operatorname{CAT}(0)$ 空间中整系数填充的最优界",
     "source_sha256": "db5b5af8de809db92f97f360305893dc545837d147d086c9c468ce506f08116f",
     "title_en": "Sharp integral fillings in CAT(0) spaces"
   },
@@ -3285,7 +3285,7 @@
     "title_en": "Deforming hypersymplectic four-manifolds to hyperkähler triples"
   },
   "342-P01": {
-    "title_cn": "四维流形上驯服性蕴含相容性",
+    "title_cn": "四维流形上驯性蕴含相容性",
     "source_sha256": "e63d4ec398fc5f8fe1daddb9a3ce6251924b2b716951e989ec029b6f924248d7",
     "title_en": "Taming implies compatibility on four-manifolds"
   },
@@ -3345,7 +3345,7 @@
     "title_en": "Zero-Plane Rigidity for Einstein Four-Manifolds"
   },
   "348-P02": {
-    "title_cn": "非负曲率四维流形的 L² Einstein 间隙",
+    "title_cn": "非负曲率四维流形的 $L^2$ Einstein 间隙",
     "source_sha256": "ae4ae2f25e6ef387d9f38395a3ecbc5bc77fa5949ef85c5329bc00f771165865",
     "title_en": "An L² Einstein Gap for Nonnegatively Curved Four-Manifolds"
   },
@@ -3515,12 +3515,12 @@
     "title_en": "The critical dimension for one-phase Bernoulli minimizers"
   },
   "368-P01": {
-    "title_cn": "1≤p≤2 时三维中的强微分同胚逼近",
+    "title_cn": "$1\\le p\\le2$ 时三维中的强微分同胚逼近",
     "source_sha256": "cfbce3d2fcb39d261c73ae104327a801caf77aad784833f89fbed476a7c59c9d",
     "title_en": "Strong diffeomorphic approximation in three dimensions for 1≤p≤2"
   },
   "368-P02": {
-    "title_cn": "p>2 时三维中的强微分同胚逼近",
+    "title_cn": "$p>2$ 时三维中的强微分同胚逼近",
     "source_sha256": "fb2983966f606f1827426947903fa63b8b1dfc076a4646113476656be38c867f",
     "title_en": "Strong diffeomorphic approximation in three dimensions for p>2"
   },
@@ -3550,7 +3550,7 @@
     "title_en": "A counterexample to the Monge ansatz for the three-marginal Coulomb cost"
   },
   "374-P01": {
-    "title_cn": "Brenier 映射的三分之一阶稳定性及其最优性",
+    "title_cn": "Brenier 映射的精确三分之一阶稳定性",
     "source_sha256": "c8af14db645042abf145fa83ed74fec9982561284ba99925f2bac7b89bd02591",
     "title_en": "Sharp One-Third Stability of Brenier Maps"
   },

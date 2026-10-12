@@ -19,9 +19,17 @@
   update();
  }
  function toggle(id){if(!known.has(id))return;if(saved.has(id))saved.delete(id);else saved.add(id);persist()}
- window.mathLibrary={has:id=>saved.has(id),ids:()=>[...saved],toggle};
+ window.mathLibrary={has:id=>saved.has(id),ids:()=>[...saved],toggle,decorate};
  function favoriteButton(id){const button=document.createElement('button');button.type='button';button.className='favorite-button';button.dataset.favoriteId=id;button.onclick=()=>toggle(id);return button}
- document.querySelectorAll('.entry-card:not([data-placeholder])').forEach(card=>{const meta=card.querySelector('.entry-meta');if(meta)meta.append(favoriteButton(card.dataset.id))});
+ function decorate(root=document){
+  root.querySelectorAll('.entry-card:not([data-placeholder])').forEach(card=>{
+   const id=card.dataset.id,meta=card.querySelector('.entry-meta');
+   if(meta&&!meta.querySelector('[data-favorite-id]'))meta.append(favoriteButton(id));
+   card.classList.toggle('is-favorite',saved.has(id));
+  });
+  root.querySelectorAll('[data-favorite-id]').forEach(button=>{const on=saved.has(button.dataset.favoriteId);button.textContent=on?'★':'☆';button.setAttribute('aria-pressed',String(on));button.setAttribute('aria-label',on?'取消收藏':'收藏');button.title=on?'取消收藏':'收藏'});
+ }
+ decorate();
  if(document.body.dataset.entryId&&known.has(document.body.dataset.entryId)){
   const heading=document.querySelector('.page-heading'),button=favoriteButton(document.body.dataset.entryId);button.classList.add('detail-favorite');heading.append(button);
  }

@@ -1,5 +1,5 @@
 window.mathErrors=[];
-function renderMath(root=document){root.querySelectorAll('.math:not([data-rendered])').forEach(el=>{try{katex.render(el.dataset.tex,el,{throwOnError:true,strict:false,output:'htmlAndMathml'});el.dataset.rendered='1'}catch(e){el.classList.add('math-error');window.mathErrors.push(el.dataset.tex+': '+e.message)}})}
+function renderMath(root=document){root.querySelectorAll('.math:not([data-rendered])').forEach(el=>{try{if(!window.katex)throw Error('公式未预渲染且 KaTeX 未加载');el.setAttribute('role','img');el.setAttribute('aria-label',el.dataset.tex);katex.render(el.dataset.tex,el,{throwOnError:true,strict:false,output:'html'});el.dataset.rendered='1'}catch(e){el.classList.add('math-error');window.mathErrors.push(el.dataset.tex+': '+e.message)}})}
 renderMath();
 const detailTabs=[...document.querySelectorAll('[data-detail-tab]')];
 function selectDetailPanel(id){
@@ -29,7 +29,7 @@ document.querySelectorAll('.theme-toggle').forEach(button=>{
 });
 const cards=[...document.querySelectorAll('.entry-card')];
 const q=document.getElementById('query'),df=document.getElementById('discipline'),lf=document.getElementById('lean');
-if(q&&cards.length){
+if(q&&cards.length&&!document.querySelector('[data-dynamic-catalog]')){
  let uf=null;
  if(document.body.dataset.papers){
   uf=document.createElement('select');uf.id='update-kind';uf.setAttribute('aria-label','更新情况');
@@ -71,6 +71,40 @@ if(homeQuery){
 
 const preview=document.getElementById('result-preview');
 if(preview){
+ // [Codex] 首次预览才载入完整原文；script 可直接用于 file:// 离线页面。
+ const previewSource=new URL('preview-data.js?v=e411459296',document.currentScript.src).href;
+ let previewLoading=null;
+ function ensurePreviewData(){
+  if(window.previewData)return Promise.resolve(window.previewData);
+  if(previewLoading)return previewLoading;
+  previewLoading=new Promise((resolve,reject)=>{
+   const script=document.createElement('script');script.src=previewSource;script.async=true;
+   let timer;
+   function finish(error){
+    clearTimeout(timer);script.onload=script.onerror=null;
+    if(error){script.remove();reject(error)}else resolve(window.previewData);
+   }
+   script.onload=()=>finish(window.previewData?null:Error('预览数据脚本未提供数据'));
+   script.onerror=()=>finish(Error('预览数据加载失败'));
+   timer=setTimeout(()=>finish(Error('预览数据加载超时')),12000);
+   document.head.append(script);
+  }).catch(error=>{previewLoading=null;throw error});
+  return previewLoading;
+ }
+ function hydratePreview(x){
+  const detail=window.previewData?.[x.id];if(!detail)return;
+  const original=preview.querySelector('.preview-original');original.hidden=!detail.original_html;
+  original.querySelector('.english').innerHTML=detail.original_html||'';
+  const papers=preview.querySelector('.preview-papers');papers.replaceChildren();
+  for(const paper of detail.papers||[]){
+   const li=document.createElement('li'),a=document.createElement('a');
+   a.href=paper.url;a.target='_blank';a.rel='noopener';a.innerHTML=paper.title_html;
+   li.append(a);papers.append(li);
+  }
+  preview.querySelectorAll('.preview-updates').forEach(el=>el.remove());
+  if(detail.update_preview_html)papers.insertAdjacentHTML('afterend',detail.update_preview_html);
+ }
+
  const entries=new Map((window.searchData||[]).map(x=>[x.id,x]));
  const dots=[...document.querySelectorAll('[data-preview-id]')];
  const rail=preview.closest('.preview-rail'),empty=rail.querySelector('.preview-empty');
@@ -112,17 +146,10 @@ if(preview){
   preview.innerHTML='<header class="preview-header"><span class="preview-id"></span><div class="preview-actions"><button type="button" class="preview-pin" aria-pressed="false">固定</button><button type="button" class="preview-close" aria-label="关闭预览">×</button></div></header><h3 id="preview-title" class="preview-title"></h3><div class="preview-facts"><span class="preview-count"></span><span class="tag"></span></div><p class="preview-summary"></p><details class="preview-original"><summary>英文原文</summary><div class="english" lang="en"></div></details><ol class="preview-papers"></ol><footer class="preview-links"><a class="preview-detail"></a></footer>';
   preview.querySelector('.preview-id').textContent=x.id+' · '+x.discipline;
   preview.querySelector('.preview-title').innerHTML=x.title_html;
-  preview.querySelector('.preview-count').textContent=x.paper_count_label||x.paper_count+' 篇论文';
+  preview.querySelector('.preview-count').textContent=x.paper_count+' 篇论文'+(x.withdrawn_count?' · 另 '+x.withdrawn_count+' 篇已撤回':'');
   const state=preview.querySelector('.tag');state.classList.add(x.state);state.textContent=x.state_label;
-  if(x.update_preview_html)preview.querySelector('.preview-papers').insertAdjacentHTML('afterend',x.update_preview_html);
   preview.querySelector('.preview-summary').innerHTML=x.summary_html;
-  const original=preview.querySelector('.preview-original');
-  original.querySelector('.english').innerHTML=x.original_html;
-  for(const paper of x.papers){
-   const li=document.createElement('li'),a=document.createElement('a');
-   a.href=paper.url;a.target='_blank';a.rel='noopener';a.innerHTML=paper.title_html;
-   li.append(a);preview.querySelector('.preview-papers').append(li);
-  }
+  preview.querySelector('.preview-original').hidden=true;hydratePreview(x);
   const detail=preview.querySelector('.preview-detail');detail.href=x.url;
   detail.textContent=x.paper_count>2?'全部 '+x.paper_count+' 篇论文 →':'结果详情 →';
   if(x.reasoning){
@@ -153,6 +180,7 @@ if(preview){
   if(changed)preview.scrollTop=0;
   setModal(compact.matches);sizePreview();
   if(compact.matches||moveFocus)preview.focus({preventScroll:true});
+  ensurePreviewData().then(()=>{if(active&&!preview.hidden){hydratePreview(entries.get(active.dataset.previewId));renderMath(preview);scheduleSize()}}).catch(error=>console.error('[预览]',error.message));
  }
  for(const dot of dots){
   dot.addEventListener('pointerenter',event=>{
